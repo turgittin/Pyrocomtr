@@ -23,7 +23,7 @@ footer {
 }
 
 #nav.affix {
-    margin-top: -60px;
+    margin-top: -400px;
 }
 
 .l-wrapper {
@@ -32,4 +32,7 @@ footer {
 }
 .u-pt3 {
     margin-top: 100px !important;
+}
+.img-round {
+    margin-right: -20px;
 }
