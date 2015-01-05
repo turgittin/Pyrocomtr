@@ -4,19 +4,17 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
     height: 400px;
-    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    background: url('https://d1lrmnchp1ja3v.cloudfront.net/assets/marketing/hero-bg2-44e94fb5b480cec372b8809bb6439a91.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
@@ -32,4 +30,8 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+#nav.affix {
+    margin-top: -50px;
 }
