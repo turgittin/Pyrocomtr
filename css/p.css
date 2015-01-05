@@ -4,10 +4,5 @@
 /*body .container {width: 1024px;}*/
 body .navbar-default .navbar-nav>li>a {font-weight:600;color: #343434;}
 body .navbar-nav {float: right;margin: 0;}
-body .navbar-brand {
-float: left;
-height: 50px;
-padding: 9px 10px;
-font-size: 18px;
-line-height: 20px;
-}
+body .navbar-brand {float: left;height: 50px;padding: 9px 10px;font-size: 18px;line-height: 20px;}
+.pl {padding-left:10px;}
