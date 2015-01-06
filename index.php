@@ -258,8 +258,6 @@ $img = $cerezler[$dk%count($cerezler)];
         </div>
         <!-- /.row -->
 
-
-
 <section id="work-process">
         <div class="container">
             <div class="section-header">
@@ -269,42 +267,40 @@ $img = $cerezler[$dk%count($cerezler)];
 
             <div class="row text-center">
 <div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/1.png">
-<p style="font-size:20px;">iletişim</p>
+<img src="./img/2.png">
+<p class="rottext">iletişim</p>
 </div>
 
 <div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/1.png">
-<p style="font-size:20px;">araştırma/taslak</p>
+<img src="./img/3.png">
+<p class="rottext">araştırma/taslak</p>
 </div>
 
 <div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/1.png">
-<p style="font-size:20px;">tasarım</p>
+<img src="./img/2.png">
+<p class="rottext">tasarım</p>
 </div>
 
 <div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/1.png">
-<p style="font-size:20px;">sunum</p>
+<img src="./img/2.png">
+<p class="rottext">sunum</p>
 </div>
 
 <div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/1.png">
-<p style="font-size:20px;">test / revizyon</p>
+<img src="./img/2.png">
+<p class="rottext">test / revizyon</p>
 </div>
 
 <div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/1.png">
-<p style="font-size:20px;">açılış</p>
+<img src="./img/2.png">
+<p class="rottext">açılış</p>
 </div>
 
             </div>
         </div>
-    </section><!--/#work-process-->
-
-        <hr>
-
+    </section>
 </div>
+
 
 <div class="newbg footerTopSection">
     <div class="container">
