@@ -255,6 +255,52 @@ $img = $cerezler[$dk%count($cerezler)];
         <!-- /.row -->
 
 
+
+<section id="work-process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="text-center">Büyük fikirleri alevlendiriyoruz!</h2>
+                <p class="text-center">Zamanımızın büyük bir kısmını yaratıcı bir fikri en etkili şekilde hayata geçirmenin yollarını planlamak için kullanıyoruz.</p>
+            </div>
+
+            <div class="row text-center">
+<div class="col-md-2 col-md-4 col-xs-6">
+<img src="./img/1.png">
+<p style="font-size:20px;">iletişim</p>
+</div>
+
+<div class="col-md-2 col-md-4 col-xs-6">
+<img src="./img/1.png">
+<p style="font-size:20px;">araştırma/taslak</p>
+</div>
+
+<div class="col-md-2 col-md-4 col-xs-6">
+<img src="./img/1.png">
+<p style="font-size:20px;">tasarım</p>
+</div>
+
+<div class="col-md-2 col-md-4 col-xs-6">
+<img src="./img/1.png">
+<p style="font-size:20px;">sunum</p>
+</div>
+
+<div class="col-md-2 col-md-4 col-xs-6">
+<img src="./img/1.png">
+<h3>test / revizyon</h3>
+</div>
+
+<div class="col-md-2 col-md-4 col-xs-6">
+<img src="./img/1.png">
+<h3>açılış</h3>
+</div>
+
+            </div>
+        </div>
+    </section><!--/#work-process-->
+
+
+
+
         <hr>
 
         <!-- Call to Action Section -->
@@ -270,14 +316,89 @@ $img = $cerezler[$dk%count($cerezler)];
         </div>
 
         <!-- Footer -->
-        <footer>
+
+
+<!-- footerTopSection -->
+    <div class="footerTopSection">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+              <div class="col-md-3">
+                <h3>Hakkında</h3>
+                <p>
+                Pyro, ateşteki alevlenme demek. Bu anlamdan yola çıkan pyro, hizmet vereceği markaların ateşini yükseltmek için kuruldu.
+                </p>
+                
+                <h3>Monthly news letter</h3>
+                <p>If you intended to get monthly newsletters and offers from us?</p>
+                <div>
+                    <form class="form-inline" role="form">
+                      <div class="form-group">
+                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+                      </div>
+                      <button type="submit" class="btn btn-brand">Subscribe</button>
+                    </form>
                 </div>
+                
+              </div>
+              <div class="col-md-3">
+                <h3>Yeni Haberler var</h3>
+                <p>
+                    Best service provicer for<br>
+                    <strong>web and application </strong> design and development.
+                </p>
+                <p>
+                    Best service provicer for<br>
+                    <strong>web and application </strong> design and development.
+                </p>
+                <p>
+                    Best service provicer for<br>
+                    <strong>web and application </strong> design and development.
+                </p>
+              </div>
+              <div class="col-md-3">
+                <h3>Useful Links</h3>
+                <p>
+                    <span>This may be the very useful and quick link for proper information</span><br><br>
+                    <a href="#">Our Services</a><br>
+                    <a href="#">About us</a><br>
+                    <a href="#">Our Network</a><br>
+                    <a href="#">Our Products</a><br>
+                </p>
+                <h3>Friends</h3>
+                <p>
+                    <a href="#">Yahoo.com</a><br>
+                    <a href="#">Canon</a>
+                </p>
+                
+              </div>
+              <div class="col-md-3">
+                <h3>İletişim</h3>
+                <p>
+                    <strong>Business plate Ltd.</strong><br>
+                    480 Bridgewater Road, London, W1<br>
+                    United Kingdon<br>
+                    P : +44 (0) 1234567890<br>
+                    E : info@businessplate.com<br>
+                    W : www.businessplate.com<br>
+                </p>
+                <h3>Stay Connected</h3>
+                <p>
+                    We are available at all social networks
+                </p>
+                    F , t, G, T, Ln, P, Y
+              </div>
             </div>
-            <!-- /.row -->
-        </footer>
+        </div>
+    </div>
+
+    <div class="footerBottomSection">
+        <div class="container">
+            &copy; 2010-2015, Pyro tüm hakları saklıdır. <a href="#">Terms and Condition</a> | <a href="#">Privacy Policy</a> 
+            </div>
+        </div>
+    </div>
+
 
     </div>
     <!-- /.container -->
