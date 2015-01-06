@@ -290,68 +290,38 @@ $img = $cerezler[$dk%count($cerezler)];
 
 <div class="col-md-2 col-md-4 col-xs-6">
 <img src="./img/1.png">
-<h3>test / revizyon</h3>
+<p style="font-size:20px;">test / revizyon</p>
 </div>
 
 <div class="col-md-2 col-md-4 col-xs-6">
 <img src="./img/1.png">
-<h3>açılış</h3>
+<p style="font-size:20px;">açılış</p>
 </div>
 
             </div>
         </div>
     </section><!--/#work-process-->
 
-
-
-
         <hr>
 
-        <!-- Call to Action Section -->
-        <div class="well">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer -->
 </div>
 
 <!-- footerTopSection -->
-    <div class="well footerTopSection">
+    <div class="ftbg footerTopSection">
 <div class="container">
 
             <div class="row">
               <div class="col-md-3">
+
                 <h3>Hakkında</h3>
+                
                 <p>
                 Pyro, ateşteki alevlenme demek. Bu anlamdan yola çıkan pyro, hizmet vereceği markaların ateşini yükseltmek için kuruldu.
                 </p>
-                
-                <h3>Monthly news letter</h3>
-                <p>If you intended to get monthly newsletters and offers from us?</p>
-                <div>
-                    <form class="form-inline" role="form">
-                      <div class="form-group">
-                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
-                      </div>
-                      <button type="submit" class="btn btn-brand">Subscribe</button>
-                    </form>
-                </div>
-                
+                <img src="./img/pyrologo.png">
               </div>
               <div class="col-md-3">
                 <h3>Yeni Haberler var</h3>
-                <p>
-                    Best service provicer for<br>
-                    <strong>web and application </strong> design and development.
-                </p>
                 <p>
                     Best service provicer for<br>
                     <strong>web and application </strong> design and development.
@@ -370,12 +340,7 @@ $img = $cerezler[$dk%count($cerezler)];
                     <a href="#">Our Network</a><br>
                     <a href="#">Our Products</a><br>
                 </p>
-                <h3>Friends</h3>
-                <p>
-                    <a href="#">Yahoo.com</a><br>
-                    <a href="#">Canon</a>
-                </p>
-                
+               
               </div>
               <div class="col-md-3">
                 <h3>İletişim</h3>
@@ -387,18 +352,13 @@ $img = $cerezler[$dk%count($cerezler)];
                     E : info@businessplate.com<br>
                     W : www.businessplate.com<br>
                 </p>
-                <h3>Stay Connected</h3>
-                <p>
-                    We are available at all social networks
-                </p>
-                    F , t, G, T, Ln, P, Y
               </div>
             </div>
         
     </div>
     <div class="footerBottomSection">
         <div class="container">
-            &copy; 2010-2015, Pyro tüm hakları saklıdır. <a href="#">Terms and Condition</a> | <a href="#">Privacy Policy</a> 
+            <p>&copy; 2010-2015, Pyro tüm hakları saklıdır. <a href="#">Terms and Condition</a> | <a href="#">Privacy Policy</a></p>
             </div>
         </div>
     </div>

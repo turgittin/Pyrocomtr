@@ -9,3 +9,6 @@ body .btn-outline {color: #343434;background: transparent;border: 2px solid #343
 .pl {padding-left:10px;}
 body .media-heading {margin-top: 0;margin-bottom: 5px;font-weight: 600;font-size: 15px;}
 .portfoliotext {color:#a5a2a2; font-size: 20px; margin: 0 0 0px;}
+
+.ftbg {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/pw_maze_white.png);}
+/*.ftbg {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/dark_brick_wall.png);color: #fff;}*/
