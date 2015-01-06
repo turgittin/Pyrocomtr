@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pyro</title>
+    <title>pyro | digital solutions - ux/ui ajansı</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,10 +24,7 @@
 
 $cerezler = array(
         "https://d1lrmnchp1ja3v.cloudfront.net/assets/marketing/hero-bg2-44e94fb5b480cec372b8809bb6439a91.jpg",
-        "http://www.tarafsizhaber.com/resim/fotogaleri/1/10749/9439.jpg",
-        "http://www.birkarefotograf.com/wp-content/uploads/2013/12/kar.jpeg",
-        "http://www.ask-resimleri.com/wp-content/uploads/2012/04/manzara-resimleri-82.jpg",
-        "http://resimage.net/imagersss/manzara-resimleri/manzara-5.jpg");
+        "https://d1lrmnchp1ja3v.cloudfront.net/assets/marketing/hero-bg-8ec172b79c131a9f747e4b78b3bb80c7.jpg");
 
 $dk = date("i");
 
@@ -205,6 +202,8 @@ $img = $cerezler[$dk%count($cerezler)];
 
             </div>
         </div>
+        <hr>
+        <p class="portfoliotext">İstikrarlı ve yaratıcı çalısmalarla sektörde 16. Yılı doldurduk. Yüzlerce internet sitesi tasarladık, yüzlerce interaktif kampanya çalısmalarını sürdürdük ve yüzlerce mutlu müsteri geri dönüsü aldık.</p>
         <!-- Portfolio Section -->
         <div class="row">
             <div class="col-md-12">
@@ -221,12 +220,12 @@ $img = $cerezler[$dk%count($cerezler)];
                         
                     <div class="item active">
                         <div class="row">
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
+                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a></div>
+                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a></div>
+                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a></div>
+                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a></div>
+                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a></div>
+                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a></div>
                         </div><!--.row-->
                     </div><!--.item-->
                      
@@ -270,9 +269,6 @@ $img = $cerezler[$dk%count($cerezler)];
             </div>
         </div>
 
-
-
-
         <!-- Footer -->
         <footer>
             <div class="row">
@@ -308,8 +304,6 @@ $('.scroll-top').click(function(){
   $('body,html').animate({scrollTop:0},1000);
 })
 </script>
-
-
 
 </body>
 

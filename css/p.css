@@ -7,3 +7,5 @@ body .navbar-nav {float: right;margin: 0;}
 body .navbar-brand {float: left;height: 50px;padding: 9px 10px;font-size: 18px;line-height: 20px;}
 body .btn-outline {color: #343434;background: transparent;border: 2px solid #343434;line-height: 18px;}
 .pl {padding-left:10px;}
+body .media-heading {margin-top: 0;margin-bottom: 5px;font-weight: 600;font-size: 15px;}
+.portfoliotext {color:#a5a2a2; font-size: 20px; margin: 0 0 0px;}
