@@ -306,6 +306,15 @@ $img = $cerezler[$dk%count($cerezler)];
 
 </div>
 
+<div class="newbg footerTopSection">
+    <div class="container">
+        <div class="span12">
+                <p style="color:#fff;font-size:20px;margin: 10px 0 10px 0px;">Size güncel haber ve özel fırsat bültenleri göndermemizi ister misiniz?</p>
+        </div>
+    </div>
+</div>
+
+
 <!-- footerTopSection -->
     <div class="ftbg footerTopSection">
 <div class="container">
@@ -316,7 +325,7 @@ $img = $cerezler[$dk%count($cerezler)];
                 <h3>Hakkında</h3>
                 
                 <p>
-                Pyro, ateşteki alevlenme demek. Bu anlamdan yola çıkan pyro, hizmet vereceği markaların ateşini yükseltmek için kuruldu.
+                Pyro, ateşteki alevlenme demektir. Bu anlamdan yola çıkan pyro, hizmet vereceği markaların ateşini yükseltmek için kuruldu.
                 </p>
                 <img src="./img/pyrologo.png">
               </div>
