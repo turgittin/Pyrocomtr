@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,9 +48,8 @@ $img = $cerezler[$dk%count($cerezler)];
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affixed-top.bs.affix" data-offset-top="600" id="nav">
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -57,7 +59,6 @@ $img = $cerezler[$dk%count($cerezler)];
                 </button>
                 <a class="navbar-brand" href="#"><img src="./img/pyrologo.png"></a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
@@ -250,6 +251,9 @@ $img = $cerezler[$dk%count($cerezler)];
                           <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
                         </div><!--.row-->
                     </div><!--.item-->
+
+                    </div>
+                </div>
             </div>
         </div>
         <!-- /.row -->
@@ -316,11 +320,12 @@ $img = $cerezler[$dk%count($cerezler)];
         </div>
 
         <!-- Footer -->
-
+</div>
 
 <!-- footerTopSection -->
-    <div class="footerTopSection">
-        <div class="container">
+    <div class="well footerTopSection">
+<div class="container">
+
             <div class="row">
               <div class="col-md-3">
                 <h3>Hakkında</h3>
@@ -389,9 +394,8 @@ $img = $cerezler[$dk%count($cerezler)];
                     F , t, G, T, Ln, P, Y
               </div>
             </div>
-        </div>
+        
     </div>
-
     <div class="footerBottomSection">
         <div class="container">
             &copy; 2010-2015, Pyro tüm hakları saklıdır. <a href="#">Terms and Condition</a> | <a href="#">Privacy Policy</a> 
@@ -400,9 +404,9 @@ $img = $cerezler[$dk%count($cerezler)];
     </div>
 
 
-    </div>
-    <!-- /.container -->
-
+    <ul class="nav pull-right scroll-top" id="scroll">
+      <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+    </ul>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -411,11 +415,17 @@ $img = $cerezler[$dk%count($cerezler)];
 <script type="text/javascript">
 
     $('#nav').affix({
-      offset: {
-        top: 100,
-    }
+          offset: {
+            top: 100
+        }
+    }); 
 
-}); 
+    $('#scroll').affix({
+          offset: {
+            top: 100
+        }
+    }); 
+
 
 /* highlight the top nav as scrolling occurs */
 $('body').scrollspy({ target: '#nav' })
