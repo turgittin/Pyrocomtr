@@ -23,7 +23,15 @@ footer {
 }
 
 #nav.affix {
-    margin-top: -400px;
+   margin-top: -50px;
+   -webkit-transition: all .5s ease-in-out;
+   -moz-transition:all .9s ease-in-out;
+}
+
+#nav {
+    margin-top: 0px;
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
 }
 
 .l-wrapper {

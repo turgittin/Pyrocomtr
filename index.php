@@ -20,6 +20,31 @@
 
 </head>
 
+<?php
+
+$cerezler = array(
+        "https://d1lrmnchp1ja3v.cloudfront.net/assets/marketing/hero-bg2-44e94fb5b480cec372b8809bb6439a91.jpg",
+        "http://www.tarafsizhaber.com/resim/fotogaleri/1/10749/9439.jpg",
+        "http://www.birkarefotograf.com/wp-content/uploads/2013/12/kar.jpeg",
+        "http://www.ask-resimleri.com/wp-content/uploads/2012/04/manzara-resimleri-82.jpg",
+        "http://resimage.net/imagersss/manzara-resimleri/manzara-5.jpg");
+
+$dk = date("i");
+
+$img = $cerezler[$dk%count($cerezler)];
+?>
+<style type="text/css">
+    .business-header {
+    /*height: 400px;*/
+    background: url("<?= $img ?>") center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+</style>
+
 <body>
 
     <!-- Navigation -->
@@ -74,7 +99,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="l-wrapper u-pt3">
-                        <p style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Kullanıcı Dostu ve Doğru Tasarımlar Üretiyor, En Yeni Teknolojiler ile Arayüzler Geliştiriyoruz.</p>
+                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Kullanıcı Dostu ve Doğru Tasarımlar Üretiyor, En Yeni Teknolojiler ile Arayüzler Geliştiriyoruz.</p>
                         <p style="max-width: 565px;">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. </p>
                         <p style="margin-top:20px;"></p>
                         <button class="btn btn-danger">TANITIM VİDEOSUNU İZLEYİN&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
@@ -270,15 +295,22 @@
 
     $('#nav').affix({
       offset: {
-        top: 150,
-      }
-    })
+        top: 100,
+    }
 
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
+}); 
+
+/* highlight the top nav as scrolling occurs */
+$('body').scrollspy({ target: '#nav' })
+
+/* smooth scrolling for scroll to top */
+$('.scroll-top').click(function(){
+  $('body,html').animate({scrollTop:0},1000);
 })
-
 </script>
+
+
+
 </body>
 
 </html>
