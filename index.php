@@ -265,36 +265,36 @@ $img = $cerezler[$dk%count($cerezler)];
                 <p class="text-center">Zamanımızın büyük bir kısmını yaratıcı bir fikri en etkili şekilde hayata geçirmenin yollarını planlamak için kullanıyoruz.</p>
             </div>
 
-            <div class="row text-center">
-<div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/2.png">
-<p class="rottext">iletişim</p>
-</div>
+                <div class="row text-center">
+                    <div class="col-md-2 col-md-4 col-xs-6">
+                    <img src="./img/2.png">
+                    <p class="rottext">iletişim</p>
+                    </div>
 
-<div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/3.png">
-<p class="rottext">araştırma/taslak</p>
-</div>
+                    <div class="col-md-2 col-md-4 col-xs-6">
+                    <img src="./img/3.png">
+                    <p class="rottext">araştırma/taslak</p>
+                    </div>
 
-<div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/2.png">
-<p class="rottext">tasarım</p>
-</div>
+                    <div class="col-md-2 col-md-4 col-xs-6">
+                    <img src="./img/2.png">
+                    <p class="rottext">tasarım</p>
+                    </div>
 
-<div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/2.png">
-<p class="rottext">sunum</p>
-</div>
+                    <div class="col-md-2 col-md-4 col-xs-6">
+                    <img src="./img/2.png">
+                    <p class="rottext">sunum</p>
+                    </div>
 
-<div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/2.png">
-<p class="rottext">test / revizyon</p>
-</div>
+                    <div class="col-md-2 col-md-4 col-xs-6">
+                    <img src="./img/2.png">
+                    <p class="rottext">test / revizyon</p>
+                    </div>
 
-<div class="col-md-2 col-md-4 col-xs-6">
-<img src="./img/2.png">
-<p class="rottext">açılış</p>
-</div>
+                    <div class="col-md-2 col-md-4 col-xs-6">
+                    <img src="./img/2.png">
+                    <p class="rottext">açılış</p>
+                </div>
 
             </div>
         </div>
@@ -380,7 +380,7 @@ $img = $cerezler[$dk%count($cerezler)];
 
 
     <ul class="nav pull-right scroll-top" id="scroll">
-      <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+      <li><a href="#" data-toggle="tooltip" data-placement="top" title="Yukarı Çık"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
     </ul>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -401,7 +401,9 @@ $img = $cerezler[$dk%count($cerezler)];
         }
     }); 
 
-
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 /* highlight the top nav as scrolling occurs */
 $('body').scrollspy({ target: '#nav' })
 

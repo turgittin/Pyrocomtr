@@ -1,18 +1,25 @@
 
 .scroll-top {
-    margin-bottom: -30px;
+    margin-bottom: -50px;
    position:fixed;
    bottom:0;
    right:6%;
-   z-index:100;
-   background: #343434;
-   font-size:24px;
-   border-top-left-radius:3px;
-   border-top-right-radius:3px;
+   font-size:15px;
 }
 .scroll-top a:link,.scroll-top a:visited {
   color:#222;
 } 
+
+#scroll{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+}
+
+#scroll.affix{
+    margin: 0px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+}
 
 .tagline {
     text-shadow: 0 0 10px #000;
@@ -27,16 +34,7 @@ footer {
     margin: 50px 0;
 }
 
-#scroll{
-      -webkit-transition: all .5s ease-in-out;
-   -moz-transition:all .5s ease-in-out;
-}
 
-#scroll.affix{
-    margin: 0px;
-    -webkit-transition: all .5s ease-in-out;
-   -moz-transition:all .5s ease-in-out;
-}
 
 #nav.affix {
    margin-top: -60px;
