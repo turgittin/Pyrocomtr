@@ -350,10 +350,10 @@ $img = $cerezler[$dk%count($cerezler)];
                 <h3>Useful Links</h3>
                 <p>
                     <span>This may be the very useful and quick link for proper information</span><br><br>
-                    <a href="#">Our Services</a><br>
-                    <a href="#">About us</a><br>
-                    <a href="#">Our Network</a><br>
-                    <a href="#">Our Products</a><br>
+                    <a href="#">Neler Yapıyoruz?</a><br>
+                    <a href="#">Projeler</a><br>
+                    <a href="#">Sosyal Duyarlılık</a><br>
+                    <a href="#">İş Fırsatları</a><br>
                 </p>
                
               </div>
@@ -364,8 +364,8 @@ $img = $cerezler[$dk%count($cerezler)];
                     480 Bridgewater Road, London, W1<br>
                     United Kingdon<br>
                     P : +44 (0) 1234567890<br>
-                    E : info@businessplate.com<br>
-                    W : www.businessplate.com<br>
+                    E : hey@pyro.com.tr<br>
+                    W : www.pyro.com.tr<br>
                 </p>
               </div>
             </div>
