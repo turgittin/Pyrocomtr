@@ -346,27 +346,37 @@ $img = $cerezler[$dk%count($cerezler)];
                     <strong>web and application </strong> design and development.
                 </p>
               </div>
-              <div class="col-md-3">
-                <h3>Useful Links</h3>
-                <p>
-                    <span>This may be the very useful and quick link for proper information</span><br><br>
-                    <a href="#">Neler Yapıyoruz?</a><br>
-                    <a href="#">Projeler</a><br>
-                    <a href="#">Sosyal Duyarlılık</a><br>
-                    <a href="#">İş Fırsatları</a><br>
-                </p>
-               
-              </div>
-              <div class="col-md-3">
-                <h3>İletişim</h3>
-                <p>
-                    <strong>Business plate Ltd.</strong><br>
-                    480 Bridgewater Road, London, W1<br>
-                    United Kingdon<br>
-                    P : +44 (0) 1234567890<br>
-                    E : hey@pyro.com.tr<br>
-                    W : www.pyro.com.tr<br>
-                </p>
+              <div class="col-md-6">
+                
+                <div class="contact-form">
+                    <h3>Contact</h3>
+
+                    <form id="main-contact-form" name="contact-form" method="post" action="#">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Name" required="">
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <input type="text" name="subject" class="form-control" placeholder="Subject" required="">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" rows="8" placeholder="Message" required=""></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
               </div>
             </div>
         

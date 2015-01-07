@@ -116,3 +116,27 @@ margin: 0px auto 15px;
 }
 .video-section .buttonBar{display:none;}
 .player {font-size: 1px;}
+
+#contact {
+  position: relative;
+  overflow: hidden;
+}
+#contact .container-wrapper {
+  padding: 34px;
+    
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(69, 174, 214, 0.3);
+  z-index: 1;
+}
+#contact .contact-form {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-top: 50px;
+}
+#contact .contact-form h3 {
+  margin-top: 0;
+}
