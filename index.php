@@ -1,38 +1,27 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>pyro | digital solutions - ux/ui ajansı</title>
-
-    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link href="css/p.css" rel="stylesheet">
     <link href="css/business-frontpage.css" rel="stylesheet">
-
 </head>
 
 <?php
-
 $cerezler = array(
         "https://d1lrmnchp1ja3v.cloudfront.net/assets/marketing/hero-bg2-44e94fb5b480cec372b8809bb6439a91.jpg",
         "https://d1lrmnchp1ja3v.cloudfront.net/assets/marketing/hero-bg-8ec172b79c131a9f747e4b78b3bb80c7.jpg");
 
 $dk = date("i");
-
 $img = $cerezler[$dk%count($cerezler)];
 ?>
+
 <style type="text/css">
     .business-header {
     /*height: 400px;*/
@@ -40,8 +29,7 @@ $img = $cerezler[$dk%count($cerezler)];
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
-
+    -o-background-size: cover; 
 }
 </style>
 
@@ -405,6 +393,11 @@ $img = $cerezler[$dk%count($cerezler)];
     $('#scroll').affix({
           offset: {
             top: 100
+        }
+    }); 
+    $('#bs-example-navbar-collapse-1').affix({
+          offset: {
+            top: 60
         }
     }); 
 
