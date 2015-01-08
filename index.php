@@ -209,34 +209,34 @@ $img = $cerezler[$dk%count($cerezler)];
                         
                     <div class="item active">
                         <div class="row">
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
                         </div><!--.row-->
                     </div><!--.item-->
                      
                     <div class="item">
                         <div class="row">
-                           <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
                         </div><!--.row-->
                     </div><!--.item-->
                      
                     <div class="item">
                         <div class="row">
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
-                          <div class="col-md-4"><a href="#" class="thumbnail"><img src="http://placehold.it/700x450" alt="Image" style="max-width:100%;"></a></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h4>SineMASAL / Arayüz Geliştirme</h4></div>
                         </div><!--.row-->
                     </div><!--.item-->
 
@@ -276,7 +276,7 @@ $img = $cerezler[$dk%count($cerezler)];
 
                     <div class="col-md-2 col-md-4 col-xs-6">
                     <img src="./img/icons/op-test-revizyon.png">
-                    <p class="rottext">test / revizyon</p>
+                    <p class="rottext">test/revize</p>
                     </div>
 
                     <div class="col-md-2 col-md-4 col-xs-6">
@@ -357,10 +357,10 @@ $img = $cerezler[$dk%count($cerezler)];
 
                     <form id="main-contact-form" name="contact-form" method="post" action="#">
                         <div class="form-group" style="margin-bottom:5px;">
-                            <input type="text" name="isim" class="form-control" placeholder="Isim" required="">
+                            <input type="text" name="isim" class="form-control" placeholder="İsim Soyisim" required="">
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required="">
+                            <input type="email" name="email" class="form-control" placeholder="E-Posta" required="">
                         </div>
                         <div class="form-group">
                             <textarea name="mesaj" class="form-control" rows="3" placeholder="Bize iletmek istediğiniz mesajınız..." required=""></textarea>
