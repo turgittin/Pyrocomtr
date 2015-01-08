@@ -15,8 +15,8 @@
 
 <?php
 $cerezler = array(
-        "https://d1lrmnchp1ja3v.cloudfront.net/assets/marketing/hero-bg2-44e94fb5b480cec372b8809bb6439a91.jpg",
-        "https://d1lrmnchp1ja3v.cloudfront.net/assets/marketing/hero-bg-8ec172b79c131a9f747e4b78b3bb80c7.jpg");
+        "./img/hero-img-1.jpg",
+        "./img/hero-img-2.jpg");
 
 $dk = date("i");
 $img = $cerezler[$dk%count($cerezler)];
