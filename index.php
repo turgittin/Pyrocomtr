@@ -319,7 +319,7 @@ $img = $cerezler[$dk%count($cerezler)];
                 <h3>Hakkında</h3>
                 
                 <p>
-                Pyro, ateşteki alevlenme demektir. Bu anlamdan yola çıkan pyro, hizmet vereceği markaların ateşini yükseltmek için kuruldu.
+                pyro digital solution ajansının adının anlamı, "ateşteki alevlenme" demektir. <p>Bu anlamdan yola çıkan pyro, hizmet vereceği markaların ateşini farklı bakış açısıyla yükseltmek için 2014 yılında kuruldu.</p>
                 </p>
                 <img src="./img/pyrologo.png">
               </div>
@@ -333,15 +333,21 @@ $img = $cerezler[$dk%count($cerezler)];
                     Best service provicer for<br>
                     <strong>web and application </strong> design and development.
                 </p>
+                <p>
+                    Best service provicer for<br>
+                    <strong>web and application </strong> design and development.
+                </p>
               </div>
               <div class="col-md-3">
-                <h3>Useful Links</h3>
+                <h3>Lorem</h3>
                 <p>
                     <span>This may be the very useful and quick link for proper information</span><br><br>
                     <a href="#">Neler Yapıyoruz?</a><br>
                     <a href="#">Projeler</a><br>
                     <a href="#">Sosyal Duyarlılık</a><br>
+                    <a href="#">Blog</a><br>
                     <a href="#">İş Fırsatları</a><br>
+                    <a href="#">İletişim</a><br>
                 </p>
                
               </div>
@@ -350,7 +356,7 @@ $img = $cerezler[$dk%count($cerezler)];
                     <h3>İletişim</h3>
 
                     <form id="main-contact-form" name="contact-form" method="post" action="#">
-                        <div class="form-group">
+                        <div class="form-group" style="margin-bottom:5px;">
                             <input type="text" name="isim" class="form-control" placeholder="Isim" required="">
                         </div>
                         <div class="form-group">
@@ -368,7 +374,7 @@ $img = $cerezler[$dk%count($cerezler)];
     </div>
     <div class="footerBottomSection">
         <div class="container">
-            <p>&copy; 2010-2015, Pyro tüm hakları saklıdır. <a href="#">Terms and Condition</a> | <a href="#">Privacy Policy</a></p>
+            <p>&copy; 2010-2015, pyro | digital solutions tüm hakları saklıdır.</p>
             </div>
         </div>
     </div>
