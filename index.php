@@ -110,7 +110,7 @@ $img = $cerezler[$dk%count($cerezler)];
                               <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/arayuztasarim.png"></div>
+                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/arayuztasarim.png"></div>
                     <div class="media-body pl">
 
                         <h4 class="media-heading">ARAYÜZ TASARIM (UI)</h4>
@@ -124,7 +124,7 @@ $img = $cerezler[$dk%count($cerezler)];
                               <i class="fa fa-car fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/arayuzgelistirme.png"></div>
+                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/arayuzgelistirme.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">ARAYÜZ GELİŞTİRME</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
@@ -140,7 +140,7 @@ $img = $cerezler[$dk%count($cerezler)];
                               <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/kullanicideneyimi.png"></div>
+                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/kullanicideneyimi.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">KULLANICI DENEYİMİ (UX)</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
@@ -153,7 +153,7 @@ $img = $cerezler[$dk%count($cerezler)];
                               <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/uygulamagelistirme.png"></div>
+                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/uygulamagelistirme.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">UYGULAMA GELİŞTİRME</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
@@ -169,7 +169,7 @@ $img = $cerezler[$dk%count($cerezler)];
                               <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/mobiltasarim.png"></div>
+                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/mobiltasarim.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">MOBİL TASARIM</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
@@ -182,7 +182,7 @@ $img = $cerezler[$dk%count($cerezler)];
                               <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/tasarimdanismanligi.png"></div>
+                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/tasarimdanismanligi.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">TASARIM DANIŞMANLIĞI</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
@@ -255,32 +255,32 @@ $img = $cerezler[$dk%count($cerezler)];
 
                 <div class="row text-center">
                     <div class="col-md-2 col-md-4 col-xs-6">
-                    <img src="./img/2.png">
+                    <img src="./img/icons/op-iletisim.png">
                     <p class="rottext">iletişim</p>
                     </div>
 
                     <div class="col-md-2 col-md-4 col-xs-6">
-                    <img src="./img/3.png">
+                    <img src="./img/icons/op-arastirma-taslak.png">
                     <p class="rottext">araştırma/taslak</p>
                     </div>
 
                     <div class="col-md-2 col-md-4 col-xs-6">
-                    <img src="./img/2.png">
+                    <img src="./img/icons/op-tasarim.png">
                     <p class="rottext">tasarım</p>
                     </div>
 
                     <div class="col-md-2 col-md-4 col-xs-6">
-                    <img src="./img/2.png">
+                    <img src="./img/icons/op-sunum.png">
                     <p class="rottext">sunum</p>
                     </div>
 
                     <div class="col-md-2 col-md-4 col-xs-6">
-                    <img src="./img/2.png">
+                    <img src="./img/icons/op-test-revizyon.png">
                     <p class="rottext">test / revizyon</p>
                     </div>
 
                     <div class="col-md-2 col-md-4 col-xs-6">
-                    <img src="./img/2.png">
+                    <img src="./img/icons/op-acilis.png">
                     <p class="rottext">açılış</p>
                 </div>
 
