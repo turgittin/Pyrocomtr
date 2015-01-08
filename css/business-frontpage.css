@@ -21,6 +21,7 @@
     -moz-transition:all .5s ease-in-out;
 }
 
+
 .tagline {
     text-shadow: 0 0 10px #000;
     color: #fff;
@@ -33,15 +34,6 @@
 footer {
     margin: 50px 0;
 }
-
-#bs-example-navbar-collapse-1.affix{
-  display: none !important;
-    height: auto !important;
-    padding-bottom: 0;
-    overflow: visible !important;
-    visibility: visible !important;
-}
-
 
 #nav.affix {
    margin-top: -60px;
@@ -77,9 +69,7 @@ footer {
     background: #cecece;
 }
 .carousel-indicators .active {
-<<<<<<< Updated upstream
 background: #D9534F;
-=======
 background: #428bca;
 }
 

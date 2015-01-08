@@ -392,18 +392,13 @@ $img = $cerezler[$dk%count($cerezler)];
 
     $('#nav').affix({
           offset: {
-            top: 100
+            top: 60
         }
     }); 
 
     $('#scroll').affix({
           offset: {
             top: 100
-        }
-    }); 
-    $('#bs-example-navbar-collapse-1').affix({
-          offset: {
-            top: 60
         }
     }); 
 
