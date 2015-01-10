@@ -239,7 +239,10 @@ $img = $cerezler[$dk%count($cerezler)];
                           <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
                         </div><!--.row-->
                     </div><!--.item-->
-
+                    </div><!--.carousel-inner-->
+                      <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                      <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                    </div><!--.Carousel-->
                     </div>
                 </div>
             </div>
@@ -392,7 +395,7 @@ $img = $cerezler[$dk%count($cerezler)];
 
     $('#nav').affix({
           offset: {
-            top: 60
+            top: 60,
         }
     }); 
 
@@ -402,6 +405,12 @@ $img = $cerezler[$dk%count($cerezler)];
         }
     }); 
 
+    $('#bs-example-navbar-collapse-1').on('hidden.bs.collapse', function () {
+          offset: {
+            top: 100
+        }
+})
+    
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
@@ -412,6 +421,12 @@ $('body').scrollspy({ target: '#nav' })
 $('.scroll-top').click(function(){
   $('body,html').animate({scrollTop:0},1000);
 })
+
+$(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: 5000
+    })
+});
 </script>
 
 </body>
