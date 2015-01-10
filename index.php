@@ -199,12 +199,12 @@ $img = $cerezler[$dk%count($cerezler)];
                     <div id="Carousel" class="carousel slide">
                     <div>
                         <ol class="carousel-indicators">
+                            <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
                             <li data-target="#Carousel" data-slide-to="0" class="active"></li>
                             <li data-target="#Carousel" data-slide-to="1"></li>
                             <li data-target="#Carousel" data-slide-to="2"></li>
+                            <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
                         </ol>
-                        <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
-                          <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
                     </div>
                     <!-- Carousel items -->
                     <div class="carousel-inner">
