@@ -26,5 +26,20 @@ body h5, .h5 {font-size: 16px;}
 
 
 
+body blockquote {
+padding: 10px 20px;
+margin: 0 0 20px;
+font-size: 17.5px;
+border-bottom: 5px solid #eee;
+border-left: 0px;
+text-align: center;
+margin-top: 20px; }
 
+
+body blockquote p:before {
+content: "\f10d";
+font-family: 'Fontawesome';
+float: left;
+margin-right: 5px;
+}
 
