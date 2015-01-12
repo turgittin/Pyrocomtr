@@ -199,10 +199,12 @@ $img = $cerezler[$dk%count($cerezler)];
                     <div id="Carousel" class="carousel slide">
                     <div>
                         <ol class="carousel-indicators">
-                            <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                            
                             <li data-target="#Carousel" data-slide-to="0" class="active"></li>
                             <li data-target="#Carousel" data-slide-to="1"></li>
                             <li data-target="#Carousel" data-slide-to="2"></li>
+                            
+                            <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
                             <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
                         </ol>
                     </div>
@@ -211,16 +213,7 @@ $img = $cerezler[$dk%count($cerezler)];
                         
                     <div class="item active">
                         <div class="row">
-                         <div class="col-md-4 pbn">
-                            <a href="#" class="thumbnail">
-                                <img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;">
-                         </a>
-
-
-                         <h5>SineMASAL / Tasarım & Geliştirme</h5>
-
-
-                         </div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
                           <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
@@ -434,7 +427,7 @@ $('.scroll-top').click(function(){
 
 $(document).ready(function() {
     $('#Carousel').carousel({
-        interval: 10
+        interval: 5000
     })
 });
 
