@@ -211,7 +211,17 @@ $img = $cerezler[$dk%count($cerezler)];
                         
                     <div class="item active">
                         <div class="row">
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn cuadro_intro_hover" style="background-color:#cccccc;"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5>
+                                <div class="caption">
+                                    <div class="blur"></div>
+                                    <div class="caption-text">
+                                        <h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:10px;">Sinemasal</h3>
+                                        <p>Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</p>
+                                        <a class=" btn btn-default" href="#"><span class="glyphicon glyphicon-plus"> INFO</span></a>
+                                    </div>
+                                </div>
+
+                          </div>
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
                           <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
