@@ -250,11 +250,6 @@ $img = $cerezler[$dk%count($cerezler)];
         </div>
         <!-- /.row -->
 
-<blockquote>
-     <p>The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.</p>
-     <small>by <cite>Albert Einstein</cite></small>
-</blockquote>
-
 <section id="work-process">
         <div class="container">
             <div class="section-header">
@@ -296,6 +291,11 @@ $img = $cerezler[$dk%count($cerezler)];
             </div>
         </div>
     </section>
+
+<blockquote>
+     <p>The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.</p>
+     <small>by <cite>Albert Einstein</cite></small>
+</blockquote>
 </div>
 
 
