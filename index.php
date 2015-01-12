@@ -13,14 +13,7 @@
     <link href="css/business-frontpage.css" rel="stylesheet">
 </head>
 
-<?php
-$cerezler = array(
-        "./img/hero-img-1.jpg",
-        "./img/hero-img-2.jpg");
-
-$dk = date("i");
-$img = $cerezler[$dk%count($cerezler)];
-?>
+<?php include("sure.php"); ?>
 
 <style type="text/css">
     .business-header {
