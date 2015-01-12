@@ -257,6 +257,7 @@ $img = $cerezler[$dk%count($cerezler)];
         </div>
         <!-- /.row -->
 
+
 <section id="work-process">
         <div class="container">
             <div class="section-header">
@@ -301,6 +302,7 @@ $img = $cerezler[$dk%count($cerezler)];
 </div>
 
 
+
     <div class="newbg footerTopSection">
         <div class="container">
             <div class="col-sm-8">
@@ -318,6 +320,7 @@ $img = $cerezler[$dk%count($cerezler)];
             </div>
         </div>
     </div>
+
 
 
 <!-- footerTopSection -->
