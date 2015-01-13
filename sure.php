@@ -1,7 +1,8 @@
 <?php
 $resimler = array(
     "./img/hero-img-1.jpg",
-    "./img/hero-img-2.jpg");
+    "./img/hero-img-2.jpg",
+    "./img/hero-img-3.jpg");
 
 $sozler = array(
 	"En iyisini yapın: Yaptığınız her işte en iyisini yapmaya çalışın. Başarı yeni başarıları getirir.",
