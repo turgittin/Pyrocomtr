@@ -283,13 +283,16 @@
                 </div>
 
             </div>
-        </div>
-    </section>
-
 <blockquote>
      <p><?= $soz ?></p>
      <small>by <cite><?= $yazar ?></cite></small>
 </blockquote>
+            
+        </div>
+    </section>
+
+
+
 </div>
 
 

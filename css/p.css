@@ -15,6 +15,7 @@ body .media-heading {margin-top: 0;margin-bottom: 5px;font-weight: 600;font-size
 body .carousel-indicators .active {width: 12px;height: 12px;margin: 0;background-color: #ed4e4e;}
 body .thumbnail {margin-bottom: 0px;}
 body h5, .h5 {font-size: 16px;}
+body blockquote {padding: 10px 20px;margin: 0 0 20px;font-size: 17.5px;border-top: 1px solid #a0a09f;background-color: #fcfbfb;border-left: 0px;text-align: center;margin-top: 0px;}
 
 .portfoliotext {color:#a5a2a2; font-size: 20px; margin: 0 0 0px;}
 .rottext {font-size:20px;padding-top:10px;}
@@ -23,15 +24,3 @@ body h5, .h5 {font-size: 16px;}
 /*.ftbg {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/dark_brick_wall.png);color: #fff;}*/
 .rotbg {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/diagmonds.png);color: #fff;} 
 .newbg {background-color: #ed4e4e;}
-
-
-
-body blockquote {
-padding: 10px 20px;
-margin: 0 0 20px;
-font-size: 17.5px;
-border-top: 1px solid #a0a09f;
-background-color: #fcfbfb;
-border-left: 0px;
-text-align: center;
-margin-top: 0px; }

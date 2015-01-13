@@ -4,12 +4,12 @@ $resimler = array(
     "./img/hero-img-2.jpg");
 
 $sozler = array(
-	"The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.",
-	"Erdi Resyiz");
+	"En iyisini yapın: Yaptığınız her işte en iyisini yapmaya çalışın. Başarı yeni başarıları getirir.",
+	"Eğer basit bir şekilde anlatamıyorsan, o konuyu iyi anlamamışsın demektir.");
 
 $yazarlar = array(
-	"Albert Einstein",
-	"Erdi Dogan");
+	"Steve Jobs",
+	"Albert Einstein");
 
 $dk = date("i");
 $img = $resimler[$dk%count($resimler)];

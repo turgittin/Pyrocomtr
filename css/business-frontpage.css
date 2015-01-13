@@ -65,20 +65,43 @@ footer {
 .carousel-control {
   height: 30px;
   width: 30px;
-  background: none repeat scroll 0 0 #DADADA;
+  background: none repeat scroll 0 0 rgba(160, 153, 153, 0.61);
   border-radius: 10px;
 }
 
-.carousel-control.right {
-    right: 44px;
+body .carousel-control.right {
+background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+background-repeat: repeat-x;
 }
+
+
+
+body .carousel-control.left {
+background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+background-repeat: repeat-x;
+}
+
+
 
 /* The indicators */
 .carousel-indicators {
-    right: 50%;
-    top: auto;
-    bottom: -10px;
-    margin-right: -19px;
+  top: auto;
+  bottom: -10px;
+  padding: 5px;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* The colour of the indicators */
 .carousel-indicators li {
