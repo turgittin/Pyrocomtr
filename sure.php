@@ -13,6 +13,7 @@ $yazarlar = array(
 	"Albert Einstein");
 
 $dk = date("i");
+//$dk = strtotime('+10 minute', date('Y-m-d H:i:s'));
 $img = $resimler[$dk%count($resimler)];
 $soz = $sozler[$dk%count($sozler)];
 $yazar = $yazarlar[$dk%count($yazarlar)];

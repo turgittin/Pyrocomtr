@@ -126,7 +126,7 @@ $('.scroll-top').click(function(){
 
 $(document).ready(function() {
     $('#Carousel').carousel({
-        interval: 5000
+        interval: 50000000000000000
     })
 });
 
