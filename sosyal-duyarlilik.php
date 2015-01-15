@@ -161,7 +161,9 @@
       <div class="modal-content">
 
         <div class="modal-body">
-          <iframe src="//player.vimeo.com/video/89270603?title=0&amp;byline=0&amp;color=ff9933" width="870" height="470" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="//player.vimeo.com/video/89270603?title=0&amp;byline=0&amp;color=ff9933" width="870" height="490" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
