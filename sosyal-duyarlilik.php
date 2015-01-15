@@ -33,7 +33,7 @@
                         <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Bir film izlersin hayatın değişir. <br>Bir şey değişir, her şey değişir!</p>
                         <p style="max-width: 565px;">Böyle bir oluşumun içinde olduğum için çok mutluyum <br>ama daha gidecek çok fazla köy var!</p>
                         <p style="margin-top:10px;">Turgay Öztürk / Gönüllü - SineMASAL Yönetim Kurulu Üyesi</p>
-                        <button class="btn btn-danger">SİNEMASAL BELGESEL FRAGMANI&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target=".fragman">SİNEMASAL BELGESEL FRAGMANI&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
                         <p style="margin-top:20px;"></p>
                         <p>Daha fazla bilgi için;</p>
                         <button class="btn btn-outline"> SineMASAL'ın Websitesi</i> </button>
@@ -155,6 +155,19 @@
     		</div>
     	</div>
     </div>
+
+<div class="modal fade fragman" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="false">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <iframe src="//player.vimeo.com/video/89270603?title=0&amp;byline=0&amp;color=ff9933" width="870" height="470" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div>
+
+
 <?php require_once("footer.php"); ?>
 </body>
 </html>
