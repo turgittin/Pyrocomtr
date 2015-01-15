@@ -4,6 +4,10 @@ $resimler = array(
     "./img/hero-img-2.jpg",
     "./img/hero-img-3.jpg");
 
+$sosyallar = array(
+	"./img/hero-img-2.jpg"
+	);
+
 $sozler = array(
 	"En iyisini yapın: Yaptığınız her işte en iyisini yapmaya çalışın. Başarı yeni başarıları getirir.",
 	"Eğer basit bir şekilde anlatamıyorsan, o konuyu iyi anlamamışsın demektir.");
@@ -17,5 +21,6 @@ $dk = date("i");
 $img = $resimler[$dk%count($resimler)];
 $soz = $sozler[$dk%count($sozler)];
 $yazar = $yazarlar[$dk%count($yazarlar)];
+$sosyal = $sosyallar[$dk%count($sosyallar)];
 
 ?>
