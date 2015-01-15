@@ -92,7 +92,15 @@
     <ul class="nav pull-right scroll-top" id="scroll">
       <li><a href="#" data-toggle="tooltip" data-placement="top" title="Yukarı Çık"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
     </ul>
-    
+    <script type="text/javascript">
+           $(document).ready(function(){
+            $(".fancybox").fancybox({
+                openEffect: "elastic",
+                closeEffect: "elastic"
+            });
+            });
+        </script>
+     <link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
 <script type="text/javascript">
 
     $('#nav').affix({

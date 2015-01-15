@@ -155,16 +155,6 @@
     		</div>
     	</div>
     </div>
-
-    <script type="text/javascript">
-           $(document).ready(function(){
-            $(".fancybox").fancybox({
-                openEffect: "elastic",
-                closeEffect: "elastic"
-            });
-            });
-        </script>
-     <link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
 <?php require_once("footer.php"); ?>
 </body>
 </html>
