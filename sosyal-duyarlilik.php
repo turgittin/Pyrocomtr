@@ -4,6 +4,8 @@
 <head>
     <?php require_once("head.php"); ?>
     <title>pyro | digital solutions</title>
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <script  type="text/javascript" src="js/jquery.fancybox.js"></script>
 </head>
 
 <?php include("sure.php"); ?>
@@ -55,18 +57,43 @@
     			</div>
     			
     			<div class="row">
-	    			<div class="col-sm-3">
-	    				<img src="./img/sinemasal-logo.png" style="width:100%;">
-	    			</div>
-	    			<div class="col-sm-3">
-	    				<img src="./img/sinemasal-logo.png" style="width:100%;">
-	    			</div>
-	    			<div class="col-sm-3">
-	    				<img src="./img/sinemasal-logo.png" style="width:100%;">
-	    			</div>
-	    			<div class="col-sm-3">
-	    				<img src="./img/sinemasal-logo.png" style="width:100%;">
-	    			</div>
+	    			<div class="col-md-12">
+                <div class='list-group gallery'>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/1011446_672206872825446_1284496795_n.jpg">
+                    <img class="img-responsive" alt="" src="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/1011446_672206872825446_1284496795_n.jpg" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Epoka Sports Club</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/983605_672207519492048_1515448519_n.jpg">
+                    <img class="img-responsive" alt="" src="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/983605_672207519492048_1515448519_n.jpg" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Epoka Sports Club</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/1743709_672207686158698_114825839_n.jpg">
+                    <img class="img-responsive" alt="" src="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/1743709_672207686158698_114825839_n.jpg" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Epoka Sports Club</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/155934_672207542825379_1608448167_n.jpg">
+                    <img class="img-responsive" alt="" src="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/155934_672207542825379_1608448167_n.jpg" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Epoka Sports Club</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            
+        </div>
+            </div>
     			</div>
 
     			<div class="row">
@@ -128,7 +155,16 @@
     		</div>
     	</div>
     </div>
-    
+
+    <script type="text/javascript">
+           $(document).ready(function(){
+            $(".fancybox").fancybox({
+                openEffect: "elastic",
+                closeEffect: "elastic"
+            });
+            });
+        </script>
+     <link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
 <?php require_once("footer.php"); ?>
 </body>
 </html>
