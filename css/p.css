@@ -18,6 +18,7 @@ body .thumbnail {margin-bottom: 0px;}
 body h5, .h5 {font-size: 16px;}
 body blockquote {padding: 10px 20px;margin: 0 0 20px;font-size: 17.5px;border-top: 1px solid #a0a09f;background-color: #fcfbfb;border-left: 0px;text-align: center;margin-top: 0px;}
 body .page-header {padding-bottom: 10px;margin: 60px 0 -20px;border-bottom: 1px solid #eee;}
+body a {color: #ed4e4e;text-decoration: none;}
 
 .portfoliotext {color:#a5a2a2; font-size: 20px; margin: 0 0 0px;}
 .rottext {font-size:20px;padding-top:10px;}
