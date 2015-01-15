@@ -18,7 +18,7 @@
                 <a href="./projeler.php">PROJELER</a>
             </li>
             <li>
-                <a href="sosyal.php">SOSYAL DUYARLILIK</a>
+                <a href="sosyal-duyarlilik.php">SOSYAL DUYARLILIK</a>
             </li>
             <li>
                 <a href="#">BLOG</a>
