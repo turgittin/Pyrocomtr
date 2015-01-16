@@ -23,7 +23,7 @@ body a {color: #ed4e4e;text-decoration: none;}
 .portfoliotext {color:#a5a2a2; font-size: 20px; margin: 0 0 0px;}
 .rottext {font-size:20px;padding-top:10px;}
 
-.ftbg {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/pw_maze_white.png);}
+.ftbg {background: url(/img/footerbg.png);}
 /*.ftbg {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/dark_brick_wall.png);color: #fff;}*/
 .rotbg {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/diagmonds.png);color: #fff;} 
 .newbg {background-color: #ed4e4e;}
