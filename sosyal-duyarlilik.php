@@ -55,19 +55,17 @@
     					<h5>BİR VARMIŞ, BİR YOKMUŞ</h5>
     				</div>
     			</div>
-
     			<div class="row">
     				<div class="col-sm-12" style="padding-top:0px;">
     					<h4 class="text-justify">
     						SineMASAL, Türkiye’nin kırsal bölgelerinde yaşayan sosyal açıdan imkanları kısıtlı olan çocukların ve gençlerin; hayata daha olumlu bakabilmelerini, iyi bir gelecek hayal etmelerini ve bunun için ulaşabilecekleri imkanların farkına varmalarını sağlayabilecek eşsiz bir festivaldir.
     					</h4>
 
-                    <P class="text-justify">2013 yılında, “Sinema Artık Köylerde” sloganı ile ilkini gerçekleştirdiğimiz SineMASAL, Güneydoğu’nun 6 ilinde kültürel ve sanatsal faaliyetlere ulaşma şansı olmayan çocukları sinemayla ve etkinliklerle buluşturdu.</P>
+                    <P class="text-justify">2013 yılında, “Sinema Artık Köylerde” sloganı ile ilkini gerçekleştirdiğimiz <a href="http://www.sinemasal.org" target="_blank">SineMASAL</a>, Güneydoğu’nun 6 ilinde kültürel ve sanatsal faaliyetlere ulaşma şansı olmayan çocukları sinemayla ve etkinliklerle buluşturdu.</P>
 
                     <P class="text-justify">Bir filmin çocukların ve gençlerin hayal dünyasında yaşatabileceği değişime inanarak küçük bir ekip olarak çıktığımız yolda, Avrupa’nın dört bir yanından gelen performans sanatçıları ve gönüllülerimizin destekleriyle büyüyerek ilerlemeye devam ediyoruz. Festival ilk yılında, Avrupa’nın 6 önemli ülkesinden gelen performans sanatçıları ile Güneydoğu’nun 6 ilindeki çocukları ve gençleri buluşturdu.</P>
 
-                    <P class="text-justify">Sabahın ilk ışıklarıyla köy halkını şaşırtmak için haber vermeden giriş yaptığımız köylerde, festivalin 1.yılında 7000 kişinin üzerinde kişiyle iletişime geçerek %87’lik bir oranla köy halkını sinemayla ilk kez buluşturmuş olduk.</P>
-
+                    <P class="text-justify">Sabahın ilk ışıklarıyla köy halkını şaşırtmak için haber vermeden giriş yaptığımız köylerde, festivalin 1.yılında 7000 kişinin üzerinde kişiyle iletişime geçerek <strong>%87’lik bir oranla köy halkını sinemayla ilk kez buluşturmuş olduk.</strong></P>
     				</div>
     			</div>
 
@@ -76,46 +74,80 @@
                 <div class="row">
                     <div class='list-group gallery'>
 
-                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
                             <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal1.jpg">
                                 <img class="img-responsive" alt="" src="./img/galeri/sinemasal1.jpg" />
-                                <div class='text-right'>
-                                    
+                                <div class='text-left'>
+                                <small class='text-muted'>Gaziantep / 2013</small> 
                                 </div> <!-- text-right / end -->
                             </a>
                         </div> 
 
-                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
                             <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal2.jpg">
                                 <img class="img-responsive" alt="" src="./img/galeri/sinemasal2.jpg" />
-                                <div class='text-right'>
-                                    <small class='text-muted'>Epoka Sports Club</small>
+                                <div class='text-left'>
+                                    <small class='text-muted'>Adıyaman / 2013</small>
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
 
-                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
                             <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal3.jpg">
                                 <img class="img-responsive" alt="" src="./img/galeri/sinemasal3.jpg" />
-                                <div class='text-right'>
-                                    <small class='text-muted'>Epoka Sports Club</small>
+                                <div class='text-left'>
+                                    <small class='text-muted'>Gaziantep / 2013</small>
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
                         
-                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
                             <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
                                 <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
-                                <div class='text-right'>
-                                    <small class='text-muted'>Epoka Sports Club</small>
+                                <div class='text-left'>
+                                    <small class='text-muted'>Gaziantep / 2013</small>
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
 
-                        
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
+                                <div class='text-left'>
+                                    <small class='text-muted'>Gaziantep / 2013</small>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
+
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
+                                <div class='text-left'>
+                                    <small class='text-muted'>Gaziantep / 2013</small>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
+
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
+                                <div class='text-left'>
+                                    <small class='text-muted'>Gaziantep / 2013</small>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
+
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
+                                <div class='text-left'>
+                                    <small class='text-muted'>Gaziantep / 2013</small>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
                     </div>
                 </div>
-
+          <p style="margin-top:15px;"></p>      
     	<div class="row">
     		<div class="col-sm-12">
     			<div class="panel with-nav-tabs panel-warning">
