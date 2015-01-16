@@ -74,7 +74,19 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                     </div>
                 </div>
-
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/lp.png"></div>
+                    <div class="media-body pl">
+                        <h4 class="media-heading">LANDING PAGE</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
             </div>
             <div class="col-md-4">
                 <div class="media">
@@ -100,6 +112,20 @@
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/uygulamagelistirme.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">UYGULAMA GELİŞTİRME</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/e-posta.png"></div>
+                    <div class="media-body pl">
+                        <h4 class="media-heading">E-BÜLTEN TASARIMI</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                     </div>
                 </div>
@@ -132,7 +158,21 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                     </div>
                 </div>
+                                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
+                        </span> 
+                    </div>
+                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/hbanner.png"></div>
+                    <div class="media-body pl">
+                        <h4 class="media-heading">HAREKETLİ BANNER</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 
