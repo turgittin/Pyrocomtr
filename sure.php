@@ -5,7 +5,7 @@ $resimler = array(
     "./img/hero-img-3.jpg");
 
 $sosyallar = array(
-	"./img/sosyal-hero-img.jpg"
+	"./img/hero-img-4.jpg"
 	);
 
 $sozler = array(

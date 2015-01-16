@@ -30,13 +30,13 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="l-wrapper u-pt3">
-                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Bir film izlersin hayatın değişir. <br>Bir şey değişir, her şey değişir!</p>
+                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">SineMASAL; Bir film izlersin hayatın değişir. <br>Bir şey değişir, her şey değişir!</p>
                         <p style="max-width: 565px;">Böyle bir oluşumun içinde olduğum için çok mutluyum <br>ama daha gidecek çok fazla köy var!</p>
                         <p style="margin-top:10px;">Turgay Öztürk / Gönüllü - SineMASAL Yönetim Kurulu Üyesi</p>
                         <button class="btn btn-danger" data-toggle="modal" data-target=".fragman">SİNEMASAL BELGESEL FRAGMANI&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
                         <p style="margin-top:20px;"></p>
                         <p>Daha fazla bilgi için;</p>
-                        <button class="btn btn-outline"> SineMASAL'ın Websitesi</i> </button>
+                        <a href="http://sinemasal.org" target="_blank"><button class="btn btn-outline"> SineMASAL'ın Websitesi</i> </button></a>
                         <p style="margin-top:20px;"></p>
                     </div>
                 </div>
@@ -55,49 +55,9 @@
     					<h5>BİR VARMIŞ, BİR YOKMUŞ</h5>
     				</div>
     			</div>
-    			
-    			<div class="row">
-	    			<div class="col-md-12">
-                <div class='list-group gallery'>
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                <a class="thumbnail fancybox" rel="ligthbox" href="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/1011446_672206872825446_1284496795_n.jpg">
-                    <img class="img-responsive" alt="" src="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/1011446_672206872825446_1284496795_n.jpg" />
-                    <div class='text-right'>
-                        <small class='text-muted'>Epoka Sports Club</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div> <!-- col-6 / end -->
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                <a class="thumbnail fancybox" rel="ligthbox" href="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/983605_672207519492048_1515448519_n.jpg">
-                    <img class="img-responsive" alt="" src="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/983605_672207519492048_1515448519_n.jpg" />
-                    <div class='text-right'>
-                        <small class='text-muted'>Epoka Sports Club</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div> <!-- col-6 / end -->
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                <a class="thumbnail fancybox" rel="ligthbox" href="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/1743709_672207686158698_114825839_n.jpg">
-                    <img class="img-responsive" alt="" src="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/1743709_672207686158698_114825839_n.jpg" />
-                    <div class='text-right'>
-                        <small class='text-muted'>Epoka Sports Club</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div> <!-- col-6 / end -->
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                <a class="thumbnail fancybox" rel="ligthbox" href="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/155934_672207542825379_1608448167_n.jpg">
-                    <img class="img-responsive" alt="" src="http://clubs.epoka.edu.al/wp-content/uploads/2014/03/155934_672207542825379_1608448167_n.jpg" />
-                    <div class='text-right'>
-                        <small class='text-muted'>Epoka Sports Club</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div> <!-- col-6 / end -->
-            
-        </div>
-            </div>
-    			</div>
 
     			<div class="row">
-    				<div class="col-sm-12">
+    				<div class="col-sm-12" style="padding-top:0px;">
     					<h4 class="text-justify">
     						SineMASAL, Türkiye’nin kırsal bölgelerinde yaşayan sosyal açıdan imkanları kısıtlı olan çocukların ve gençlerin; hayata daha olumlu bakabilmelerini, iyi bir gelecek hayal etmelerini ve bunun için ulaşabilecekleri imkanların farkına varmalarını sağlayabilecek eşsiz bir festivaldir.
     					</h4>
@@ -108,15 +68,54 @@
 
                     <P class="text-justify">Sabahın ilk ışıklarıyla köy halkını şaşırtmak için haber vermeden giriş yaptığımız köylerde, festivalin 1.yılında 7000 kişinin üzerinde kişiyle iletişime geçerek %87’lik bir oranla köy halkını sinemayla ilk kez buluşturmuş olduk.</P>
 
-                    Detaylı bilgi İçin:<br>
-                    http://www.sinemasal.org/<br>
-                    http://www.facebook.com/sinemasalorg<br>
-                    http://www.twitter.com/sinemasalorg<br>
-                    http://www.instagram.com/sinemasalorg
-
     				</div>
     			</div>
-               
+
+                <hr style="margin-bottom: 10px;">
+                        
+                <div class="row">
+                    <div class='list-group gallery'>
+
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal1.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal1.jpg" />
+                                <div class='text-right'>
+                                    
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div> 
+
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal2.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal2.jpg" />
+                                <div class='text-right'>
+                                    <small class='text-muted'>Epoka Sports Club</small>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
+
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal3.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal3.jpg" />
+                                <div class='text-right'>
+                                    <small class='text-muted'>Epoka Sports Club</small>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
+                        
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
+                                <div class='text-right'>
+                                    <small class='text-muted'>Epoka Sports Club</small>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
     	<div class="row">
     		<div class="col-sm-12">
     			<div class="panel with-nav-tabs panel-warning">
@@ -162,7 +161,7 @@
 
         <div class="modal-body">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="//player.vimeo.com/video/89270603?title=0&amp;byline=0&amp;color=ff9933" width="870" height="490" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <iframe src="//player.vimeo.com/video/86586173?title=0&amp;byline=0&amp;color=ff9933" width="870" height="490" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
       </div><!-- /.modal-content -->
