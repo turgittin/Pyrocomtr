@@ -30,7 +30,7 @@
 
         <div class="row">
             <div class="col-md-12">
-                    <div id="Carousel" class="carousel slide">
+                  <div id="Carousel" class="carousel slide">
                     <div>
                         <ol class="carousel-indicators">
                             
@@ -98,7 +98,6 @@
                         
                         </div><!--.row-->
                     </div><!--.item-->
-
 
                     </div>
                 </div>
