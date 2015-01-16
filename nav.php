@@ -15,7 +15,7 @@
                 <a href="neler-yapiyoruz">NELER YAPIYORUZ?</a>
             </li>
             <li>
-                <a href="proje-ler">PROJELER</a>
+                <a href="projeler-pyro">PROJELER</a>
             </li>
             <li>
                 <a href="sosyal-duyarlilik">SOSYAL DUYARLILIK</a>
@@ -24,7 +24,7 @@
                 <a href="#">BLOG</a>
             </li>
             <li>
-                <a href="iletisim.php">İLETİŞİM</a>
+                <a href="iletisim-pyro">İLETİŞİM</a>
             </li>
             <li>
                 <a href="#"><img class="img-round" src="./img/ico_facebook.png"></a>
