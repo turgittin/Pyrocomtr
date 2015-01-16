@@ -1,0 +1,14 @@
+
+
+<ifModule mod_php4.c>
+php_value zlib.output_compression 16386
+</ifModule>
+ 
+Options +FollowSymLinks
+RewriteEngine on
+directoryindex index.php
+ 
+RewriteRule index index.php
+RewriteRule sosyal-duyarlilik sosyal-duyarlilik.php
+RewriteRule proje-ler projeler.php
+RewriteRule neler-yapiyoruz neler-yapiyoruz.php
