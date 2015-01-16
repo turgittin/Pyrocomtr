@@ -24,7 +24,7 @@
                 <a href="#">BLOG</a>
             </li>
             <li>
-                <a href="#">İLETİŞİM</a>
+                <a href="iletisim.php">İLETİŞİM</a>
             </li>
             <li>
                 <a href="#"><img class="img-round" src="./img/ico_facebook.png"></a>
