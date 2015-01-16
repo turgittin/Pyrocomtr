@@ -12,7 +12,7 @@ RewriteRule projeler-pyro	projeler.php
 RewriteRule neler-yapiyoruz		neler-yapiyoruz.php
 RewriteRule iletisim-pyro	iletisim.php
 
-errorDocument 400	404.php
-errorDocument 401	404.php
-errorDocument 404	404.php
-errorDocument 500	404.php
+errorDocument 400	/404.php
+errorDocument 401	/404.php
+errorDocument 404	/404.php
+errorDocument 500	/404.php
