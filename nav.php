@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="./index.php"><img src="./img/pyrologo.png"></a>
+        <a class="navbar-brand" href="./"><img src="./img/pyrologo.png"></a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
@@ -15,7 +15,7 @@
                 <a href="./neler-yapiyoruz.php">NELER YAPIYORUZ?</a>
             </li>
             <li>
-                <a href="./projeler.php">PROJELER</a>
+                <a href="projeler">PROJELER</a>
             </li>
             <li>
                 <a href="./sosyal-duyarlilik.php">SOSYAL DUYARLILIK</a>

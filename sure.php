@@ -8,6 +8,18 @@ $sosyallar = array(
 	"./img/hero-img-4.jpg"
 	);
 
+$projeler = array(
+	"./img/hero-img-2.jpg"
+	);
+
+$iletisimler = array(
+	"./img/hero-img-3.jpg"
+	);
+
+$neler = array(
+	"./img/hero-img-3.jpg"
+	);
+
 $sozler = array(
 	"En iyisini yapın: Yaptığınız her işte en iyisini yapmaya çalışın. Başarı yeni başarıları getirir.",
 	"Eğer basit bir şekilde anlatamıyorsan, o konuyu iyi anlamamışsın demektir.");
@@ -22,5 +34,8 @@ $img = $resimler[$dk%count($resimler)];
 $soz = $sozler[$dk%count($sozler)];
 $yazar = $yazarlar[$dk%count($yazarlar)];
 $sosyal = $sosyallar[$dk%count($sosyallar)];
+$proje = $projeler[$dk%count($projeler)];
+$iletisim = $iletisimler[$dk%count($iletisimler)];
+$ne = $neler[$dk%count($neler)];
 
 ?>
