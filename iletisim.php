@@ -6,7 +6,7 @@
     <title>pyro | digital solutions - neler yapıyoruz?</title>
     <link href="css/jquery.fancybox.css" rel="stylesheet">
     <script  type="text/javascript" src="js/jquery.fancybox.js"></script>
-    <script  type="text/javascript" src="js/clean-blog.js"></script>
+    <script  type="text/javascript" src="js/bootstrap-formhelpers-phone.js"></script>
 </head>
 
 <?php include("sure.php"); ?>
@@ -137,52 +137,133 @@
         </div>
     </div>
 <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
-                <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
-                <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
-                <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-                <form name="sentMessage" id="contactForm" novalidate="" class="error">
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Name</label>
-                            <input type="text" class="form-control" placeholder="Name" id="name" required="" data-validation-required-message="Please enter your name." aria-invalid="false">
-                            <p class="help-block text-danger"></p>
-                        </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <form>
+                <fieldset>
+
+                <!-- Form Name -->
+                <legend>Bilgilendirme Formu</legend>
+                <!-- Text input-->
+                    <div class="form-group col-sm-6">
+                      <label for="username" class="control-label"><i class="glyphicon glyphicon-user"></i> AD SOYAD</label>
+                      <input type="text" class="form-control" name="adsoyad" required="" placeholder="AD SOYAD" title="isim ve soyisminiz">
                     </div>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Email Address</label>
-                            <input type="email" class="form-control" placeholder="Email Address" id="email" required="" data-validation-required-message="Please enter your email address." aria-invalid="false">
-                            <p class="help-block text-danger"></p>
-                        </div>
+                    <div class="form-group col-sm-6">
+                      <label for="password" class="control-label"><i class="glyphicon glyphicon-briefcase"></i> FİRMA</label>
+                      <input type="text" class="form-control" name="firma" required="" title="Firmanızın adını yazınız..." placeholder="Firmanizin Adi">
                     </div>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls error">
-                            <label>Phone Number</label>
-                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required="" data-validation-required-message="Please enter your phone number." aria-invalid="true">
-                            <p class="help-block text-danger"></p>
-                        </div>
+
+                    <div class="form-group col-sm-6">
+                      <label for="username" class="control-label"><i class="glyphicon glyphicon-envelope"></i> E-POSTA</label>
+                      <input type="email" class="form-control" name="email" required="" title="Email adresinizi yazınız..." placeholder="example@gmail.com">
                     </div>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Message</label>
-                            <textarea rows="5" class="form-control" placeholder="Message" id="message" required="" data-validation-required-message="Please enter a message." aria-invalid="false"></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
+                    <div class="form-group col-sm-6">
+                      <label for="tel" class="control-label"><i class="glyphicon glyphicon-phone"></i> TELEFON</label>
+                      <input type="text" class="form-control bfh-phone"  data-format="+90 (ddd) ddd dd dd" name="tel" value="" required="" title="Ulaşabileceğimiz telefon numaranızı yazınız" data-mask="000-0000">
                     </div>
-                    <br>
-                    <div id="success"></div>
-                    <div class="row">
-                        <div class="form-group col-xs-12">
-                            <button type="submit" class="btn1 btn-default1">Send</button>
+                    <div class="form-group col-sm-12">
+                        <label for="tel" class="control-label"><i class="glyphicon glyphicon-list-alt"></i> HİZMET BAŞLIKLARI</label>
+                        <div class="checkbox">
+                            <div class="col-md-6">
+                                <label>
+                                    <input type="checkbox" name="arayuz_tasarim"> Arayüz Tasarımı
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <input type="checkbox" name="kullanici_tasarim">Kullanıcı Tasarımı (UX)
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <input type="checkbox" name="mobil_tasarim">Mobil Tasarımı
+                                </label>
+                            </div>
+                                
+                            <div class="col-md-6">
+                                <label>
+                                    <input type="checkbox" name="arayuz_gelistirme">Arayüz Geliştirme
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <input type="checkbox" name="uygulama_gelistirme">Uygulama Geliştirme
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <input type="checkbox" name="uygulama_gelistirme">Diğer
+                                </label>
+                            </div>
+                                
+                            </div>
                         </div>
-                    </div>
-                </form>
-            </div>
+
+                        <div class="form-group col-sm-12">
+                        <label for="tel" class="control-label"><i class="glyphicon glyphicon-align-justify"></i> BİZİ NEREDEN DUYDUNUZ</label>
+                        <div class="checkbox">
+                            <div class="col-md-6">
+                                <label>
+                                    <input type="checkbox" name="arayuz_tasarim"> Sosyal Medya
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <input type="checkbox" name="kullanici_tasarim"> Arkadaş
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <input type="checkbox" name="mobil_tasarim"> Diğer
+                                </label>
+                            </div>
+                                
+                                
+                            </div>
+                        </div>
+
+                        <div class="form-group col-sm-12">
+                            <label for="tel" class="control-label"><i class="glyphicon glyphicon-tint"></i> EK BILGI</label>
+                            <textarea type="textarea" class="form-control" name="mesaj" rows="8" required="" title="Bize iletmek istediginiz mesajiniz" placeholder="Bize iletmek istediginiz mesajiniz"> </textarea>
+                        </div>
+                        <div class="form-group col-sm-6">
+                          <label for="tel" class="control-label"><i class="fa fa-bank"></i> TAHMINI BUTCE</label>
+                          <input type="text" class="form-control" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz">
+                        </div>
+
+                        <div class="form-group col-sm-6">
+                        <label for="tel" class="control-label"><i class="glyphicon glyphicon-align-justify"></i> GERI DONUS ICIN TERCIH</label>
+                        <div class="radio">
+                            <div class="col-md-3">
+                                <label>
+                                    <input type="radio" name="donus" value="eposta"> E-Posta <input type="hidden" class='type'>
+                                </label>
+                            </div>
+                            <div class="col-md-3">
+                                <label>
+                                    <input type="radio" name="donus" value="tel"> Telefon <input type="hidden" class='type'>
+
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <input type="radio" name="donus" value="skype"> Skype
+
+                                    <input type="text" name="url" style='display: none;height: 61px; opacity: 1;' class='form-control type' placeholder="Kullanici adi">
+                                </label>
+                            </div>
+                                
+                                
+                            </div>
+                        </div>
+                    <button type="submit" class="btn btn-default btn-block">Gönder</button>
+                </fieldset>
+            </form>
+
         </div>
     </div>
+</div>
 <div class="modal fade fragman" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="false">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -197,7 +278,10 @@
   </div>
 <?php require_once("footer.php"); ?>
 <script type="text/javascript">
-    
+    $("input:radio").change(function() {
+    $(".type").hide();
+    $(this).next("input").show();
+});
 </script>
 </body>
 </html>
