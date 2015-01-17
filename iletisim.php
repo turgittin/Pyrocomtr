@@ -250,7 +250,7 @@
                                 <label>
                                     <input type="radio" name="donus" value="skype"> Skype
 
-                                    <input type="text" name="url" style='display: none;height: 61px; opacity: 1;' class='form-control type' placeholder="Kullanici adi">
+                                    <input type="text" name="url" style='display: none;margin-top:10px;width:213px; opacity: 1;' class='form-control type' placeholder="Kullanici adi" required>
                                 </label>
                             </div>
                                 
