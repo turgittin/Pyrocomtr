@@ -4,7 +4,9 @@
 .fl {float: left;}
 .fr {float: right;}
 .pbn {padding-bottom: 0px;}
+.mbn {margin-bottom:0px;}
 .ptn {padding-top:0px;}
+.mtn {margin-top:0px;}
 
 /*body .container {width: 1024px;}*/
 body .business-header {margin-top: -20px;}

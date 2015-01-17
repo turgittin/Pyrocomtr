@@ -11,7 +11,7 @@ $projeler = array(
 	);
 
 $iletisimler = array(
-	"./img/hero-img-3.jpg"
+	"./img/hero-img-5.jpg"
 	);
 
 $neler = array(

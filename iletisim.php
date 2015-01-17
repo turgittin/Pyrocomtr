@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="l-wrapper u-pt3">
-                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">SineMASAL; Bir film izlersin hayatın değişir. <br>Bir şey değişir, her şey değişir!</p>
+                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Sıra geldi iletişime! Sizin için;<br>detaylı bilgi formu hazırladık...</p>
                         <p style="max-width: 565px;">Böyle bir oluşumun içinde olduğum için çok mutluyum <br>ama daha gidecek çok fazla köy var!</p>
                         <p style="margin-top:10px;">Turgay Öztürk / Gönüllü - SineMASAL Yönetim Kurulu Üyesi</p>
                         <button class="btn btn-danger" data-toggle="modal" data-target=".fragman">SİNEMASAL BELGESEL FRAGMANI&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
@@ -44,98 +44,6 @@
             </div>
         </div>
     </header>
-    <div class="container">
-    
-    <div class="row" style="margin-top:20px;">
-            <div class="col-md-4">
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/arayuztasarim.png"></div>
-                    <div class="media-body pl">
-
-                        <h4 class="media-heading">ARAYÜZ TASARIM (UI)</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/arayuzgelistirme.png"></div>
-                    <div class="media-body pl">
-                        <h4 class="media-heading">ARAYÜZ GELİŞTİRME</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-md-4">
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/kullanicideneyimi.png"></div>
-                    <div class="media-body pl">
-                        <h4 class="media-heading">KULLANICI DENEYİMİ (UX)</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/uygulamagelistirme.png"></div>
-                    <div class="media-body pl">
-                        <h4 class="media-heading">UYGULAMA GELİŞTİRME</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-md-4">
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/mobiltasarim.png"></div>
-                    <div class="media-body pl">
-                        <h4 class="media-heading">MOBİL TASARIM</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/tasarimdanismanligi.png"></div>
-                    <div class="media-body pl">
-                        <h4 class="media-heading">TASARIM DANIŞMANLIĞI</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
@@ -143,55 +51,55 @@
                 <fieldset>
 
                 <!-- Form Name -->
-                <legend>Bilgilendirme Formu</legend>
+                                 
                 <!-- Text input-->
-                    <div class="form-group col-sm-6">
-                      <label for="username" class="control-label"><i class="glyphicon glyphicon-user"></i> AD SOYAD</label>
-                      <input type="text" class="form-control" name="adsoyad" required="" placeholder="AD SOYAD" title="isim ve soyisminiz">
+                    <div class="form-group col-sm-6 mbn">
+                      <label for="username" class="control-label"><i class="glyphicon glyphicon-user"></i> Ad Soyad</label>
+                      <input type="text" class="form-control" name="adsoyad" required="" placeholder="Adınız ve soyadınızı yazınız..." title="isim ve soyisminiz">
                     </div>
-                    <div class="form-group col-sm-6">
-                      <label for="password" class="control-label"><i class="glyphicon glyphicon-briefcase"></i> FİRMA</label>
-                      <input type="text" class="form-control" name="firma" required="" title="Firmanızın adını yazınız..." placeholder="Firmanizin Adi">
+                    <div class="form-group col-sm-6 mbn">
+                      <label for="password" class="control-label"><i class="glyphicon glyphicon-briefcase"></i> Firma</label>
+                      <input type="text" class="form-control" name="firma" required="" title="Firmanızın adını yazınız..." placeholder="Firmanızın adını yazınız...">
                     </div>
 
-                    <div class="form-group col-sm-6">
-                      <label for="username" class="control-label"><i class="glyphicon glyphicon-envelope"></i> E-POSTA</label>
-                      <input type="email" class="form-control" name="email" required="" title="Email adresinizi yazınız..." placeholder="example@gmail.com">
+                    <div class="form-group col-sm-6 mbn">
+                      <label for="username" class="control-label"><i class="glyphicon glyphicon-envelope"></i> E-Posta</label>
+                      <input type="email" class="form-control" name="email" required="" title="E-Posta adresinizi yazınız..." placeholder="example@gmail.com">
                     </div>
-                    <div class="form-group col-sm-6">
-                      <label for="tel" class="control-label"><i class="glyphicon glyphicon-phone"></i> TELEFON</label>
-                      <input type="text" class="form-control bfh-phone"  data-format="+90 (ddd) ddd dd dd" name="tel" value="" required="" title="Ulaşabileceğimiz telefon numaranızı yazınız" data-mask="000-0000">
+                    <div class="form-group col-sm-6 mbn">
+                      <label for="tel" class="control-label"><i class="glyphicon glyphicon-phone"></i> Telefon</label>
+                      <input type="text" class="form-control bfh-phone"  data-format="+90 (ddd) ddd dd dd" name="tel" value="" required="" title="Ulaşabileceğimiz telefon numaranızı yazınız..." data-mask="000-0000">
                     </div>
-                    <div class="form-group col-sm-12">
-                        <label for="tel" class="control-label"><i class="glyphicon glyphicon-list-alt"></i> HİZMET BAŞLIKLARI</label>
+                    <div class="form-group col-sm-12 mbn">
+                        <label for="tel" class="control-label"><i class="glyphicon glyphicon-list-alt"></i> Hizmet Başlıkları</label>
                         <div class="checkbox">
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <label>
                                     <input type="checkbox" name="arayuz_tasarim"> Arayüz Tasarımı
                                 </label>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <label>
                                     <input type="checkbox" name="kullanici_tasarim">Kullanıcı Tasarımı (UX)
                                 </label>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <label>
                                     <input type="checkbox" name="mobil_tasarim">Mobil Tasarımı
                                 </label>
                             </div>
                                 
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <label>
                                     <input type="checkbox" name="arayuz_gelistirme">Arayüz Geliştirme
                                 </label>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <label>
                                     <input type="checkbox" name="uygulama_gelistirme">Uygulama Geliştirme
                                 </label>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <label>
                                     <input type="checkbox" name="uygulama_gelistirme">Diğer
                                 </label>
@@ -200,20 +108,20 @@
                             </div>
                         </div>
 
-                        <div class="form-group col-sm-12">
-                        <label for="tel" class="control-label"><i class="glyphicon glyphicon-align-justify"></i> BİZİ NEREDEN DUYDUNUZ</label>
+                        <div class="form-group col-sm-12 mbn">
+                        <label for="tel" class="control-label"><i class="glyphicon glyphicon-align-justify"></i> Pyro'yu Nereden Duydunuz?</label>
                         <div class="checkbox">
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <label>
                                     <input type="checkbox" name="arayuz_tasarim"> Sosyal Medya
                                 </label>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <label>
                                     <input type="checkbox" name="kullanici_tasarim"> Arkadaş
                                 </label>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <label>
                                     <input type="checkbox" name="mobil_tasarim"> Diğer
                                 </label>
@@ -223,17 +131,17 @@
                             </div>
                         </div>
 
-                        <div class="form-group col-sm-12">
-                            <label for="tel" class="control-label"><i class="glyphicon glyphicon-tint"></i> EK BILGI</label>
+                        <div class="form-group col-sm-12 mbn">
+                            <label for="tel" class="control-label"><i class="glyphicon glyphicon-tint"></i> Ek Bilgi (referans linkler, başlangıç-bitiş tarigleri, vb detaylı bilgileri yazabilirsiniz.)</label>
                             <textarea type="textarea" class="form-control" name="mesaj" rows="8" required="" title="Bize iletmek istediginiz mesajiniz" placeholder="Bize iletmek istediginiz mesajiniz"> </textarea>
                         </div>
-                        <div class="form-group col-sm-6">
-                          <label for="tel" class="control-label"><i class="fa fa-bank"></i> TAHMINI BUTCE</label>
+                        <div class="form-group col-sm-5 mbn">
+                          <label for="tel" class="control-label"><i class="fa fa-bank"></i> Tahmini Bütçe (*ayrılması planlanan tahmini bütçe)</label>
                           <input type="text" class="form-control" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz">
                         </div>
 
-                        <div class="form-group col-sm-6">
-                        <label for="tel" class="control-label"><i class="glyphicon glyphicon-align-justify"></i> GERI DONUS ICIN TERCIH</label>
+                        <div class="form-group col-sm-7 mbn">
+                        <label for="tel" class="control-label"><i class="glyphicon glyphicon-align-justify"></i> Geri Dönüş Tercihiniz? (Size ne şekilde geri dönelim?)</label>
                         <div class="radio">
                             <div class="col-md-3">
                                 <label>
