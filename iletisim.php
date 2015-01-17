@@ -7,7 +7,7 @@
     <link href="css/jquery.fancybox.css" rel="stylesheet">
     <script  type="text/javascript" src="js/jquery.fancybox.js"></script>
     <script  type="text/javascript" src="js/bootstrap-formhelpers-phone.js"></script>
-    <script  type="text/javascript" src="js/bootstrap-formhelpers-number.js"></script>
+    <script  type="text/javascript" src="js/jquery.number.min.js"></script>
 </head>
 
 <?php include("sure.php"); ?>
@@ -138,7 +138,9 @@
                         </div>
                         <div class="form-group col-sm-5 mbn">
                           <label for="tel" class="control-label"><i class="fa fa-bank"></i> Tahmini Bütçe (*ayrılması planlanan tahmini bütçe)</label>
-                          <input type="text" class="form-control bfh-phone" data-format="₺ (ddd.ddd.ddd)" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz">
+                          <div class="input-group">
+                          <input type="text" class="form-control" id="price" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz" > <span class="input-group-addon"><span>₺</span> </span>
+                          </div>
                         </div>
 
                         <div class="form-group col-sm-7 mbn">
@@ -190,5 +192,34 @@
     $(this).next("input").show();
 });
 </script>
+<script type="text/javascript">
+            
+            $(function(){
+                // Set up the number formatting.
+                
+                $('#number_container').slideDown('fast');
+                
+                $('#price').on('change',function(){
+                    console.log('Change event.');
+                    var val = $('#price').val();
+                    $('#the_number').text( val !== '' ? val : '(empty)' );
+                });
+                
+                $('#price').change(function(){
+                    console.log('Second change event...');
+                });
+                
+                $('#price').number( true, 2 );
+                
+                
+                // Get the value of the number for the demo.
+                $('#get_number').on('click',function(){
+                    
+                    var val = $('#price').val();
+                    
+                    $('#the_number').text( val !== '' ? val : '(empty)' );
+                });
+            });
+        </script>
 </body>
 </html>
