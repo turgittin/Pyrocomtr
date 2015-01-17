@@ -42,7 +42,17 @@
                             <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
                         </ol>
                     </div>
-                    <!-- Carousel items -->
+                    <div>
+                        <ol class="carousel-indicators1">
+                            
+                            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#Carousel" data-slide-to="1"></li>
+                            <li data-target="#Carousel" data-slide-to="2"></li>
+                            
+                            <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                            <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                        </ol>
+                    </div>
                     <div class="carousel-inner">
                         
                     <div class="item active">

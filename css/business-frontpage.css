@@ -229,3 +229,21 @@ margin: 0px auto 15px;
 .checkbox{
   margin: 10px;
 }
+
+.carousel-indicators1 {
+  bottom:-50px;
+  
+}
+
+.carousel-indicators1 li {
+  border-color:#999;
+  background-color:#ccc;
+}
+
+.carousel-inner1 {
+   margin-bottom:50px;
+}
+
+.carousel-control1{
+
+}
