@@ -41,8 +41,8 @@
       
       if (this.options.buttons === true) {
         this.$element.wrap('<div class="input-group"></div>');
-        this.$element.parent().append('<span class="input-group-addon bfh-number-btn inc"><span class="glyphicon glyphicon-chevron-up"></span></span>');
-        this.$element.parent().append('<span class="input-group-addon bfh-number-btn dec"><span class="glyphicon glyphicon-chevron-down"></span></span>');
+        this.$element.parent().append('');
+        this.$element.parent().append('<span class="input-group-addon"><span>₺</span></span>');
       }
       
       this.$element.on('change.bfhnumber.data-api', BFHNumber.prototype.change);

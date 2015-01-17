@@ -69,7 +69,7 @@
                     </div>
                     <div class="form-group col-sm-6 mbn">
                       <label for="tel" class="control-label"><i class="glyphicon glyphicon-phone"></i> Telefon</label>
-                      <input type="text" class="form-control bfh-phone"  data-format="+90 (ddd) ddd dd dd" name="tel" value="" required="" title="Ulaşabileceğimiz telefon numaranızı yazınız..." data-mask="000-0000">
+                      <input type="text" class="form-control bfh-phone"  data-format="+90 (ddd) ddd dd dd" name="tel" value="" required="" title="Ulaşabileceğimiz telefon numaranızı yazınız...">
                     </div>
                     <div class="form-group col-sm-12 mbn">
                         <label for="tel" class="control-label"><i class="glyphicon glyphicon-list-alt"></i> Hizmet Başlıkları</label>
@@ -138,7 +138,7 @@
                         </div>
                         <div class="form-group col-sm-5 mbn">
                           <label for="tel" class="control-label"><i class="fa fa-bank"></i> Tahmini Bütçe (*ayrılması planlanan tahmini bütçe)</label>
-                          <input type="text" class="form-control bfh-number" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz">
+                          <input type="text" class="form-control bfh-phone" data-format="₺ (ddd.ddd.ddd)" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz">
                         </div>
 
                         <div class="form-group col-sm-7 mbn">
