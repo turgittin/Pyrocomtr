@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <a href="/"><img style="padding-top:35px;" class="img-responsive center-block" src="./img/404.png"></a>
+                <a href="/"><img style="padding-top:45px;" class="img-responsive center-block" src="./img/404.png"></a>
             </div>
         </div>
     </div>
