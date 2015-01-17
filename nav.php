@@ -27,13 +27,13 @@
                 <a href="iletisim-pyro">İLETİŞİM</a>
             </li>
             <li>
-                <a href="#"><img class="img-round" src="./img/ico_facebook.png"></a>
+                <a href="#"><img class="img-round" src="./img/icons/ico_facebook.png"></a>
             </li>
             <li>
-                <a href="#"><img class="img-round" src="./img/ico_twitter.png"></a>
+                <a href="#"><img class="img-round" src="./img/icons/ico_twitter.png"></a>
             </li>
             <li>
-                <a href="#"><img class="img-round" src="./img/ico_linkedin.png"></a>
+                <a href="#"><img class="img-round" src="./img/icons/ico_linkedin.png"></a>
             </li>
         </ul>
     </div>

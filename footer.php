@@ -50,7 +50,8 @@
               <div class="col-md-3">
                 <h3>Lorem</h3>
                 <p>
-                    <span>This may be the very useful and quick link for proper information</span><br><br>
+                    <span>This may be the very useful and quick link for proper information</span><br>
+                    <p><img src="./img/icons/ico_facebook-ft.png">&nbsp;&nbsp;<img src="./img/icons/ico_twitter-ft.png">&nbsp;&nbsp;<img src="./img/icons/ico_linkedin-ft.png"></p>
                     <a href="#">Neler Yapıyoruz?</a><br>
                     <a href="#">Projeler</a><br>
                     <a href="#">Sosyal Duyarlılık</a><br>
