@@ -7,6 +7,7 @@
     <link href="css/jquery.fancybox.css" rel="stylesheet">
     <script  type="text/javascript" src="js/jquery.fancybox.js"></script>
     <script  type="text/javascript" src="js/bootstrap-formhelpers-phone.js"></script>
+    <script  type="text/javascript" src="js/bootstrap-formhelpers-number.js"></script>
 </head>
 
 <?php include("sure.php"); ?>
@@ -47,7 +48,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
-            <form>
+            <form >
                 <fieldset>
 
                 <!-- Form Name -->
@@ -137,7 +138,7 @@
                         </div>
                         <div class="form-group col-sm-5 mbn">
                           <label for="tel" class="control-label"><i class="fa fa-bank"></i> Tahmini Bütçe (*ayrılması planlanan tahmini bütçe)</label>
-                          <input type="text" class="form-control" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz">
+                          <input type="text" class="form-control bfh-number" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz">
                         </div>
 
                         <div class="form-group col-sm-7 mbn">
@@ -156,9 +157,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label>
-                                    <input type="radio" name="donus" value="skype"> Skype
-
-                                    <input type="text" name="url" style='display: none;margin-top:10px;width:213px; opacity: 1;' class='form-control type' placeholder="Kullanici adi" required>
+                                    <input type="radio" name="donus" value="skype"> Skype <input type="text" name="url" style='display: none;margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Kullanici adi" required>
                                 </label>
                             </div>
                                 
