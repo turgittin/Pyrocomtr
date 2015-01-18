@@ -5,9 +5,9 @@
                 <p style="color:#fff;font-size:20px;margin: 3px 0px 0px 0px;">Size güncel haber ve özel fırsat bültenleri göndermemizi ister misiniz?</p>
             </div>
             <div class="col-sm-4">
-                <form>
+                <form action="hey.php" method="post">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="hey@pyro.com.tr" required>
+                        <input type="text" class="form-control" name="hey" placeholder="hey@pyro.com.tr" required>
                         <div class="input-group-btn">
                             <button class="btn btn-default"><i class="glyphicon glyphicon-send"></i></button>
                         </div>
@@ -16,7 +16,6 @@
             </div>
         </div>
     </div>
-
 
 <!-- footerTopSection -->
     <div class="ftbg footerTopSection">
