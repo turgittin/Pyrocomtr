@@ -1,5 +1,5 @@
-
-<div class="message">
+<div class="container">
+<div class="message"></div>
     
 </div>
     <div class="newbg footerTopSection">
@@ -25,7 +25,7 @@
     $('#subscribe').submit(function() {
         if (!valid_email_address($("#email").val()))
         {
-            $(".message").html("<div class='alert alert-danger'>E-Posta Adresiniz yanlis aq</div>");
+            $(".message").html("<div class='alert alert-danger'>Duzgun bir mail adresi giriniz</div>");
         }
         else
         {
@@ -39,12 +39,12 @@
                     if(msg=="success")
                     {
                         $("#email").val("");
-                        $(".message").html('<span style="color:green;">You have successfully subscribed to our mailing list.</span>');
+                        $(".message").html("<div class='alert alert-success'>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");
                         
                     }
                     else
                     {
-                      $(".message").html("<div class='alert alert-danger'>E-Posta Adresiniz yanlis ama ya</div>");  
+                      $(".message").html("<div class='alert alert-success'>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");  
                     }
                 }
             });
