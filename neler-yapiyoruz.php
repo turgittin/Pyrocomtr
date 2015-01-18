@@ -1,16 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-$MailChimp = new \Drewm\MailChimp('4184337669f730ea14e7ce97ed07114d-us10');
-    $result = $MailChimp->call('lists/subscribe', array(
-                    'id'                => 'b1234346',
-                    'email'             => array('email'=> $_POST['hey']),
-                    'merge_vars'        => array('FNAME'=> $_POST['hey']),
-                    'double_optin'      => false,
-                    'update_existing'   => true,
-                    'replace_interests' => false,
-                    'send_welcome'      => false,
-                ));
-    print_r($result);
 <head>
     <?php require_once("head.php"); ?>
     <title>pyro | digital solutions - neler yapıyoruz?</title>

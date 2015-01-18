@@ -1,13 +1,16 @@
 
+<div class="message">
+    
+</div>
     <div class="newbg footerTopSection">
         <div class="container">
             <div class="col-sm-8">
                 <p style="color:#fff;font-size:20px;margin: 3px 0px 0px 0px;">Size güncel haber ve özel fırsat bültenleri göndermemizi ister misiniz?</p>
             </div>
             <div class="col-sm-4">
-                <form action="hey.php" method="post">
+                <form role="form" method="post" id="subscribe">
                     <div class="input-group">
-                        <input type="text" class="form-control" name="hey" placeholder="hey@pyro.com.tr" required>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="hey@pyro.com.tr">
                         <div class="input-group-btn">
                             <button class="btn btn-default"><i class="glyphicon glyphicon-send"></i></button>
                         </div>
@@ -16,6 +19,46 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+    $('#subscribe').submit(function() {
+        if (!valid_email_address($("#email").val()))
+        {
+            $(".message").html("<div class='alert alert-danger'>E-Posta Adresiniz yanlis aq</div>");
+        }
+        else
+        {
+            
+            $(".message").html("<div class='alert alert-success'>E-Posta Adresiniz Ekleniyor...</div>");
+            $.ajax({
+                url: 'hey.php', 
+                data: $('#subscribe').serialize(),
+                type: 'POST',
+                success: function(msg) {
+                    if(msg=="success")
+                    {
+                        $("#email").val("");
+                        $(".message").html('<span style="color:green;">You have successfully subscribed to our mailing list.</span>');
+                        
+                    }
+                    else
+                    {
+                      $(".message").html("<div class='alert alert-danger'>E-Posta Adresiniz yanlis ama ya</div>");  
+                    }
+                }
+            });
+        }
+ 
+        return false;
+    });
+});
+function valid_email_address(email)
+{
+    var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+    return pattern.test(email);
+}
+    </script>
 
 <!-- footerTopSection -->
     <div class="ftbg footerTopSection">
