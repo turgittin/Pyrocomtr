@@ -1,6 +1,5 @@
 <div class="container">
-<div class="message"></div>
-    
+    <div class="message"></div>
 </div>
     <div class="newbg footerTopSection">
         <div class="container">
@@ -25,12 +24,12 @@
     $('#subscribe').submit(function() {
         if (!valid_email_address($("#email").val()))
         {
-            $(".message").html("<div class='alert alert-danger'>Duzgun bir mail adresi giriniz</div>");
+            $(".message").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Duzgun bir mail adresi giriniz</div>");
         }
         else
         {
             
-            $(".message").html("<div class='alert alert-success'>E-Posta Adresiniz Ekleniyor...</div>");
+            $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
             $.ajax({
                 url: 'hey.php', 
                 data: $('#subscribe').serialize(),
@@ -39,12 +38,12 @@
                     if(msg=="success")
                     {
                         $("#email").val("");
-                        $(".message").html("<div class='alert alert-success'>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");
+                        $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");
                         
                     }
                     else
                     {
-                      $(".message").html("<div class='alert alert-success'>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");  
+                      $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");  
                     }
                 }
             });
@@ -106,23 +105,61 @@ function valid_email_address(email)
               <div class="col-md-3">
                 <div class="contact-form">
                     <h3>İletişim</h3>
-
-                    <form id="main-contact-form" name="contact-form" method="post" action="#">
+                    <div class="mesaj"></div>
+                    <form action="footer_iletisim.php" name="contact-form" method="post" >
                         <div class="form-group" style="margin-bottom:5px;">
-                            <input type="text" name="isim" class="form-control" placeholder="İsim Soyisim" required="">
+                            <input type="text" name="isim" class="form-control" placeholder="İsim Soyisim">
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="E-Posta" required="">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="E-Posta">
                         </div>
                         <div class="form-group">
-                            <textarea name="mesaj" class="form-control" rows="3" placeholder="Bize iletmek istediğiniz mesajınız..." required=""></textarea>
+                            <textarea name="mesaj" class="form-control" rows="3" required="" placeholder="Bize iletmek istediğiniz mesajınız..."></textarea>
                         </div>
                         <button type="submit" class="btn btn-default btn-block">Mesajı İlet</button>
                     </form>
                 </div>
               </div>
             </div>
-        
+           <script type="text/javascript">
+        $(document).ready(function() {
+            $('#iletisim').submit(function() {
+                if (!valid_email_address($("#email").val()))
+                {
+                    $(".mesaj").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Duzgun bir mail adresi giriniz</div>");
+                }
+                else
+                {
+                    
+                    $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
+                    $.ajax({
+                        url: 'footer_iletisim.php', 
+                        data: $('#iletisim').serialize(),
+                        type: 'POST',
+                        success: function(msg) {
+                            if(msg=="success")
+                            {
+                                $("#email").val("");
+                                $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");
+                                
+                            }
+                            else
+                            {
+                              $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");  
+                            }
+                        }
+                    });
+                }
+         
+                return false;
+            });
+        });
+function valid_email_address(email)
+{
+    var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+    return pattern.test(email);
+}
+    </script>
     </div>
     <div class="footerBottomSection">
         <div class="container">
