@@ -5,7 +5,7 @@ include 'ayar.php';
 $isimsoyisim = $_POST["isim"];
 $email = $_POST["email"];
 $mesaj = $_POST["mesaj"];
-$alici = "turgay@pyro.com.tr";
+$alici = "erdi@pyro.com.tr";
 $konu = "Iletisim Formu Dolduruldu";
 $ipadres = $_SERVER['REMOTE_ADDR'];
  
