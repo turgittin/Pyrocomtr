@@ -139,7 +139,7 @@
                         <div class="form-group col-sm-5 mbn">
                           <label for="tel" class="control-label"><i class="fa fa-bank"></i> Tahmini Bütçe (*ayrılması planlanan tahmini bütçe)</label>
                           <div class="input-group">
-                          <input type="text" class="form-control" id="price" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz" > <span class="input-group-addon"><span>&#8378;</span> </span>
+                           <span class="input-group-addon"><span>&#8378;</span></span><input type="text" class="form-control" id="price" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz" >
                           </div>
                         </div>
 

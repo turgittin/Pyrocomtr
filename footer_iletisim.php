@@ -35,3 +35,4 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 		echo ("MEsajınız gönderilirken bir hata oluştu. Daha sonra tekrar deneyin");
 		}
 	}
+
