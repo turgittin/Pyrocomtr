@@ -163,7 +163,7 @@ function valid_email_address(email)
     </div>
     <div class="footerBottomSection">
         <div class="container">
-            <p>&copy; 2010-2015, pyro | digital solutions tüm hakları saklıdır.</p>
+            <p>&copy; 2015 pyro | digital solutions tüm hakları saklıdır.</p>
             </div>
         </div>
     </div>
