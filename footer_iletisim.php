@@ -3,7 +3,7 @@
 include 'ayar.php';
 
 $isimsoyisim = $_POST["isim"];
-$email = $_POST["email"];
+$email = $_POST["femail"];
 $mesaj = $_POST["mesaj"];
 $alici = "erdi@pyro.com.tr";
 $konu = "Iletisim Formu Dolduruldu";
@@ -14,25 +14,35 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 	
 	}else{
 
-		@mysql_query("insert into footer_iletisim (isim_soyisim,email,mesaj.ipadres) values ('$isimsoyisim','$email','$mesaj','$ipadres')");
+		@mysql_query("insert into footer_iletisim (isim_soyisim,email,mesaj,ipadres) values ('$isimsoyisim','$email','$mesaj','$ipadres')");
 		echo "Database kaydedildi.";
-
-		$mesajlar.="iletisim formu mesaji<br/><br/>";
-		$mesajlar.="Isim Soyisim: ".$isimsoyisim."<br/>";
-		$mesajlar.="E-Mail: ".$email."<br/>";
-		$mesajlar.="Mesaj: ".$mesaj."<br/>";
-		$mesajlar.="Ip Adres: ".$ipadres."<br/>";
 		
-		$tesekkur = "<h1>Bizim ile iletisime gectiginiz icin tesekkur ederiz..En hizli sekilde tarafimizca donus yapilacaktir</h1>"
-		$tesekkurKonu = "Tesekkurler Pyro";
+		require 'SetPhpMailer.php';
 
-		$mesajgonder=mail($alici, $konu, $mesajlar, "Content-type: text/html; charset=utf-8\r\n");
-		$tesekkurgonder = mail($email, $tesekkurKonu, $tesekkur, "Content-type: text/html; charset=utf-8\r\n");
+		$mail->From = 'Pyro Iletisim';
+		$mail->FromName = ucwords($isimsoyisim);
+		$mail->addAddress($alici);
+		$mail->addReplyTo($email);
 
-		if ($mesajgonder){
-		echo ("Mesajınız başarılı bir şekilde ulaştı. İletişim sayfasına geri dönmek için <br><a href=index.html>Buraya Tıklayın</a>");
-		}else{
-		echo ("MEsajınız gönderilirken bir hata oluştu. Daha sonra tekrar deneyin");
+		$mail->isHTML(true);   
+		$mail->Subject = $konu;
+		$mail->Body    = "<b>".ucwords($isimsoyisim)." ".'isimli kisinin mesaji:</b>'." ".$mesaj."<br>".'<b>Email Adresi:</b>'." ".$email."<br>".'<b>Ip Adresi</b>:'." ".$ipadres;
+		
+		$backMail->From = 'Pyro Destek';
+		$backMail->FromName = 'Merhabalar,'." ".ucwords($isimsoyisim);
+		$backMail->addAddress($email);
+		$backMail->addReplyTo($alici);
+
+		$backMail->isHTML(true);
+		$backMail->Subject = 'Pyro Iletisim';
+		$backMail->Body    = 'This is the HTML message body <b>in bold!</b>';
+		$backMail->addAttachment('http://pyro.com.tr/yeni/img/pyrologo.png', 'new.jpg');
+		$backMail->send();
+
+		if(!$mail->send()) {
+		    echo 'Mesaj gonderilemedi';
+		    echo 'Mailer Hatasi: ' . $mail->ErrorInfo;
+		} else {
+		    echo 'Mail gonderilmistir.';
 		}
 	}
-

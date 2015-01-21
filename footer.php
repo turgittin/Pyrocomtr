@@ -19,46 +19,6 @@
         </div>
     </div>
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-    $('#subscribe').submit(function() {
-        if (!valid_email_address($("#email").val()))
-        {
-            $(".message").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Duzgun bir mail adresi giriniz</div>");
-        }
-        else
-        {
-            
-            $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
-            $.ajax({
-                url: 'hey.php', 
-                data: $('#subscribe').serialize(),
-                type: 'POST',
-                success: function(msg) {
-                    if(msg=="success")
-                    {
-                        $("#email").val("");
-                        $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");
-                        
-                    }
-                    else
-                    {
-                      $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");  
-                    }
-                }
-            });
-        }
- 
-        return false;
-    });
-});
-function valid_email_address(email)
-{
-    var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
-    return pattern.test(email);
-}
-    </script>
-
 <!-- footerTopSection -->
     <div class="ftbg footerTopSection">
 <div class="container">
@@ -106,60 +66,22 @@ function valid_email_address(email)
                 <div class="contact-form">
                     <h3>İletişim</h3>
                     <div class="mesaj"></div>
-                    <form action="footer_iletisim.php" name="contact-form" method="post" >
+                    <form role="form" method="post" id="iletisim" >
                         <div class="form-group" style="margin-bottom:5px;">
-                            <input type="text" name="isim" class="form-control" placeholder="İsim Soyisim">
+                            <input type="text" id="isim" name="isim" class="form-control" placeholder="İsim Soyisim">
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" id="email" class="form-control" placeholder="E-Posta">
+                            <input type="text" class="form-control" id="femail" name="femail" placeholder="email adresiniz">
                         </div>
                         <div class="form-group">
-                            <textarea name="mesaj" class="form-control" rows="3" required="" placeholder="Bize iletmek istediğiniz mesajınız..."></textarea>
+                            <textarea name="mesaj" id="mesaj" class="form-control" rows="3" required="" placeholder="Bize iletmek istediğiniz mesajınız..."></textarea>
                         </div>
                         <button type="submit" class="btn btn-default btn-block">Mesajı İlet</button>
                     </form>
                 </div>
               </div>
             </div>
-           <script type="text/javascript">
-        $(document).ready(function() {
-            $('#iletisim').submit(function() {
-                if (!valid_email_address($("#email").val()))
-                {
-                    $(".mesaj").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Duzgun bir mail adresi giriniz</div>");
-                }
-                else
-                {
-                    
-                    $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
-                    $.ajax({
-                        url: 'footer_iletisim.php', 
-                        data: $('#iletisim').serialize(),
-                        type: 'POST',
-                        success: function(msg) {
-                            if(msg=="success")
-                            {
-                                $("#email").val("");
-                                $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");
-                                
-                            }
-                            else
-                            {
-                              $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");  
-                            }
-                        }
-                    });
-                }
-         
-                return false;
-            });
-        });
-function valid_email_address(email)
-{
-    var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
-    return pattern.test(email);
-}
-    </script>
+
     </div>
     <div class="footerBottomSection">
         <div class="container">
@@ -167,23 +89,8 @@ function valid_email_address(email)
             </div>
         </div>
     </div>
-
-
-    <ul class="nav pull-right scroll-top" id="scroll">
-      <li><a href="#" data-toggle="tooltip" data-placement="top" title="Yukarı Çık"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
-    </ul>
     <script type="text/javascript">
-           $(document).ready(function(){
-            $(".fancybox").fancybox({
-                openEffect: "elastic",
-                closeEffect: "elastic"
-            });
-            });
-        </script>
-     <link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
-<script type="text/javascript">
-
-    $('#nav').affix({
+        $('#nav').affix({
           offset: {
             top: 60,
         }
@@ -200,23 +107,9 @@ function valid_email_address(email)
             top: 100
         }
 })
-    
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-/* highlight the top nav as scrolling occurs */
-$('body').scrollspy({ target: '#nav' })
+    </script>
 
-/* smooth scrolling for scroll to top */
-$('.scroll-top').click(function(){
-  $('body,html').animate({scrollTop:0},1000);
-})
-
-$(document).ready(function() {
-    $('#Carousel').carousel({
-        interval: 50000000000000000
-    })
-});
-
-
-</script>
+    <ul class="nav pull-right scroll-top" id="scroll">
+      <li><a href="#" data-toggle="tooltip" data-placement="top" title="Yukarı Çık"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+    </ul>
+     <link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
