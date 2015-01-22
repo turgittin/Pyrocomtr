@@ -27,5 +27,16 @@ body a {color: #ed4e4e;text-decoration: none;}
 
 .ftbg {background: url(../img/footerbg.png);}
 /*.ftbg {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/dark_brick_wall.png);color: #fff;}*/
-.rotbg {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/diagmonds.png);color: #fff;} 
+.rotbg {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/diagmonds.png);color: #fff;}
 .newbg {background-color: #ed4e4e;}
+
+.nav > li > a {
+    padding: 15px 11px !important;
+}
+
+@media (max-width: 768px) {
+    body .navbar-nav {
+        float: none !important;
+        background-color:rgba(0, 0, 0, 0.3)
+    }
+}
