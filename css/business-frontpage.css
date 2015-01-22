@@ -231,7 +231,15 @@ margin: 0px auto 15px;
 }
 
 .carousel-indicators1 {
-  bottom:-50px;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  list-style: none;
+  top: auto;
   
 }
 
@@ -240,10 +248,6 @@ margin: 0px auto 15px;
   background-color:#ccc;
 }
 
-.carousel-inner1 {
-   margin-bottom:50px;
-}
-
-.carousel-control1{
-
+.carousel-indicators1 .active {
+background: #428bca;
 }

@@ -53,7 +53,8 @@
                             <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
                         </ol>
                     </div>
-                    <div class="carousel-inner">
+                  
+                    <div class="carousel-inner" style="padding-top:26px;">
                         
                     <div class="item active">
                         <div class="row">
