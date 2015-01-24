@@ -18,14 +18,14 @@
 } 
 
 #scroll{
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition:all .5s ease-in-out;
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition:all .9s ease-in-out;
 }
 
 #scroll.affix{
     margin: 0px;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition:all .5s ease-in-out;
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition:all .9s ease-in-out;
 }
 
 
