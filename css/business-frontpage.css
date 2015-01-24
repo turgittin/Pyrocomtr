@@ -1,10 +1,14 @@
-#owl-demo .item{
-  margin: 3px;
+#owl-demo .owl-item > div img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom:3px;
 }
-#owl-demo .item img{
-  display: block;
-  width: 100%;
-  height: auto;
+#owl-demo .owl-item > div {
+    padding: 0px 32px
 }
 .scroll-top {
     margin-bottom: -50px;

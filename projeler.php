@@ -113,49 +113,73 @@
                     </div>
                 </div>
             </div>
-            <div id="owl-demo">
-              <div class="item">
-                <img src="./img/proje/lunaroomblog.jpg" alt="Owl Image" >
-              </div>
-              <div class="item">
-                <img src="./img/proje/sinemasalorg.jpg" alt="Owl Image">
-              </div>
-              <div class="item">
-                <img src="./img/proje/lunaroomnet.jpg" alt="Owl Image">
-              </div>
-              <div class="item">
-                <img src="./img/proje/gulsahekerelcom.jpg" alt="Owl Image">
-              </div>
-              <div class="item">
-                <img src="./img/proje/fodofoodcom.jpg" alt="Owl Image">
-              </div>
-              <div class="item">
-                <img src="./img/proje/aloriagardencom.jpg" alt="Owl Image">
-              </div>
-              <div class="item">
-                <img src="./img/proje/aloriagardencom.jpg" alt="Owl Image">
-              </div>
-              <div class="item">
-                <img src="./img/proje/aloriagardencom.jpg" alt="Owl Image">
-              </div>
- 
-            </div>
+            <div id="owl-demo" class="owl-carousel">
+    <div style="width:300px;">
+       <a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>SineMASAL / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Lunaroom / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Gülşah Ekerel / Tasarım & Geliştirme</h5>
+    </div>
+    <div style="width:300px;">
+       <a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>SineMASAL / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Lunaroom / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Gülşah Ekerel / Tasarım & Geliştirme</h5>
+    </div>
+    <div style="width:300px;">
+       <a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>SineMASAL / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Lunaroom / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Gülşah Ekerel / Tasarım & Geliştirme</h5>
+    </div>
+    <div style="width:300px;">
+       <a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>SineMASAL / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Lunaroom / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Gülşah Ekerel / Tasarım & Geliştirme</h5>
+    </div>
+    <div style="width:300px;">
+       <a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>SineMASAL / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Lunaroom / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Gülşah Ekerel / Tasarım & Geliştirme</h5>
+    </div>
+    <div style="width:300px;">
+       <a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>SineMASAL / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Lunaroom / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Gülşah Ekerel / Tasarım & Geliştirme</h5>
+    </div>
+    <div style="width:300px;">
+       <a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>SineMASAL / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Lunaroom / Tasarım & Geliştirme</h5>
+        <a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a>
+        <h5>Gülşah Ekerel / Tasarım & Geliştirme</h5>
+    </div>
+</div>
         </div>
 
     </div>
 <script type="text/javascript">
-  $(document).ready(function() {
- 
-  $("#owl-demo").owlCarousel({
- 
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
-      items : 4,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
- 
-  });
- 
+  $(document).ready(function () {
+    $("#owl-demo").owlCarousel({
+        navigation: true,
+        pagination: true
+    });
 });
 </script>
 <?php require_once("footer.php"); ?>

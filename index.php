@@ -204,7 +204,7 @@
 
                 <div class="row text-center">
                     <div class="col-md-2 col-md-4 col-xs-6">
-                    <img src="./img/icons/op-iletisim.png">
+                    <img src="./img/icons/op-contact.png">
                     <p class="rottext">iletişim</p>
                     </div>
 
