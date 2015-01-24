@@ -89,6 +89,11 @@
             </div>
         </div>
     </div>
+    <ul class="nav pull-right scroll-top" id="scroll">
+      <li><a href="#" data-toggle="tooltip" data-placement="top" title="Yukarı Çık"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+    </ul>
+
+    <script  type="text/javascript" src="js/jquery.fancybox.js"></script>
     <script type="text/javascript">
         $('#nav').affix({
           offset: {
@@ -109,7 +114,5 @@
 })
     </script>
 
-    <ul class="nav pull-right scroll-top" id="scroll">
-      <li><a href="#" data-toggle="tooltip" data-placement="top" title="Yukarı Çık"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
-    </ul>
+    
      <link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">

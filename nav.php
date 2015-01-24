@@ -15,7 +15,7 @@
                 <a href="neler-yapiyoruz">NELER YAPIYORUZ?</a>
             </li>
             <li>
-                <a href="projeler-pyro">PROJELER</a>
+                <a href="projeler">PROJELER</a>
             </li>
             <li>
                 <a href="sosyal-duyarlilik">SOSYAL DUYARLILIK</a>
@@ -24,7 +24,7 @@
                 <a href="#">BLOG</a>
             </li>
             <li>
-                <a href="iletisim-pyro">İLETİŞİM</a>
+                <a href="iletisim">İLETİŞİM</a>
             </li>
 
         </ul>

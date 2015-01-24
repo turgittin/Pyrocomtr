@@ -58,54 +58,54 @@
                         
                     <div class="item active">
                         <div class="row">
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/proje/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/proje/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/proje/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/proje/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/proje/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="img/proje/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
                         
                         </div><!--.row-->
                     </div><!--.item-->
 
                     <div class="item">
                         <div class="row">
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
                         
                         </div><!--.row-->
                     </div><!--.item-->
 
                     <div class="item">
                         <div class="row">
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/projeler/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/projeler/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/lunaroomnet.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gulsahekerelcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Gülşah Ekerel / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/aloriagardencom.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden / Tasarım & Geliştirme</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/lunaroomblog.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom Blog / Tasarım & Geliştirme</h5></div>
                         
                         </div><!--.row-->
                     </div><!--.item-->
@@ -113,10 +113,51 @@
                     </div>
                 </div>
             </div>
+            <div id="owl-demo">
+              <div class="item">
+                <img src="./img/proje/lunaroomblog.jpg" alt="Owl Image" >
+              </div>
+              <div class="item">
+                <img src="./img/proje/sinemasalorg.jpg" alt="Owl Image">
+              </div>
+              <div class="item">
+                <img src="./img/proje/lunaroomnet.jpg" alt="Owl Image">
+              </div>
+              <div class="item">
+                <img src="./img/proje/gulsahekerelcom.jpg" alt="Owl Image">
+              </div>
+              <div class="item">
+                <img src="./img/proje/fodofoodcom.jpg" alt="Owl Image">
+              </div>
+              <div class="item">
+                <img src="./img/proje/aloriagardencom.jpg" alt="Owl Image">
+              </div>
+              <div class="item">
+                <img src="./img/proje/aloriagardencom.jpg" alt="Owl Image">
+              </div>
+              <div class="item">
+                <img src="./img/proje/aloriagardencom.jpg" alt="Owl Image">
+              </div>
+ 
+            </div>
         </div>
 
     </div>
-
+<script type="text/javascript">
+  $(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
+ 
+});
+</script>
 <?php require_once("footer.php"); ?>
 
 </body>

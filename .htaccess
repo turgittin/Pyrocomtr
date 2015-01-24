@@ -5,13 +5,13 @@ php_value zlib.output_compression 16386
 Options +FollowSymLinks
 RewriteEngine on
 directoryindex index.php
- 
-RewriteRule index	index.php
-RewriteRule sosyal-duyarlilik	sosyal-duyarlilik.php
-RewriteRule projeler-pyro	projeler.php
-RewriteRule neler-yapiyoruz		neler-yapiyoruz.php
-RewriteRule iletisim-pyro	iletisim.php
+RewriteRule   ^/?img/projeler/(.*)  /img/$1
 
+RewriteRule index					index.php
+RewriteRule sosyal-duyarlilik		sosyal-duyarlilik.php
+RewriteRule projeler				projeler.php 
+RewriteRule neler-yapiyoruz			neler-yapiyoruz.php
+RewriteRule iletisim				iletisim.php
 
 errorDocument 400	/404.php
 errorDocument 401	/404.php
