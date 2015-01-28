@@ -48,7 +48,58 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
-            <form >
+           <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">İletişim Formu</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse collapse in">
+                            <div class="panel-body">
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label><i class="glyphicon glyphicon-user"></i> Ad Soyad</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label><i class="glyphicon glyphicon-phone"></i> Telefon</label>
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label><i class="glyphicon glyphicon-envelope"></i> E-Posta</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label><i class="glyphicon glyphicon-tint"></i> Mesaj</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Detaylı Bilgi Formu</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                            <form >
                 <fieldset>
 
                 <!-- Form Name -->
@@ -169,6 +220,12 @@
                     <button type="submit" class="btn btn-default btn-block">Gönder</button>
                 </fieldset>
             </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- /.panel -->
+                </div>
 
         </div>
     </div>
