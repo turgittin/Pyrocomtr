@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="l-wrapper u-pt3">
-                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Kullanıcı Dostu ve Doğru Tasarımlar Üretiyor, En Yeni Teknolojiler ile Arayüzler Geliştiriyoruz.</p>
+                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Kullanıcı Mutluluğuna Odaklanan Tasarımlarla, Teknolojik Arayüzleri Bir Araya Getiriyoruz.</p>
                         <p style="max-width: 565px;">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. </p>
                         <p style="margin-top:20px;"></p>
                         <button class="btn btn-danger">TANITIM VİDEOSUNU İZLEYİN&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
@@ -58,7 +58,7 @@
                     <div class="media-body pl">
 
                         <h4 class="media-heading">ARAYÜZ TASARIM (UI)</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                        <p>Güncel, teknolojik ve özgün arayüzler tasarlar hayata geçirmek için heyecanlanırız.</p>
                     </div>
                 </div>
                 <div class="media">
@@ -71,7 +71,7 @@
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/arayuzgelistirme.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">ARAYÜZ GELİŞTİRME</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                        <p>Tasarladığımız arayüzleri Pyro ateşiyle mutfağımızda pişiririz.</p>
                     </div>
                 </div>
 
@@ -87,7 +87,7 @@
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/kullanicideneyimi.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">KULLANICI DENEYİMİ (UX)</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                        <p>Kullanıcı deneyiminde odaklandığımız alan kolaylık ve memnuniyet! Sonuç, mutluluk...</p>
                     </div>
                 </div>
                 <div class="media">
@@ -100,7 +100,7 @@
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/uygulamagelistirme.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">UYGULAMA GELİŞTİRME</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                        <p>Siz ihtiyacınızı söyleyin biz size uygun uygulamayı  hızla geliştirelim.</p>
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/mobiltasarim.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">MOBİL TASARIM</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                        <p>Tasarım artık mobilde başlıyor! Kullanıcılarınızı olduğu her yerde siz de mobil olun!</p>
                     </div>
                 </div>
                 <div class="media">
@@ -129,7 +129,7 @@
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/tasarimdanismanligi.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">TASARIM DANIŞMANLIĞI</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                        <p>Siz markanızın ruhunu, hayallerinizi anlatın biz size tasarım konusunda destek olalım.</p>
                     </div>
                 </div>
 

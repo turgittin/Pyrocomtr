@@ -34,7 +34,7 @@
                 <img src="./img/pyrologo.png">
               </div>
               <div class="col-md-3">
-                <h3>Yeni Haberler var</h3>
+                <h3>Blogdan Haberler</h3>
                 <p>
                     Best service provicer for<br>
                     <strong>web and application </strong> design and development.
@@ -49,13 +49,11 @@
                 </p>
               </div>
               <div class="col-md-3">
-                <h3>Lorem</h3>
+                <h3>Sosyal Medya</h3>
                 <p>
-                    <span>This may be the very useful and quick link for proper information</span><br>
+                    <span>Pyro, hızlı bir şekilde iletişimini kuvvetlendirmek için ve haber ulaştırabilmek için bir kaç sosyal medya hesaplarını kullanıyor. Bizi takip ederseniz, çok mutlu oluruz.</span><br>
                     <p><img src="./img/icons/ico_facebook-ft.png">&nbsp;&nbsp;<img src="./img/icons/ico_twitter-ft.png">&nbsp;&nbsp;<img src="./img/icons/ico_linkedin-ft.png"></p>
-                    <a href="#">Neler Yapıyoruz?</a><br>
-                    <a href="#">Projeler</a><br>
-                    <a href="#">Sosyal Duyarlılık</a><br>
+
                     <a href="#">Blog</a><br>
                     <a href="#">İş Fırsatları</a><br>
                     <a href="#">İletişim</a><br>
