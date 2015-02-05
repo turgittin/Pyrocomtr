@@ -32,13 +32,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="l-wrapper u-pt3">
-                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Sıra geldi iletişime! Sizin için;<br>detaylı bilgi formu hazırladık...</p>
-                        <p style="max-width: 565px;">Böyle bir oluşumun içinde olduğum için çok mutluyum <br>ama daha gidecek çok fazla köy var!</p>
-                        <p style="margin-top:10px;">Turgay Öztürk / Gönüllü - SineMASAL Yönetim Kurulu Üyesi</p>
-                        <button class="btn btn-danger" data-toggle="modal" data-target=".fragman">SİNEMASAL BELGESEL FRAGMANI&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
-                        <p style="margin-top:20px;"></p>
-                        <p>Daha fazla bilgi için;</p>
-                        <a href="http://sinemasal.org" target="_blank"><button class="btn btn-outline"> SineMASAL'ın Websitesi</i> </button></a>
+                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Aklınızda bir şeyler mi var?<br>Hadi tanışalım!</p>
+                        <p style="max-width: 565px;">Biz kendimizi anlattık, sizi de tanımayı <br>hayallerinizin ortağı olmayı çok isteriz. <br>İster kısaca ister detaylı anlatın, konuşalım!</p>
                         <p style="margin-top:20px;"></p>
                     </div>
                 </div>

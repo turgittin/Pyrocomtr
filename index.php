@@ -29,8 +29,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="l-wrapper u-pt3">
-                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Kullanıcı Mutluluğuna Odaklanan Tasarımlarla, Teknolojik Arayüzleri Bir Araya Getiriyoruz.</p>
-                        <p style="max-width: 565px;">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. </p>
+                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Kullanıcı deneyiminde mutluluğu, <br>Arayüz geliştirmede teknolojiyi tasarlarız.</p>
+                        <p style="max-width: 565px;">Kullanıcılarınız sitenizde uzun ve keyifli vakit geçirsin, aradıklarını kolayca bulabilsin, sitenize bakarken içi açılsın, evde, mobilde kısaca her yerde sizinle olmak istesin diye tasarımı ve teknolojiyi mutluluk için ateşleriz!</p>
                         <p style="margin-top:20px;"></p>
                         <button class="btn btn-danger">TANITIM VİDEOSUNU İZLEYİN&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
                         <p style="margin-top:20px;"></p>
@@ -129,14 +129,14 @@
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/tasarimdanismanligi.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">TASARIM DANIŞMANLIĞI</h4>
-                        <p>Siz markanızın ruhunu, hayallerinizi anlatın biz size tasarım konusunda destek olalım.</p>
+                        <p>Siz hayallerinizi anlatın biz hayallerinize giden yolu çizelim.</p>
                     </div>
                 </div>
 
             </div>
         </div>
         <hr>
-        <p class="portfoliotext">İstikrarlı ve yaratıcı çalısmalarla sektörde 16. Yılı doldurduk. Yüzlerce internet sitesi tasarladık, yüzlerce interaktif kampanya çalısmalarını sürdürdük ve yüzlerce mutlu müsteri geri dönüsü aldık.</p>
+        <p class="portfoliotext">Özgün çalışmalarla pek çok internet sitesine ihtiyacı olan enerjiyi pyro ateşiyle verdik! En güncel teknolojilerle arayüzler ve kullanıcı dostu deneyimler tasarlarken mutlu müşteriler kazandık.</p>
         <!-- Portfolio Section -->
         <div class="row">
             <div class="col-md-12">
@@ -199,7 +199,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="text-center">Büyük fikirleri alevlendiriyoruz!</h2>
-                <p class="text-center">Zamanımızın büyük bir kısmını yaratıcı bir fikri en etkili şekilde hayata geçirmenin yollarını planlamak için kullanıyoruz.</p>
+                <p class="text-center">Siz büyük düşünün ve hayal kurun sonra gelin bize anlatın ve gerçeğe nasıl dönüştüğünü izleyin!</p>
             </div>
 
                 <div class="row text-center">

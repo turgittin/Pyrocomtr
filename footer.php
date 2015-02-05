@@ -4,7 +4,7 @@
     <div class="newbg footerTopSection">
         <div class="container">
             <div class="col-sm-8">
-                <p style="color:#fff;font-size:20px;margin: 3px 0px 0px 0px;">Size güncel haber ve özel fırsat bültenleri göndermemizi ister misiniz?</p>
+                <p style="color:#fff;font-size:20px;margin: 3px 0px 0px 0px;">Size güncel haber ve özel fırsat bültenleri ateşlememizi ister misiniz?</p>
             </div>
             <div class="col-sm-4">
                 <form role="form" method="post" id="subscribe">
@@ -29,7 +29,7 @@
                 <h3>Hakkında</h3>
                 
                 <p>
-                pyro digital solution ajansının adının anlamı, "ateşteki alevlenme" demektir. <p>Bu anlamdan yola çıkan pyro, hizmet vereceği markaların ateşini farklı bakış açısıyla yükseltmek için 2014 yılında kuruldu.</p>
+                pyro digital solution adını, "ateşteki alevlenme"den alır. <p>Bu anlamdan yola çıkan pyro, hizmet vereceği markaların ateşini özgün bakış açısıyla yükseltmek için 2014 yılında kuruldu.</p>
                 </p>
                 <img src="./img/pyrologo.png">
               </div>
@@ -51,7 +51,7 @@
               <div class="col-md-3">
                 <h3>Sosyal Medya</h3>
                 <p>
-                    <span>Pyro, hızlı bir şekilde iletişimini kuvvetlendirmek için ve haber ulaştırabilmek için bir kaç sosyal medya hesaplarını kullanıyor. Bizi takip ederseniz, çok mutlu oluruz.</span><br>
+                    <span>Pyro, bir kaç sosyal medya hesabı kullanıyor. Bizden haberleri takip etmek için bizi sosyal medyada ateşlemeyi unutma :)</span><br>
                     <p><img src="./img/icons/ico_facebook-ft.png">&nbsp;&nbsp;<img src="./img/icons/ico_twitter-ft.png">&nbsp;&nbsp;<img src="./img/icons/ico_linkedin-ft.png"></p>
 
                     <a href="#">Blog</a><br>
@@ -62,7 +62,7 @@
               </div>
               <div class="col-md-3">
                 <div class="contact-form">
-                    <h3>İletişim</h3>
+                    <h3>Bize Ateşle Gelsin!</h3>
                     <div class="mesaj"></div>
                     <form role="form" method="post" id="iletisim" >
                         <div class="form-group" style="margin-bottom:5px;">

@@ -29,13 +29,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="l-wrapper u-pt3">
-                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">SineMASAL; Bir film izlersin hayatın değişir. <br>Bir şey değişir, her şey değişir!</p>
-                        <p style="max-width: 565px;">Böyle bir oluşumun içinde olduğum için çok mutluyum <br>ama daha gidecek çok fazla köy var!</p>
-                        <p style="margin-top:10px;">Turgay Öztürk / Gönüllü - SineMASAL Yönetim Kurulu Üyesi</p>
-                        <button class="btn btn-danger" data-toggle="modal" data-target=".fragman">SİNEMASAL BELGESEL FRAGMANI&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
-                        <p style="margin-top:20px;"></p>
-                        <p>Daha fazla bilgi için;</p>
-                        <a href="http://sinemasal.org" target="_blank"><button class="btn btn-outline"> SineMASAL'ın Websitesi</i> </button></a>
+                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Hayal ettiklerinizden daha fazlasını <br>Gerçekleştirmek için varız!</p>
+                        <p style="max-width: 565px;">Hayalini kurduğunuz herşeyi gerçek kılabilmek için<br>  teknoloji ve tasarımın gücünden faydalanır,<br>  kullanıcı deneyimini size özgü yorumlarız!</p>
                         <p style="margin-top:20px;"></p>
                     </div>
                 </div>
@@ -154,7 +149,7 @@
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/tasarimdanismanligi.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">TASARIM DANIŞMANLIĞI</h4>
-                        <p>Siz markanızın ruhunu, hayallerinizi anlatın biz size tasarım konusunda destek olalım.</p>
+                        <p>Siz hayallerinizi anlatın biz hayallerinize giden yolu çizelim.</p>
                     </div>
                 </div>
                                 <div class="media">
