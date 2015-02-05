@@ -1,7 +1,7 @@
 <?php
 
-	$api_key = "4184337669f730ea14e7ce97ed07114d-us10";
-	$list_id = "f851799004";
+	$api_key = "adf4f86b08ae924bd4632d154339e7f3-us10";
+	$list_id = "e670e713e4";
 
 	require('Mailchimp.php');
 	$Mailchimp = new Mailchimp( $api_key );

@@ -68,6 +68,40 @@ function valid_email_address(femail) {
 
 
 $(document).ready(function () {
+    $('#bilgi').submit(function () {
+        if (!valid_email_address($("#eamil").val())) {
+            $(".haber").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Duzgun bir mail adresi giriniz</div>");
+        }
+        else {
+
+            $(".haber").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
+            $.ajax({
+                url: 'bilgi_form.php',
+                data: $('#bilgi').serialize(),
+                type: 'POST',
+                success: function (msg) {
+                    if (msg == "success") {
+                        $("#eamil").val("");
+                        $(".haber").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Basvurunuz tarafimiza iletilmistir.Tesekkur ederiz.</span>");
+
+                    }
+                    else {
+                        $(".haber").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Basvurunuz tarafimiza iletilmistir.Tesekkur ederiz.</span>");
+                    }
+                }
+            });
+        }
+
+        return false;
+    });
+});
+function valid_email_address(eamil) {
+    var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+    return pattern.test(eamil);
+}
+
+
+$(document).ready(function () {
     $(".fancybox").fancybox({
         openEffect: "elastic",
         closeEffect: "elastic"
@@ -110,4 +144,31 @@ $(window).scroll(function (event) {
     }
 
 
+});
+
+ $(function(){
+    // Set up the number formatting.
+    
+    $('#number_container').slideDown('fast');
+    
+    $('#price').on('change',function(){
+        console.log('Change event.');
+        var val = $('#price').val();
+        $('#the_number').text( val !== '' ? val : '(empty)' );
+    });
+    
+    $('#price').change(function(){
+        console.log('Second change event...');
+    });
+    
+    $('#price').number( true, 2 );
+    
+    
+    // Get the value of the number for the demo.
+    $('#get_number').on('click',function(){
+        
+        var val = $('#price').val();
+        
+        $('#the_number').text( val !== '' ? val : '(empty)' );
+    });
 });

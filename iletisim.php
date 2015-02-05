@@ -41,8 +41,10 @@
         </div>
     </header>
 <div class="container">
+
     <div class="row">
         <div class="col-sm-12">
+<<<<<<< Updated upstream
            <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -95,60 +97,59 @@
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
                             <form >
+=======
+            <form role="form" method="post" id="bilgi">
+>>>>>>> Stashed changes
                 <fieldset>
-
-                <!-- Form Name -->
-                                 
-                <!-- Text input-->
                     <div class="form-group col-sm-6 mbn">
                       <label for="username" class="control-label"><i class="glyphicon glyphicon-user"></i> Ad Soyad</label>
-                      <input type="text" class="form-control" name="adsoyad" required="" placeholder="Adınız ve soyadınızı yazınız..." title="isim ve soyisminiz">
+                      <input type="text" class="form-control" name="adsoyad" placeholder="Adınız ve soyadınızı yazınız..." title="isim ve soyisminiz">
                     </div>
                     <div class="form-group col-sm-6 mbn">
                       <label for="password" class="control-label"><i class="glyphicon glyphicon-briefcase"></i> Firma</label>
-                      <input type="text" class="form-control" name="firma" required="" title="Firmanızın adını yazınız..." placeholder="Firmanızın adını yazınız...">
+                      <input type="text" class="form-control" name="firma" title="Firmanızın adını yazınız..." placeholder="Firmanızın adını yazınız...">
                     </div>
 
                     <div class="form-group col-sm-6 mbn">
                       <label for="username" class="control-label"><i class="glyphicon glyphicon-envelope"></i> E-Posta</label>
-                      <input type="email" class="form-control" name="email" required="" title="E-Posta adresinizi yazınız..." placeholder="example@gmail.com">
+                      <input type="text" class="form-control" id="eamil" name="eamil" title="E-Posta adresinizi yazınız..." placeholder="example@gmail.com">
                     </div>
                     <div class="form-group col-sm-6 mbn">
                       <label for="tel" class="control-label"><i class="glyphicon glyphicon-phone"></i> Telefon</label>
-                      <input type="text" class="form-control bfh-phone"  data-format="+90 (ddd) ddd dd dd" name="tel" value="" required="" title="Ulaşabileceğimiz telefon numaranızı yazınız...">
+                      <input type="text" class="form-control bfh-phone"  data-format="+90 (ddd) ddd dd dd" name="tel" value="" title="Ulaşabileceğimiz telefon numaranızı yazınız...">
                     </div>
                     <div class="form-group col-sm-12 mbn">
                         <label for="tel" class="control-label"><i class="glyphicon glyphicon-list-alt"></i> Hizmet Başlıkları</label>
                         <div class="checkbox">
                             <div class="col-md-3">
                                 <label>
-                                    <input type="checkbox" name="arayuz_tasarim"> Arayüz Tasarımı
+                                    <input type="checkbox" name="hizmetler" value="Arayüz Tasarımı"> Arayüz Tasarımı
                                 </label>
                             </div>
                             <div class="col-md-3">
                                 <label>
-                                    <input type="checkbox" name="kullanici_tasarim">Kullanıcı Tasarımı (UX)
+                                    <input type="checkbox" name="hizmetler" value="Kullanıcı Tasarımı (UX)">Kullanıcı Tasarımı (UX)
                                 </label>
                             </div>
                             <div class="col-md-3">
                                 <label>
-                                    <input type="checkbox" name="mobil_tasarim">Mobil Tasarımı
+                                    <input type="checkbox" name="hizmetler" value="Mobil Tasarımı">Mobil Tasarımı
                                 </label>
                             </div>
                                 
                             <div class="col-md-3">
                                 <label>
-                                    <input type="checkbox" name="arayuz_gelistirme">Arayüz Geliştirme
+                                    <input type="checkbox" name="hizmetler" value="Arayüz Geliştirme" >Arayüz Geliştirme
                                 </label>
                             </div>
                             <div class="col-md-3">
                                 <label>
-                                    <input type="checkbox" name="uygulama_gelistirme">Uygulama Geliştirme
+                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">Uygulama Geliştirme
                                 </label>
                             </div>
                             <div class="col-md-3">
                                 <label>
-                                    <input type="checkbox" name="uygulama_gelistirme">Diğer
+                                    <input type="checkbox" name="hizmetler" value="Diger">Diğer
                                 </label>
                             </div>
                                 
@@ -160,17 +161,17 @@
                         <div class="checkbox">
                             <div class="col-md-3">
                                 <label>
-                                    <input type="checkbox" name="arayuz_tasarim"> Sosyal Medya
+                                    <input type="checkbox" name="nereden" value="Sosyal Medya"> Sosyal Medya
                                 </label>
                             </div>
                             <div class="col-md-3">
                                 <label>
-                                    <input type="checkbox" name="kullanici_tasarim"> Arkadaş
+                                    <input type="checkbox" name="nereden" value="Arkadaş"> Arkadaş
                                 </label>
                             </div>
                             <div class="col-md-3">
                                 <label>
-                                    <input type="checkbox" name="mobil_tasarim"> Diğer
+                                    <input type="checkbox" name="nereden" value="Diğer"> Diğer
                                 </label>
                             </div>
                                 
@@ -180,12 +181,12 @@
 
                         <div class="form-group col-sm-12 mbn">
                             <label for="tel" class="control-label"><i class="glyphicon glyphicon-tint"></i> Ek Bilgi (referans linkler, başlangıç-bitiş tarigleri, vb detaylı bilgileri yazabilirsiniz.)</label>
-                            <textarea type="textarea" class="form-control" name="mesaj" rows="8" required="" title="Bize iletmek istediginiz mesajiniz" placeholder="Bize iletmek istediginiz mesajiniz"> </textarea>
+                            <textarea type="textarea" class="form-control" name="mesaj" rows="8" title="Bize iletmek istediginiz mesajiniz" placeholder="Bize iletmek istediginiz mesajiniz"> </textarea>
                         </div>
                         <div class="form-group col-sm-5 mbn">
                           <label for="tel" class="control-label"><i class="fa fa-bank"></i> Tahmini Bütçe (*ayrılması planlanan tahmini bütçe)</label>
                           <div class="input-group">
-                           <span class="input-group-addon"><span>&#8378;</span></span><input type="text" class="form-control" id="price" name="butce" value="" required="" title="Bize iletmek istediginiz tahmini butceniz" >
+                           <span class="input-group-addon"><span>&#8378;</span></span><input type="text" class="form-control" id="price" name="butce" value="" title="Bize iletmek istediginiz tahmini butceniz" >
                           </div>
                         </div>
 
@@ -205,14 +206,16 @@
                             </div>
                             <div class="col-md-6">
                                 <label>
-                                    <input type="radio" name="donus" value="skype"> Skype <input type="text" name="url" style='display: none;margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Kullanici adi" required>
+                                    <input type="radio" name="donus" value="skype"> Skype <input type="text" name="url" style='display: none;margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Kullanici adi">
                                 </label>
                             </div>
-                                
-                                
                             </div>
                         </div>
-                    <button type="submit" class="btn btn-default btn-block">Gönder</button>
+                    <div class="col-sm-12">
+                        <div class="haber"></div>
+                    </div>
+
+                    <button type="submit" class="btn btn-success btn-block">Mesajı İlet</button>
                 </fieldset>
             </form>
                             </div>
