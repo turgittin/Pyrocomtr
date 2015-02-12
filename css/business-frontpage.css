@@ -262,3 +262,15 @@ margin: 0px auto 15px;
 .carousel-indicators1 .active {
 background: #428bca;
 }
+
+.scrollToTop{
+  text-align:center; 
+  text-decoration: none;
+  position:fixed;
+  top: 91%;
+  right:40px;
+}
+
+.scrollToTop:hover{
+  text-decoration:none;
+}

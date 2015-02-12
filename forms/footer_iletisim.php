@@ -1,6 +1,6 @@
 <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
 <?php
-include 'ayar.php';
+include '../inc/ayar.php';
 
 $isimsoyisim = $_POST["isim"];
 $email = $_POST["femail"];
@@ -17,7 +17,8 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 		@mysql_query("insert into footer_iletisim (isim_soyisim,email,mesaj,ipadres) values ('$isimsoyisim','$email','$mesaj','$ipadres')");
 		echo "Database kaydedildi.";
 		
-		require 'SetPhpMailer.php';
+
+		require_once '../mail/SetPhpMailer.php'; 
 
 		$mail->From = 'Pyro Iletisim';
 		$mail->FromName = ucwords($isimsoyisim);

@@ -7,7 +7,7 @@ $(document).ready(function () {
 
             $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
             $.ajax({
-                url: 'hey.php',
+                url: '/forms/hey.php',
                 data: $('#subscribe').serialize(),
                 type: 'POST',
                 success: function (msg) {
@@ -42,7 +42,7 @@ $(document).ready(function () {
 
             $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
             $.ajax({
-                url: 'footer_iletisim.php',
+                url: '/forms/footer_iletisim.php',
                 data: $('#iletisim').serialize(),
                 type: 'POST',
                 success: function (msg) {
@@ -76,7 +76,7 @@ $(document).ready(function () {
 
             $(".haber").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
             $.ajax({
-                url: 'bilgi_form.php',
+                url: '/forms/bilgi_form.php',
                 data: $('#bilgi').serialize(),
                 type: 'POST',
                 success: function (msg) {
@@ -116,16 +116,7 @@ $(document).ready(function () {
 });
 
 
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-})
-/* highlight the top nav as scrolling occurs */
-$('body').scrollspy({target: '#nav'})
 
-/* smooth scrolling for scroll to top */
-$('.scroll-top').click(function () {
-    $('body,html').animate({scrollTop: 0}, 1000);
-})
 
 $(document).ready(function () {
     $('#Carousel').carousel({
@@ -146,29 +137,24 @@ $(window).scroll(function (event) {
 
 });
 
- $(function(){
-    // Set up the number formatting.
+$(document).ready(function(){
     
-    $('#number_container').slideDown('fast');
-    
-    $('#price').on('change',function(){
-        console.log('Change event.');
-        var val = $('#price').val();
-        $('#the_number').text( val !== '' ? val : '(empty)' );
+    //Check to see if the window is top if not then display button
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scrollToTop').fadeIn();
+        } else {
+            $('.scrollToTop').fadeOut();
+        }
     });
     
-    $('#price').change(function(){
-        console.log('Second change event...');
+    //Click event to scroll to top
+    $('.scrollToTop').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
     });
     
-    $('#price').number( true, 2 );
-    
-    
-    // Get the value of the number for the demo.
-    $('#get_number').on('click',function(){
-        
-        var val = $('#price').val();
-        
-        $('#the_number').text( val !== '' ? val : '(empty)' );
-    });
 });
+
+
+

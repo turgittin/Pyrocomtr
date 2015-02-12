@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php require_once("head.php"); ?>
+    <?php require_once("inc/head.php"); ?>
     <title>pyro | digital solutions - neler yapıyoruz?</title>
     <link href="css/jquery.fancybox.css" rel="stylesheet">
     <script  type="text/javascript" src="js/jquery.fancybox.js"></script>
@@ -10,7 +10,7 @@
     <script  type="text/javascript" src="js/jquery.number.min.js"></script>
 </head>
 
-<?php include("sure.php"); ?>
+<?php include("inc/sure.php"); ?>
 
 <style type="text/css">
     .business-header {
@@ -25,7 +25,7 @@
 
 <body>
 
-<?php require_once("nav.php"); ?>
+<?php require_once("inc/nav.php"); ?>
 
     <header class="business-header">
         <div class="container">
@@ -44,7 +44,7 @@
 
     <div class="row">
         <div class="col-sm-12">
-<<<<<<< Updated upstream
+
            <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -96,10 +96,7 @@
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
-                            <form >
-=======
             <form role="form" method="post" id="bilgi">
->>>>>>> Stashed changes
                 <fieldset>
                     <div class="form-group col-sm-6 mbn">
                       <label for="username" class="control-label"><i class="glyphicon glyphicon-user"></i> Ad Soyad</label>
@@ -240,7 +237,7 @@
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div>
-<?php require_once("footer.php"); ?>
+<?php require_once("inc/footer.php"); ?>
 <script type="text/javascript">
     $("input:radio").change(function() {
     $(".type").hide();

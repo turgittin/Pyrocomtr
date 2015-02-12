@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <?php require_once("head.php"); ?>
+    <?php require_once("inc/head.php"); ?>
     <title>hata... pyro | digital solutions</title>
 </head>
 
 <body>
 
-    <?php require_once("nav.php"); ?>
+    <?php require_once("inc/nav.php"); ?>
 
     <div class="container">
         <div class="row">
@@ -17,7 +17,7 @@
             </div>
         </div>
     </div>
-<?php require_once("footer.php"); ?>
+<?php require_once("inc/footer.php"); ?>
 
 </body>
 

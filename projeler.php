@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php require_once("head.php"); ?>
+    <?php require_once("inc/head.php"); ?>
     <title>pyro | digital solutions - projeler</title>
 
 </head>
@@ -11,7 +11,7 @@
 
     <!-- Navigation -->
 
-    <?php require_once("nav.php"); ?>
+    <?php require_once("inc/nav.php"); ?>
 
     <!-- Page Content -->
     <div class="container">
@@ -107,15 +107,8 @@
         </div>
 
     </div>
-<script type="text/javascript">
-  $(document).ready(function () {
-    $("#owl-demo").owlCarousel({
-        navigation: true,
-        pagination: true
-    });
-});
-</script>
-<?php require_once("footer.php"); ?>
+
+<?php require_once("inc/footer.php"); ?>
 
 </body>
 

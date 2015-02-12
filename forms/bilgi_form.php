@@ -1,6 +1,6 @@
 <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
 <?php
-include 'ayar.php';
+include '../inc/ayar.php';
 
 $adsoyad = $_POST["adsoyad"];
 $email = $_POST["eamil"];
@@ -32,7 +32,7 @@ if (($adsoyad=="") or
 			values ('$adsoyad','$email','$mesaj','$tel','$hizmetler','$nereden','$donus','$ipadres','$firma')");
 		echo "Database kaydedildi.";
 
-		require 'SetPhpMailer.php';
+		require '../PHPMailer/SetPhpMailer.php';
 
 		$mail->From = 'Pyro Iletisim';
 		$mail->FromName = ucwords($adsoyad);
