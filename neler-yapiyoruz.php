@@ -75,6 +75,7 @@
                               <i class="fa fa-car fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
+                    <hr>
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/lp.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">LANDING PAGE</h4>
@@ -109,7 +110,7 @@
                         <p>Siz ihtiyacınızı söyleyin biz size uygun uygulamayı  hızla geliştirelim.</p>
                     </div>
                 </div>
-
+                <hr>
                 <div class="media">
                     <div class="pull-left">
                         <span class="fa-stack fa-2x">
@@ -152,7 +153,8 @@
                         <p>Siz hayallerinizi anlatın biz hayallerinize giden yolu çizelim.</p>
                     </div>
                 </div>
-                                <div class="media">
+                <hr>
+                    <div class="media">
                     <div class="pull-left">
                         <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
