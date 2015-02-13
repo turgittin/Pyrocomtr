@@ -11,7 +11,7 @@ RewriteRule index					index.php
 RewriteRule sosyal-duyarlilik		sosyal-duyarlilik.php
 RewriteRule projeler				projeler.php 
 RewriteRule neler-yapiyoruz			neler-yapiyoruz.php
-
+RewriteRule iletisim				iletisim.php
 
 errorDocument 400	/404.php
 errorDocument 401	/404.php

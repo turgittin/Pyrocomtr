@@ -1,56 +1,52 @@
-<meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
+
 <?php
+
+header('Content-Type: text/html; charset=ISO-8859-9');
+
 include '../inc/ayar.php';
 
-$adsoyad = $_POST["adsoyad"];
-$email = $_POST["eamil"];
-$mesaj = $_POST["mesaj"];
-$firma = $_POST["firma"];
-$tel = $_POST["tel"];
-$hizmetler = $_POST["hizmetler"];
-$nereden = $_POST["nereden"];
-$donus = $_POST["donus"];
+$adsoyad = htmlentities($_POST["adsoyad"]);
+$email = htmlentities($_POST["eamil"]);
+$mesaj = htmlentities($_POST["mesaj"]);
+$firma = htmlentities($_POST["firma"]);
+$tel = htmlentities($_POST["tel"]);
+$hizmetler = htmlentities($_POST["hizmetler"]);
+$nereden = htmlentities($_POST["nereden"]);
+$donus = htmlentities($_POST["donus"]);
 $alici = "erdi@pyro.com.tr";
 $konu = "Iletisim Formu Dolduruldu";
 $ipadres = $_SERVER['REMOTE_ADDR'];
 
-
-var_dump($adsoyad);exit();
-if (($adsoyad=="") or 
-	($email=="") or 
-	($mesaj=="") or 
-	($tel=="") or 
-	($hizmetler=="") or 
-	($nereden=="") or 
-	($donus=="")) {
-
+if (($adsoyad=="") or ($email=="") or ($mesaj=="") or ($tel=="") or ($hizmetler=="") or ($nereden=="") or ($donus=="")) 
+	{
 		echo '{"err":1,"msg":"tum alanlari doldurun"}';
-	
 	}else{
 
 		@mysql_query("insert into bilgi_form (adsoyad,email,mesaj,tel,hizmetler,nereden,donus,ipadres,firma) 
 			values ('$adsoyad','$email','$mesaj','$tel','$hizmetler','$nereden','$donus','$ipadres','$firma')");
 		echo "Database kaydedildi.";
 
-		require '../PHPMailer/SetPhpMailer.php';
+		require '../mail/SetPhpMailer.php';
 
 		$mail->From = 'Pyro Iletisim';
+		$mail->CharSet = 'UTF-8';
 		$mail->FromName = ucwords($adsoyad);
 		$mail->addAddress($alici);
 		$mail->addReplyTo($email);
 
-		$mail->isHTML(true);   
+		$mail->isHTML(true); 
 		$mail->Subject = $konu;
 		$mail->Body    = "<b>".ucwords($adsoyad)." ".'isimli kisinin mesaji:</b>'." ".$mesaj."<br>".'<b>Email Adresi:</b>'." ".$email."<br>".'<b>Ip Adresi</b>:'." ".$ipadres;
 		
 		$backMail->From = 'Pyro Destek';
+		$backMail->CharSet = 'UTF-8';
 		$backMail->FromName = 'Merhabalar,'." ".ucwords($adsoyad);
 		$backMail->addAddress($email);
 		$backMail->addReplyTo($alici);
 
 		$backMail->isHTML(true);
 		$backMail->Subject = 'Pyro Iletisim';
-		$backMail->Body    = 'This is the HTML message body <b>in bold!</b>';
+		$backMail->Body    =  $mesaj;
 		$backMail->addAttachment('http://pyro.com.tr/yeni/img/pyrologo.png', 'new.jpg');
 		$backMail->send();
 

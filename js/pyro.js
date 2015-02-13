@@ -42,7 +42,7 @@ $(document).ready(function () {
 
             $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
             $.ajax({
-                url: '/forms/footer_iletisim.php',
+                url: '/forms/footerIletsimForm.php',
                 data: $('#iletisim').serialize(),
                 type: 'POST',
                 success: function (msg) {
