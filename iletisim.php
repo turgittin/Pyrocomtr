@@ -82,7 +82,7 @@
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Gönder</button>
+                    <button type="submit" class="btn btn-success btn-block">Gönder</button>
                 </form>
                             </div>
                         </div>

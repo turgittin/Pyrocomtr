@@ -35,7 +35,7 @@
                         <button class="btn btn-danger">TANITIM VİDEOSUNU İZLEYİN&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
                         <p style="margin-top:20px;"></p>
                         <p>Daha fazla bilgi için;</p>
-                        <button class="btn btn-outline">İLETİŞİM</i></button>
+                        <a href="/iletisim"><button class="btn btn-outline">İLETİŞİM</i></button></a>
                         <p style="margin-top:20px;"></p>
                     </div>
                 </div>

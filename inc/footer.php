@@ -51,7 +51,7 @@
               <div class="col-md-3">
                 <h3>Sosyal Medya</h3>
                 <p>
-                    <span>Pyro, bir kaç sosyal medya hesabı kullanıyor. Bizden haberleri takip etmek için bizi sosyal medyada ateşlemeyi unutma :)</span><br>
+                    <span>pyro, bir kaç sosyal medya hesabı kullanıyor. Bizden haberleri takip etmek için bizi sosyal medyada ateşlemeyi unutma :)</span><br>
                     <p><img src="./img/icons/ico_facebook-ft.png">&nbsp;&nbsp;<img src="./img/icons/ico_twitter-ft.png">&nbsp;&nbsp;<img src="./img/icons/ico_linkedin-ft.png"></p>
 
                     <a href="#">Blog</a><br>
