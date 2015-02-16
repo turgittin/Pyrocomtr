@@ -34,19 +34,25 @@
                 <img src="./img/pyrologo.png">
               </div>
               <div class="col-md-3">
-                <h3>Blogdan Haberler</h3>
+              <h3>Blogdan Haberler</h3>
+           <?php
+
+            $url = 'http://www.pyro.com.tr/blog/api/api.php';
+            $content = file_get_contents($url);
+            $json = json_decode($content, true);
+
+            $sayac = "1";
+            $limit = "3";
+            foreach($json['posts'] as $item) {
+                if ($sayac <= $limit){ 
+                ?>
+                
+                
                 <p>
-                    Best service provicer for<br>
-                    <strong>web and application </strong> design and development.
+                    <strong><?php echo $item['post_title'];?></strong><br>
+                    <?php echo $item['post_content'];?>
                 </p>
-                <p>
-                    Best service provicer for<br>
-                    <strong>web and application </strong> design and development.
-                </p>
-                <p>
-                    Best service provicer for<br>
-                    <strong>web and application </strong> design and development.
-                </p>
+                <?php }$sayac++;}?>
               </div>
               <div class="col-md-3">
                 <h3>Sosyal Medya</h3>

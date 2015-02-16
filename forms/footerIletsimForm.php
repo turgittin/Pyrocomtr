@@ -5,7 +5,7 @@ include '../inc/ayar.php';
 $isimsoyisim = $_POST["isim"];
 $email = $_POST["femail"];
 $mesaj = $_POST["mesaj"];
-$alici = "erdi@pyro.com.tr";
+$alici = "turgay@pyro.com.tr";
 $konu = "Iletisim Formu Dolduruldu";
 $ipadres = $_SERVER['REMOTE_ADDR'];
  
@@ -20,8 +20,8 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 
 		require_once '../mail/SetPhpMailer.php'; 
 
-		$mail->From = 'Pyro Iletisim';
-		$mail->FromName = ucwords($isimsoyisim);
+		$mail->From = 'pyro digital solution';
+		$mail->FromName = 'pyro digital solution';
 		$mail->addAddress($alici);
 		$mail->addReplyTo($email);
 
@@ -29,8 +29,8 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 		$mail->Subject = $konu;
 		$mail->Body    = "<b>".ucwords($isimsoyisim)." ".'isimli kisinin mesaji:</b>'." ".$mesaj."<br>".'<b>Email Adresi:</b>'." ".$email."<br>".'<b>Ip Adresi</b>:'." ".$ipadres;
 		
-		$backMail->From = 'Pyro Destek';
-		$backMail->FromName = 'Merhabalar,'." ".ucwords($isimsoyisim);
+		$backMail->From = 'pyro - web';
+		$backMail->FromName = 'pyro - web';
 		$backMail->addAddress($email);
 		$backMail->addReplyTo($alici);
 

@@ -4,10 +4,33 @@
 
 mysql_query("set character set utf8");
 
-$result = mysql_query('SELECT `id`, `post_status`, `post_title` FROM `wp_posts` where post_status="publish" ORDER BY `id` DESC LIMIT 20') or die(mysql_error());
-$rows = array();
-while($row = mysql_fetch_assoc($result)){
-    $rows[] = $row;
-}
 
-echo json_encode($rows);
+
+
+//$result=mysql_query("SELECT * FROM `wp_posts` WHERE `post_parent` = 0 and `post_status` = 'publish' and `post_type` = 'post' ORDER BY id DESC");
+
+
+$result = mysql_query("SELECT * FROM wp_posts"); 
+
+$i=0;
+while($row=mysql_fetch_array($result)) { 
+extract($row);
+
+
+	if ($post_parent == 0 && $post_type == 'post' && $post_status == 'publish'){
+		$response[$i]['guid']  = $row['guid']; 
+		$response[$i]['post_title']= $row['post_title'];
+		$response[$i]['post_name']= $row['post_name'];
+		$response[$i]['post_content']= $row['post_content'];
+		$data['posts'][$i] = $response[$i];
+			$i=$i+1;
+	} 
+	if($post_type == 'attachment'){
+		$response[$i]['image']= $row['guid'];	
+		
+	}
+
+	
+}
+echo json_encode($data);
+
