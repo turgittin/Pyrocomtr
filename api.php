@@ -16,7 +16,6 @@ $i=0;
 while($row=mysql_fetch_array($result)) { 
 extract($row);
 
-
 	if ($post_parent == 0 && $post_type == 'post' && $post_status == 'publish'){
 		$response[$i]['guid']  = $row['guid']; 
 		$response[$i]['post_title']= $row['post_title'];
@@ -29,8 +28,5 @@ extract($row);
 		$response[$i]['image']= $row['guid'];	
 		
 	}
-
-	
 }
 echo json_encode($data);
-

@@ -1,20 +1,20 @@
 <?php
 
-require_once 'Mailchimp/Folders.php';
-require_once 'Mailchimp/Templates.php';
-require_once 'Mailchimp/Users.php';
-require_once 'Mailchimp/Helper.php';
-require_once 'Mailchimp/Mobile.php';
-require_once 'Mailchimp/Conversations.php';
-require_once 'Mailchimp/Ecomm.php';
-require_once 'Mailchimp/Neapolitan.php';
-require_once 'Mailchimp/Lists.php';
-require_once 'Mailchimp/Campaigns.php';
-require_once 'Mailchimp/Vip.php';
-require_once 'Mailchimp/Reports.php';
-require_once 'Mailchimp/Gallery.php';
-require_once 'Mailchimp/Goal.php';
-require_once 'Mailchimp/Exceptions.php';
+require_once 'mailchimp/Folders.php';
+require_once 'mailchimp/Templates.php';
+require_once 'mailchimp/Users.php';
+require_once 'mailchimp/Helper.php';
+require_once 'mailchimp/Mobile.php';
+require_once 'mailchimp/Conversations.php';
+require_once 'mailchimp/Ecomm.php';
+require_once 'mailchimp/Neapolitan.php';
+require_once 'mailchimp/Lists.php';
+require_once 'mailchimp/Campaigns.php';
+require_once 'mailchimp/Vip.php';
+require_once 'mailchimp/Reports.php';
+require_once 'mailchimp/Gallery.php';
+require_once 'mailchimp/Goal.php';
+require_once 'mailchimp/Exceptions.php';
 
 class Mailchimp {
     
