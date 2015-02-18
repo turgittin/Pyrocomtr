@@ -137,6 +137,40 @@
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
+
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal9.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal9.jpg" />
+                                <div class='text-left'>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
+
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal10.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal10.jpg" />
+                                <div class='text-left'>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
+
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal11.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal11.jpg" />
+                                <div class='text-left'>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
+
+                        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal12.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal12.jpg" />
+                                <div class='text-left'>
+                                </div> <!-- text-right / end -->
+                            </a>
+                        </div>
+
+
                     </div>
                 </div>
           <p style="margin-top:15px;"></p>      
