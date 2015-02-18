@@ -16,12 +16,9 @@ $(document).ready(function () {
                         $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-posta adresiniz başarıyla kaydedilmiştir. Adresinize onay maili gönderdik, bakarsanız mutlu oluruz! :)</span>");
 
                     }
-<<<<<<< HEAD
-=======
                     else {
                         $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-posta adresiniz başarıyla kaydedilmiştir. Adresinize onay maili gönderdik, bakarsanız mutlu oluruz! :)</span>");
                     }
->>>>>>> FETCH_HEAD
                 }
             });
         }
