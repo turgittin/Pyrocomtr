@@ -7,7 +7,7 @@ $(document).ready(function () {
 
             $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
             $.ajax({
-                url: '/forms/hey.php',
+                url: 'forms/hey.php',
                 data: $('#subscribe').serialize(),
                 type: 'POST',
                 success: function (msg) {
@@ -15,9 +15,6 @@ $(document).ready(function () {
                         $("#email").val("");
                         $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");
 
-                    }
-                    else {
-                        $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");
                     }
                 }
             });
@@ -42,7 +39,7 @@ $(document).ready(function () {
 
             $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
             $.ajax({
-                url: '/forms/footerIletsimForm.php',
+                url: 'forms/footerIletsimForm.php',
                 data: $('#iletisim').serialize(),
                 type: 'POST',
                 success: function (msg) {
@@ -76,7 +73,7 @@ $(document).ready(function () {
 
             $(".haber").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
             $.ajax({
-                url: '/forms/bilgi_form.php',
+                url: 'forms/bilgi_form.php',
                 data: $('#bilgi').serialize(),
                 type: 'POST',
                 success: function (msg) {

@@ -6,7 +6,7 @@ $isimsoyisim = $_POST["isim"];
 $email = $_POST["femail"];
 $mesaj = $_POST["mesaj"];
 $alici = "turgay@pyro.com.tr";
-$konu = "Iletisim Formu Dolduruldu";
+$konu = "İletişim Formu Dolduruldu";
 $ipadres = $_SERVER['REMOTE_ADDR'];
  
 if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
@@ -20,8 +20,8 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 
 		require_once '../mail/SetPhpMailer.php'; 
 
-		$mail->From = 'pyro digital solution';
-		$mail->FromName = 'pyro digital solution';
+		$mail->FromName = 'pyro - web';
+		$mail->CharSet = 'UTF-8';
 		$mail->addAddress($alici);
 		$mail->addReplyTo($email);
 
@@ -29,14 +29,14 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 		$mail->Subject = $konu;
 		$mail->Body    = "<b>".ucwords($isimsoyisim)." ".'isimli kisinin mesaji:</b>'." ".$mesaj."<br>".'<b>Email Adresi:</b>'." ".$email."<br>".'<b>Ip Adresi</b>:'." ".$ipadres;
 		
-		$backMail->From = 'pyro - web';
-		$backMail->FromName = 'pyro - web';
+		$backMail->FromName = 'pyro digital solution';
+		$backMail->CharSet = 'UTF-8';
 		$backMail->addAddress($email);
 		$backMail->addReplyTo($alici);
 
 		$backMail->isHTML(true);
-		$backMail->Subject = 'Pyro Iletisim';
-		$backMail->Body    = 'This is the HTML message body <b>in bold!</b>';
+		$backMail->Subject = 'iletişim';
+		$backMail->Body    = 'Mesajınız tarafımıza ulaşmıştır.<br> En kısa zamanda dönüş yapılacaktır. <br><br><b>pyro ekibi</b>';
 		$backMail->addAttachment('http://pyro.com.tr/yeni/img/pyrologo.png', 'new.jpg');
 		$backMail->send();
 
