@@ -9,7 +9,7 @@
             <div class="col-sm-4">
                 <form role="form" method="post" id="subscribe">
                     <div class="input-group">
-                        <input type="text" class="form-control" id="email" name="email" placeholder="hey@pyro.com.tr">
+                        <input type="text" class="form-control" id="email" name="email" placeholder="lorem@gmail.com">
                         <div class="input-group-btn">
                             <button class="btn btn-default"><i class="glyphicon glyphicon-send"></i></button>
                         </div>
@@ -75,10 +75,10 @@
                             <input type="text" id="isim" name="isim" class="form-control" placeholder="İsim Soyisim">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="femail" name="femail" placeholder="email adresiniz">
+                            <input type="text" class="form-control" id="femail" name="femail" placeholder="E-posta">
                         </div>
                         <div class="form-group">
-                            <textarea name="mesaj" id="mesaj" class="form-control" rows="3" required="" placeholder="Bize iletmek istediğiniz mesajınız..."></textarea>
+                            <textarea name="mesaj" id="mesaj" class="form-control" rows="3" required="" placeholder="Lütfen bize iletmek istediğiniz mesajınızı yazın."></textarea>
                         </div>
                         <button type="submit" class="btn btn-default btn-block">Mesajı İlet</button>
                     </form>

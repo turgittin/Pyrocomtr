@@ -70,7 +70,7 @@
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label><i class="glyphicon glyphicon-envelope"></i> E-Posta</label>
+                            <label><i class="glyphicon glyphicon-envelope"></i> E-posta</label>
                             <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                     </div>
 
                     <div class="form-group col-sm-6 mbn">
-                      <label for="username" class="control-label"><i class="glyphicon glyphicon-envelope"></i> E-Posta</label>
+                      <label for="username" class="control-label"><i class="glyphicon glyphicon-envelope"></i> E-posta</label>
                       <input type="text" class="form-control" id="eamil" name="eamil" title="E-Posta adresinizi yazınız..." placeholder="example@gmail.com">
                     </div>
                     <div class="form-group col-sm-6 mbn">
@@ -192,7 +192,7 @@
                         <div class="radio">
                             <div class="col-md-3">
                                 <label>
-                                    <input type="radio" name="donus" value="eposta"> E-Posta <input type="hidden" class='type'>
+                                    <input type="radio" name="donus" value="eposta"> E-posta <input type="hidden" class='type'>
                                 </label>
                             </div>
                             <div class="col-md-3">

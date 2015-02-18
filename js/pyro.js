@@ -1,11 +1,11 @@
 $(document).ready(function () {
     $('#subscribe').submit(function () {
         if (!valid_email_address($("#email").val())) {
-            $(".message").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Duzgun bir mail adresi giriniz</div>");
+            $(".message").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Lütfen geçerli bir E-posta adresi giriniz.</div>");
         }
         else {
 
-            $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
+            $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-posta adresiniz ekleniyor...</div>");
             $.ajax({
                 url: 'forms/hey.php',
                 data: $('#subscribe').serialize(),
@@ -13,9 +13,15 @@ $(document).ready(function () {
                 success: function (msg) {
                     if (msg == "success") {
                         $("#email").val("");
-                        $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta adresiniz basariyla kaydedilmistir. E-mailinizden Onaylayiniz.</span>");
+                        $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-posta adresiniz başarıyla kaydedilmiştir. Adresinize onay maili gönderdik, bakarsanız mutlu oluruz! :)</span>");
 
                     }
+<<<<<<< HEAD
+=======
+                    else {
+                        $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-posta adresiniz başarıyla kaydedilmiştir. Adresinize onay maili gönderdik, bakarsanız mutlu oluruz! :)</span>");
+                    }
+>>>>>>> FETCH_HEAD
                 }
             });
         }
@@ -33,11 +39,11 @@ function valid_email_address(email) {
 $(document).ready(function () {
     $('#iletisim').submit(function () {
         if (!valid_email_address($("#femail").val())) {
-            $(".mesaj").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Duzgun bir mail adresi giriniz</div>");
+            $(".mesaj").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Lütfen geçerli bir E-posta adresi giriniz.</div>");
         }
         else {
 
-            $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
+            $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-posta adresiniz ekleniyor...</div>");
             $.ajax({
                 url: 'forms/footerIletsimForm.php',
                 data: $('#iletisim').serialize(),
@@ -45,11 +51,11 @@ $(document).ready(function () {
                 success: function (msg) {
                     if (msg == "success") {
                         $("#femail").val("");
-                        $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Basvurunuz tarafimiza iletilmistir.Tesekkur ederiz.</span>");
+                        $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Mesajınız tarafımıza iletilmiştir. Teşekkürler.</span>");
 
                     }
                     else {
-                        $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Basvurunuz tarafimiza iletilmistir.Tesekkur ederiz.</span>");
+                        $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Mesajınız tarafımıza iletilmiştir. Teşekkürler.</span>");
                     }
                 }
             });
@@ -67,11 +73,11 @@ function valid_email_address(femail) {
 $(document).ready(function () {
     $('#bilgi').submit(function () {
         if (!valid_email_address($("#eamil").val())) {
-            $(".haber").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Duzgun bir mail adresi giriniz</div>");
+            $(".haber").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Lütfen geçerli bir E-posta adresi giriniz.</div>");
         }
         else {
 
-            $(".haber").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-Posta Adresiniz Ekleniyor...</div>");
+            $(".haber").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-posta adresiniz ekleniyor...</div>");
             $.ajax({
                 url: 'forms/bilgi_form.php',
                 data: $('#bilgi').serialize(),
@@ -79,11 +85,11 @@ $(document).ready(function () {
                 success: function (msg) {
                     if (msg == "success") {
                         $("#eamil").val("");
-                        $(".haber").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Basvurunuz tarafimiza iletilmistir.Tesekkur ederiz.</span>");
+                        $(".haber").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Mesajınız tarafımıza iletilmiştir. Teşekkürler.</span>");
 
                     }
                     else {
-                        $(".haber").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Basvurunuz tarafimiza iletilmistir.Tesekkur ederiz.</span>");
+                        $(".haber").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Mesajınız tarafımıza iletilmiştir. Teşekkürler.</span>");
                     }
                 }
             });
