@@ -21,7 +21,7 @@
                 <a href="sosyal-duyarlilik">SOSYAL DUYARLILIK</a>
             </li>
             <li>
-                <a href="#">BLOG</a>
+                <a href="blog">BLOG</a>
             </li>
             <li>
                 <a href="iletisim">İLETİŞİM</a>

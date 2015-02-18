@@ -40,6 +40,6 @@ body a {color: #ed4e4e;text-decoration: none;}
 @media (max-width: 768px) {
     body .navbar-nav {
         float: none !important;
-        background-color:rgba(0, 0, 0, 0.3)
+        background-color: rgba(255, 255, 255, 1);
     }
 }

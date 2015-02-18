@@ -78,7 +78,6 @@
                             <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal1.jpg">
                                 <img class="img-responsive" alt="" src="./img/galeri/sinemasal1.jpg" />
                                 <div class='text-left'>
-                                <small class='text-muted'>Gaziantep / 2013</small> 
                                 </div> <!-- text-right / end -->
                             </a>
                         </div> 
@@ -87,7 +86,6 @@
                             <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal2.jpg">
                                 <img class="img-responsive" alt="" src="./img/galeri/sinemasal2.jpg" />
                                 <div class='text-left'>
-                                    <small class='text-muted'>Adıyaman / 2013</small>
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
@@ -96,7 +94,6 @@
                             <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal3.jpg">
                                 <img class="img-responsive" alt="" src="./img/galeri/sinemasal3.jpg" />
                                 <div class='text-left'>
-                                    <small class='text-muted'>Gaziantep / 2013</small>
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
@@ -105,43 +102,38 @@
                             <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
                                 <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
                                 <div class='text-left'>
-                                    <small class='text-muted'>Gaziantep / 2013</small>
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
 
                         <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
-                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
-                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal5.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal5.jpg" />
                                 <div class='text-left'>
-                                    <small class='text-muted'>Gaziantep / 2013</small>
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
 
                         <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
-                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
-                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal6.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal6.jpg" />
                                 <div class='text-left'>
-                                    <small class='text-muted'>Gaziantep / 2013</small>
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
 
                         <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
-                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
-                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal7.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal7.jpg" />
                                 <div class='text-left'>
-                                    <small class='text-muted'>Gaziantep / 2013</small>
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
 
                         <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3 pbn'>
-                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal4.jpg">
-                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal4.jpg" />
+                            <a class="thumbnail fancybox" rel="ligthbox" href="./img/galeri/sinemasal8.jpg">
+                                <img class="img-responsive" alt="" src="./img/galeri/sinemasal8.jpg" />
                                 <div class='text-left'>
-                                    <small class='text-muted'>Gaziantep / 2013</small>
                                 </div> <!-- text-right / end -->
                             </a>
                         </div>
@@ -168,7 +160,7 @@
                               <li><a href="#">Aksiyon: SineMASAL Festival - 27.05.2013</a></li>
                             </ol>
                         </div>
-                        <div class="tab-pane fade" id="tab2warning">odul</div>
+                        <div class="tab-pane fade" id="tab2warning">Hazırlanmaktadır.</div>
                     </div>
                 </div>
                 </div>

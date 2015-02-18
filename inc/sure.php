@@ -15,15 +15,17 @@ $iletisimler = array(
 	);
 
 $neler = array(
-	"./img/hero-img-3.jpg"
+	"./img/hero-img-6.jpg"
 	);
 
 $sozler = array(
 	"En iyisini yapın: Yaptığınız her işte en iyisini yapmaya çalışın. Başarı yeni başarıları getirir.",
-	"Eğer basit bir şekilde anlatamıyorsan, o konuyu iyi anlamamışsın demektir.");
+	"Eğer basit bir şekilde anlatamıyorsan, o konuyu iyi anlamamışsın demektir.",
+	"Çoşku, zekadan daha önemlidir.");
 
 $yazarlar = array(
 	"Steve Jobs",
+	"Albert Einstein",
 	"Albert Einstein");
 
 $dk = date("i");
