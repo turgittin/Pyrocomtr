@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    <small>Neler Yapıyoruz?</small>
+                    <small>Neler Yaptık;</small>
                 </h1>
 
             </div>

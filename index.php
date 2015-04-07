@@ -29,14 +29,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="l-wrapper u-pt3">
-                        <p id="navy" style="max-width: 565px;font-size: 28px;font-weight: 600;color: #343434;">Kullanıcı deneyiminde mutluluğu, <br>Arayüz geliştirmede teknolojiyi tasarlarız.</p>
+                        <p id="navy" style="max-width: 590px;font-size: 25px;font-weight: 600;color: #343434;font-family: 'Montserrat', sans-serif;">Mutlu müşteriler için, tüm dijital platformlarda kullanılabilir uygulamalar<br> ve web siteleri üretiyoruz.</p>
                         <p style="max-width: 565px;">Kullanıcılarınız sitenizde uzun ve keyifli vakit geçirsin, aradıklarını kolayca bulabilsin, sitenize bakarken içi açılsın, evde, mobilde kısaca her yerde sizinle olmak istesin diye tasarımı ve teknolojiyi mutluluk için ateşleriz!</p>
                         <p style="margin-top:20px;"></p>
                         <button class="btn btn-danger">TANITIM VİDEOSUNU İZLEYİN&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
-                        <p style="margin-top:20px;"></p>
+                        <p style="margin-top:10px;"></p>
                         <p>Daha fazla bilgi için;</p>
                         <a href="/iletisim"><button class="btn btn-outline">İLETİŞİM</i></button></a>
-                        <p style="margin-top:20px;"></p>
+                        <p style="margin-top:10px;"></p>
                     </div>
                 </div>
             </div>
