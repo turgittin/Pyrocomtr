@@ -42,7 +42,6 @@
         <div class="row" style="margin-top:20px;">
             <div class="col-sm-12">
                 <div class="col-sm-12 col-xs-12">
-                    <h4>Alan Basligi</h4>
 
                     <div class="col-sm-2 col-xs-4 arka-taraf">
                         <img src="http://www.magiclick.com/clients/logos/rgb/akbank.png" class="kucuk-logolar">

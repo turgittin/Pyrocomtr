@@ -276,20 +276,13 @@ background: #428bca;
 }
 
 .arka-taraf {
-  padding: 0px 20px 20px 0px;
-  margin: 4px 19px 0px 0px;
-  list-style: none;
-  
-  height: 76px;
-  float: left;
-  overflow: hidden;
-  background-color: #F7F8FA;
+
 }
 
 img.kucuk-logolar{
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 img.kucuk-logolar:hover{
