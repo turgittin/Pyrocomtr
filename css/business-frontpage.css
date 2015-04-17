@@ -274,3 +274,27 @@ background: #428bca;
 .scrollToTop:hover{
   text-decoration:none;
 }
+
+.arka-taraf {
+  padding: 0px 20px 20px 0px;
+  margin: 4px 19px 0px 0px;
+  list-style: none;
+  
+  height: 76px;
+  float: left;
+  overflow: hidden;
+  background-color: #F7F8FA;
+}
+
+img.kucuk-logolar{
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+img.kucuk-logolar:hover{
+  -webkit-filter: grayscale(10%); 
+  filter: grayscale(10%);
+  filter: gray;
+  opacity: 1;
+}

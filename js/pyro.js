@@ -15,7 +15,7 @@ $(document).ready(function () {
 
             swal({  title: "Lütfen geçerli bir E-posta adresi giriniz.!",  
                     type: "error",
-                    text: "<span id='count'>5</span>sn içinde kapanacaktır...",
+                    text: "<span id='count' class='text-danger'>5</span><span class='text-danger'> sn içinde kapanacaktır...</span>",
                     timer: 5000, 
                     html: true,
                     confirmButtonText: "Tamam" });

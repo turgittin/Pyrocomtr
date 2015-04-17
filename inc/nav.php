@@ -21,6 +21,9 @@
                 <a href="sosyal-duyarlilik">SOSYAL DUYARLILIK</a>
             </li>
             <li>
+                <a href="musteri-referanslar">MUSTERILER/REFERANSLAR</a>
+            </li>
+            <li>
                 <a href="blog">BLOG</a>
             </li>
             <li>
