@@ -39,7 +39,7 @@
     </header>
     <div class="container">
     
-        <div class="row" style="margin-top:20px;">
+        <div class="row">
             <div class="col-sm-12">
                 <div class="col-sm-12 col-xs-12">
 
