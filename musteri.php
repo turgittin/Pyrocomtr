@@ -43,27 +43,27 @@
             <div class="col-sm-12">
                 <div class="col-sm-12 col-xs-12">
 
-                    <div class="col-sm-2 col-xs-4 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 arka-taraf">
                         <img src="http://www.magiclick.com/clients/logos/rgb/akbank.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-4 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 arka-taraf">
                         <img src="http://www.magiclick.com/clients/logos/rgb/bank_denizbank.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-4 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 arka-taraf">
                         <img src="http://www.magiclick.com/clients/logos/rgb/bank_hsbc.png" class="kucuk-logolar">
                     </div>
                 
-                    <div class="col-sm-2 col-xs-4 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 arka-taraf">
                         <img src="http://www.magiclick.com/clients/logos/rgb/akbank.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-4 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 arka-taraf">
                         <img src="http://www.magiclick.com/clients/logos/rgb/bank_denizbank.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-4 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 arka-taraf">
                         <img src="http://www.magiclick.com/clients/logos/rgb/bank_hsbc.png" class="kucuk-logolar">
                     </div>
                 </div>
