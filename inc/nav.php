@@ -24,7 +24,7 @@
                 <a href="referanslar">REFERANSLAR</a>
             </li>
             <li>
-                <a href="blog">BLOG</a>
+                <a href="http://www.pyro.com.tr/blog" target="_blank">BLOG</a>
             </li>
             <li>
                 <a href="iletisim">İLETİŞİM</a>

@@ -56,7 +56,7 @@
                 
                 
                 <p>
-                    <strong><a href="<?php echo $item['guid'];?>" target="_blank"><?php echo $item['post_title'];?></a></strong><br>
+                    <strong><a href="<?php echo $item['guid'];?>" target="_blank" style="color:#343434;"><?php echo $item['post_title'];?></a></strong><br>
                     <?php echo DevamEt($item['post_content'],80);?>
                 </p>
                 <?php }$sayac++;}?>
@@ -67,9 +67,9 @@
                     <span>pyro, bir kaç sosyal medya hesabı kullanıyor. Bizden haberleri takip etmek için bizi sosyal medyada ateşlemeyi unutma :)</span><br>
                     <p><img src="./img/icons/ico_facebook-ft.png">&nbsp;&nbsp;<img src="./img/icons/ico_twitter-ft.png">&nbsp;&nbsp;<img src="./img/icons/ico_linkedin-ft.png"></p>
 
-                    <a href="#">Blog</a><br>
+                    <a href="http://www.pyro.com.tr/blog" target="_blank">Blog</a><br>
                     <a href="#">İş Fırsatları</a><br>
-                    <a href="#">İletişim</a><br>
+                    <a href="iletisim">İletişim</a><br>
                 </p>
                
               </div>

@@ -46,10 +46,10 @@
         <div class="col-sm-12">
 
            <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="cursor: pointer;">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">İletişim Formu</a>
+                                <a class="accordion-toggle">İletişim Formu</a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse collapse in">
@@ -65,7 +65,7 @@
                     <div class="control-group form-group">
                         <div class="controls">
                             <label><i class="glyphicon glyphicon-phone"></i> Telefon</label>
-                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <input type="text" class="form-control bfh-phone"  data-format="+90 (ddd) ddd dd dd" name="tel" value="" title="Ulaşabileceğimiz telefon numaranızı yazınız...">
                         </div>
                     </div>
                     <div class="control-group form-group">
@@ -88,10 +88,10 @@
                         </div>
                     </div>
                     <!-- /.panel -->
-                    <div class="panel panel-default">
+                    <div class="panel panel-default" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="cursor: pointer;">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Detaylı Bilgi Formu</a>
+                                <a class="accordion-toggle">Detaylı Bilgi Formu</a>
                             </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
