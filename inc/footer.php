@@ -56,8 +56,8 @@
                 
                 
                 <p>
-                    <strong><?php echo $item['post_title'];?></strong><br>
-                    <?php echo DevamEt($item['post_content'],50);?>
+                    <strong><a href="<?php echo $item['guid'];?>" target="_blank"><?php echo $item['post_title'];?></a></strong><br>
+                    <?php echo DevamEt($item['post_content'],80);?>
                 </p>
                 <?php }$sayac++;}?>
               </div>
