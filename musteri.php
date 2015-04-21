@@ -44,7 +44,7 @@
                 <div class="col-sm-12 col-xs-12">
 
                     <div class="col-sm-2 col-xs-6 arka-taraf">
-                        <img src="http://www.magiclick.com/clients/logos/rgb/akbank.png" class="kucuk-logolar">
+                        <img src="./img/referanslar/iskelehouse.png" class="kucuk-logolar">
                     </div>
 
                     <div class="col-sm-2 col-xs-6 arka-taraf">
