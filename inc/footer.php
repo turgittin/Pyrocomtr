@@ -36,6 +36,13 @@
               <div class="col-md-3">
               <h3>Blogdan Haberler</h3>
            <?php
+            function DevamEt ($string, $len, $kelime = 0){
+                $bitis = "";
+                if (strlen($string) > $len) $bitis = "...";
+                    $string = substr($string, 0, $len);
+                        if ($kelime) $string = substr($string,0,strtpos($string," ")+1);
+                return $string.$bitis;
+            }
 
             $url = 'http://www.pyro.com.tr/blog/api/api.php';
             $content = file_get_contents($url);
@@ -50,7 +57,7 @@
                 
                 <p>
                     <strong><?php echo $item['post_title'];?></strong><br>
-                    <?php echo $item['post_content'];?>
+                    <?php echo DevamEt($item['post_content'],50);?>
                 </p>
                 <?php }$sayac++;}?>
               </div>
