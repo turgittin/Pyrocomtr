@@ -46,8 +46,8 @@
         <div class="col-sm-12">
 
            <div class="panel-group" id="accordion">
-                    <div class="panel panel-default" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="cursor: pointer;">
-                        <div class="panel-heading">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="cursor: pointer;">
                             <h4 class="panel-title">
                                 <a class="accordion-toggle">İletişim Formu</a>
                             </h4>
@@ -88,8 +88,8 @@
                         </div>
                     </div>
                     <!-- /.panel -->
-                    <div class="panel panel-default" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="cursor: pointer;">
-                        <div class="panel-heading">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="cursor: pointer;">
                             <h4 class="panel-title">
                                 <a class="accordion-toggle">Detaylı Bilgi Formu</a>
                             </h4>
