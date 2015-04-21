@@ -44,27 +44,27 @@
                 <div class="col-sm-12 col-xs-12">
 
                     <div class="col-sm-2 col-xs-6 arka-taraf">
-                        <img src="./img/referanslar/iskelehouse.png" class="kucuk-logolar">
+                        <img src="./img/ref/iskelehouse.png" class="kucuk-logolar">
                     </div>
 
                     <div class="col-sm-2 col-xs-6 arka-taraf">
-                        <img src="http://www.magiclick.com/clients/logos/rgb/bank_denizbank.png" class="kucuk-logolar">
+                        <img src="./img/ref/fodofood.png" class="kucuk-logolar">
                     </div>
 
                     <div class="col-sm-2 col-xs-6 arka-taraf">
-                        <img src="http://www.magiclick.com/clients/logos/rgb/bank_hsbc.png" class="kucuk-logolar">
+                        <img src="./img/ref/aloriagarden.png" class="kucuk-logolar">
                     </div>
                 
                     <div class="col-sm-2 col-xs-6 arka-taraf">
-                        <img src="http://www.magiclick.com/clients/logos/rgb/akbank.png" class="kucuk-logolar">
+                        <img src="./img/ref/gulsahekerel.png" class="kucuk-logolar">
                     </div>
 
                     <div class="col-sm-2 col-xs-6 arka-taraf">
-                        <img src="http://www.magiclick.com/clients/logos/rgb/bank_denizbank.png" class="kucuk-logolar">
+                        <img src="./img/ref/sinemasal.png" class="kucuk-logolar">
                     </div>
 
                     <div class="col-sm-2 col-xs-6 arka-taraf">
-                        <img src="http://www.magiclick.com/clients/logos/rgb/bank_hsbc.png" class="kucuk-logolar">
+                        <img src="./img/ref/osmanli.png" class="kucuk-logolar">
                     </div>
                 </div>
             </div>
