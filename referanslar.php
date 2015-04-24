@@ -12,7 +12,7 @@
 <style type="text/css">
     .business-header {
     /*height: 400px;*/
-    background: url("<?= $ne ?>") center center no-repeat scroll;
+    background: url("<?= $ref ?>") center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

@@ -18,6 +18,10 @@ $neler = array(
 	"./img/hero-img-6.jpg"
 	);
 
+$referans = array(
+	"./img/hero-img-7.jpg"
+	);
+
 $sozler = array(
 	"En iyisini yapın: Yaptığınız her işte en iyisini yapmaya çalışın. Başarı yeni başarıları getirir.",
 	"Eğer basit bir şekilde anlatamıyorsan, o konuyu iyi anlamamışsın demektir.",
@@ -37,5 +41,6 @@ $sosyal = $sosyallar[$dk%count($sosyallar)];
 $proje = $projeler[$dk%count($projeler)];
 $iletisim = $iletisimler[$dk%count($iletisimler)];
 $ne = $neler[$dk%count($neler)];
+$ref = $referans[$dk%count($referans)];
 
 ?>
