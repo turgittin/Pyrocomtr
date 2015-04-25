@@ -19,9 +19,7 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    <small>Neler Yaptık;</small>
-                </h1>
+              <p></p>
 
             </div>
         </div>
@@ -47,36 +45,34 @@
                     <div class="item active">
                         <div class="row">
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Artıdeneyim</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Iskele Boutique Hotel</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Iskele House</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>İstanbul Nakliyat</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Temco</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Gulsah Ekerel</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Osmanlı Sanayi</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>-</h5></div>
-                        
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/artideneyim.jpg" alt="Image" style="max-width:100%;"></a><h5>Artıdeneyim</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/lunaroom.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/iskelehouse.jpg" alt="Image" style="max-width:100%;"></a><h5>Iskele House</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/istanbulnakliyat.jpg" alt="Image" style="max-width:100%;"></a><h5>İstanbul Nakliyat</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/aloriagarden.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/bigtiful.jpg" alt="Image" style="max-width:100%;"></a><h5>Bigtiful</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/potasahibinden.jpg" alt="Image" style="max-width:100%;"></a><h5>Pota Sahibinden</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gulsahekerel.jpg" alt="Image" style="max-width:100%;"></a><h5>Gulsah Ekerel</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/osmanlisanayi.jpg" alt="Image" style="max-width:100%;"></a><h5>Osmanlı Sanayi</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/emingursoy.jpg" alt="Image" style="max-width:100%;"></a><h5>Emin Gürsoy</h5></div>
                         </div><!--.row-->
                     </div><!--.item-->
 
                     <div class="item">
                         <div class="row">
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Artıdeneyim</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Iskele Boutique Hotel</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Iskele House</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>İstanbul Nakliyat</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Temco</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Gulsah Ekerel</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>Osmanlı Sanayi</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gorselhazirlaniyor.jpg" alt="Image" style="max-width:100%;"></a><h5>-</h5></div>
-                     
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/artideneyim.jpg" alt="Image" style="max-width:100%;"></a><h5>Artıdeneyim</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/lunaroom.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/iskelehouse.jpg" alt="Image" style="max-width:100%;"></a><h5>Iskele House</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/istanbulnakliyat.jpg" alt="Image" style="max-width:100%;"></a><h5>İstanbul Nakliyat</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/aloriagarden.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/bigtiful.jpg" alt="Image" style="max-width:100%;"></a><h5>Bigtiful</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/potasahibinden.jpg" alt="Image" style="max-width:100%;"></a><h5>Pota Sahibinden</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gulsahekerel.jpg" alt="Image" style="max-width:100%;"></a><h5>Gulsah Ekerel</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/osmanlisanayi.jpg" alt="Image" style="max-width:100%;"></a><h5>Osmanlı Sanayi</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/emingursoy.jpg" alt="Image" style="max-width:100%;"></a><h5>Emin Gürsoy</h5></div>
                         </div><!--.row-->
                     </div><!--.item-->
                     </div>
