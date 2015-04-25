@@ -29,8 +29,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="l-wrapper u-pt3">
-                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Hayal ettiklerinizden daha fazlasını <br>Gerçekleştirmek için varız!</p>
-                        <p style="max-width: 565px;">Hayalini kurduğunuz herşeyi gerçek kılabilmek için<br>  teknoloji ve tasarımın gücünden faydalanır,<br>  kullanıcı deneyimini size özgü yorumlarız!</p>
+                        <p id="navy" style="max-width: 565px;font-size: 25px;font-weight: 600;color: #343434;">Mutlu kullanıcı, mutlu müşteri!</p>
+                        <p style="max-width: 565px;">İşlerimizin tadına bakan mutlu müşterilerin yanında<br> olmak için iletişime geçmeyi unutmayın.</p>
                         <p style="margin-top:20px;"></p>
                     </div>
                 </div>
