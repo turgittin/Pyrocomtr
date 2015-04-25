@@ -97,6 +97,12 @@
                     <div class="col-sm-2 col-xs-6 arka-taraf">
                         <img src="./img/ref/istanbulnakliyat.png" class="kucuk-logolar">
                     </div>
+                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                        <img src="./img/ref/emingursoy.png" class="kucuk-logolar">
+                    </div>
+                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                        <img src="./img/ref/bigtiful.png" class="kucuk-logolar">
+                    </div>
                 </div>
             </div>
         </div>
