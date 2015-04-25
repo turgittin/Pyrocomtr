@@ -155,12 +155,12 @@
                         
                     <div class="item active">
                         <div class="row">
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" style="max-width:100%;"></a><h5>SineMASAL</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/artideneyim.jpg" alt="Image" style="max-width:100%;"></a><h5>Artıdeneyim</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/fodofoodcom.jpg" alt="Image" style="max-width:100%;"></a><h5>Fodofood</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/lunaroom.jpg" alt="Image" style="max-width:100%;"></a><h5>Lunaroom</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/iskelehouse.jpg" alt="Image" style="max-width:100%;"></a><h5>Iskele House</h5></div>
-                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/istanbulnakliyat.jpg" alt="Image" style="max-width:100%;"></a><h5>İstanbul Nakliyat</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" class="main-logolar"></a><h5>SineMASAL</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/artideneyim.jpg" alt="Image" class="main-logolar"></a><h5>Artıdeneyim</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/fodofoodcom.jpg" alt="Image" class="main-logolar"></a><h5>Fodofood</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/lunaroom.jpg" alt="Image" class="main-logolar"></a><h5>Lunaroom</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/iskelehouse.jpg" alt="Image" class="main-logolar"></a><h5>Iskele House</h5></div>
+                          <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/istanbulnakliyat.jpg" alt="Image" class="main-logolar"></a><h5>İstanbul Nakliyat</h5></div>
                         </div><!--.row-->
                     </div><!--.item-->
                      
