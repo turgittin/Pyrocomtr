@@ -166,7 +166,7 @@
                      
                     <div class="item">
                         <div class="row">
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/aloriagarden.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden</h5></div>
+                          <div class="col-md-4 pbn"><a href="#" data-toggle="modal" data-target=".projeler" class="thumbnail"><img src="./img/proje/aloriagarden.jpg" alt="Image" style="max-width:100%;"></a><h5>Aloria Garden</h5></div>
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/bigtiful.jpg" alt="Image" style="max-width:100%;"></a><h5>Bigtiful</h5></div>
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/potasahibinden.jpg" alt="Image" style="max-width:100%;"></a><h5>Pota Sahibinden</h5></div>
                           <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/gulsahekerel.jpg" alt="Image" style="max-width:100%;"></a><h5>Gulsah Ekerel</h5></div>
@@ -233,6 +233,21 @@
 </div>
 
 <?php require_once("inc/footer.php"); ?>
+
+<div class="modal fade projeler" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="false">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-body">
+            <div class="embed-responsive embed-responsive-16by9">
+              <img src="./img/proje/aloriagarden.jpg" alt="Image">
+            </div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div>
+
+
 
 </body>
 

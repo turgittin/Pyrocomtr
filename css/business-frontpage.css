@@ -293,16 +293,6 @@ img.kucuk-logolar:hover{
 }
 
 img.main-logolar{
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(100%);
   max-width:100%;
-  opacity: 0.8;
-  filter: #ed4e4e;
 }
 
-img.main-logolar:hover{
-  -webkit-filter: grayscale(10%); 
-  filter: grayscale(10%);
-  max-width:100%;
-  opacity: 1;
-}
