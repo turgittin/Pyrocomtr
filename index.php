@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once("inc/head.php"); ?>
-    <title>pyro | digital solutions</title>
+    <title>merhaba, pyro | digital solutions</title>
 </head>
 
 <?php include("inc/sure.php"); ?>
