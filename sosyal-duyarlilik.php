@@ -179,14 +179,26 @@
     			<div class="panel with-nav-tabs panel-warning">
                 <div class="panel-heading">
                         <ul class="nav nav-tabs">
-                            <li class="active"><a href="#tab1warning" data-toggle="tab">BASIN</a></li>
-                            <li><a href="#tab2warning" data-toggle="tab">ÖDÜLLER</a></li>
+                            <li class="active"><a href="#tab1warning" data-toggle="tab">ÖDÜLLER</a></li>
+                            <li><a href="#tab2warning" data-toggle="tab">BASIN</a></li>
                             
                         </ul>
                 </div>
                 <div class="panel-body">
                     <div class="tab-content">
+
                         <div class="tab-pane fade in active" id="tab1warning">
+                            <ol>
+                              <li><a href="#">Türkiye Kitlesel Fonlama Rekoru - 81.020 TL - Fongogo - 2015</a></li>
+                              <li><a href="#">Fark Yaratanlar Programı - 2014-2015 Sezonu 1. Fark Yaratanı - Sabancı Vakfı - 2014</a></li>
+                              <li><a href="#">Global Fellow  - Youth Action Net - International Youth Foundation - 2014</a></li>
+                              <li><a href="#">En Yeni ve Başarılı Festival Konsepti - T.C. Kültür ve Turizm Bakanlığı Sinema G.M. - 2014 </a></li>
+                              <li><a href="#">Bilgi Genç Sosyal Girişimciler Ödülü - Bilgi Üniversitesi - 2013 </a></li>
+                              <li><a href="#">En Geniş Kapsamlı Gençlik Projesi - AB Bakanlığı Ulusal Ajansı Gençlik Programları – 2013</a></li>
+                            </ol>
+                        </div>
+
+                         <div class="tab-pane fade" id="tab2warning">
                             <ol>
                               <li><a href="http://www.hurriyetaile.com/sizin-icin/yetiskin-etkinlikleri/sinema-artik-koylerde_12507.html" target="_blank">Hürriyet Aile: “SİNEMA ARTIK KÖYLERDE!” - 05.03.2014</a></li>
                               <li><a href="#">Bigumigu: Köylere Sinema Kuran Proje Sinemasal Şimdi Destek Arıyor! - 05.03.2014</a></li>
@@ -194,7 +206,6 @@
                               <li><a href="#">Aksiyon: SineMASAL Festival - 27.05.2013</a></li>
                             </ol>
                         </div>
-                        <div class="tab-pane fade" id="tab2warning">Hazırlanmaktadır.</div>
                     </div>
                 </div>
                 </div>
