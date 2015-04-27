@@ -1,68 +1,82 @@
 $(document).ready(function () {
-    $('#subscribe').submit(function () {
-        if (!valid_email_address($("#email").val())) {
 
-            (function(){
-                var counter = 5;
-                setInterval(function() {
-                    counter--;
-                    if (counter >= 0) {
-                        span = document.getElementById("count");
-                        span.innerHTML = counter;
-                    }
-                }, 1000);
-            })();
+    $('#subscribe').submit(function (){
 
-            swal({  title: "Lütfen geçerli bir E-posta adresi giriniz.!",  
-                    type: "error",
-                    text: "<span id='count' class='text-danger'>5</span><span class='text-danger'> sn içinde kapanacaktır...</span>",
-                    timer: 5000, 
-                    html: true,
-                    confirmButtonText: "Tamam" });
-        }
-        else {
-             swal({  title: "E-posta adresiniz ekleniyor...",  
-                        type: "warning",
-                        confirmButton: false,
-                        showConfirmButton: false
-
-                    });
+        if (!checkEmail($("#email").val())) {
+            $(".message").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Lütfen geçerli bir E-posta adresi giriniz.</div>");
+        }else {
+            bilgi();
             
             $.ajax({
                 url: 'forms/hey.php',
                 data: $('#subscribe').serialize(),
                 type: 'POST',
-                success: function (msg) {
-                    if (msg == "success") {
-                        $("#email").val("");
-                        $(".message").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-posta adresiniz başarıyla kaydedilmiştir. Adresinize onay maili gönderdik, bakarsanız mutlu oluruz! :)</span>");
-
-                    }
-                    else {
-
-                        swal({  title: "E-posta adresiniz başarıyla kaydedilmiştir.!",  
-                        type: "success",
-                        text: "Adresinize onay maili gönderdik, bakarsanız mutlu oluruz! :)",
-                        confirmButtonText: "Tamam" });
-                    }
+                dataType: 'json',
+            
+                success : function(data){
+                    
+                    if(data.err)
+                        var className = "danger";
+                    else
+                        var className = "success";
+                    $(".message").html("<div class='alert alert-"+className+"'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span>"+data.msg+"</div>");
+                },
+                error : function(data){
+                    
+                    $(".message").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Mesajınız gonderilirken bir hata meydana geldi.</div>");
                 }
-
-            })
+            });
         }
-        this.reset();
+
+        return false;
+    });
+
+    $('#iletisim').submit(function (){
+
+        if (!checkEmail($("#femail").val())) {
+            $(".mesaj").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Lütfen geçerli bir E-posta adresi giriniz.</div>");
+        }else {
+            $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulastiliyor...</div>");
+            
+            $.ajax({
+                url: 'forms/footerIletsimForm.php',
+                data: $('#iletisim').serialize(),
+                type: 'POST',
+                dataType: 'json',
+            
+                success : function(data){
+                    
+                    if(data.err)
+                        var className = "danger";
+                    else
+                        var className = "success";
+                    $(".mesaj").html("<div class='alert alert-"+className+"'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span>"+data.msg+"</div>");
+                },
+                error : function(data){
+                    
+                    $(".mesaj").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Mesajınız gonderilirken bir hata meydana geldi.</div>");
+                }
+            });
+        }
+
         return false;
     });
 
 
+
 });
-function valid_email_address(email) {
+
+function checkEmail(email) {
     var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
     return pattern.test(email);
 }
 
+function bilgi(msj){
+    $(".message").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulastiliyor...</div>");
+}
 
 $(document).ready(function () {
-    $('#iletisim').submit(function () {
+    $('#iletissim').submit(function () {
         if (!valid_email_address($("#femail").val())) {
             $(".mesaj").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Lütfen geçerli bir E-posta adresi giriniz.</div>");
         }

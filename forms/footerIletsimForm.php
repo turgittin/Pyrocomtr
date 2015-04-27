@@ -1,5 +1,17 @@
-<meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
+<?php session_start();?>
 <?php
+function gercekIpAdres()  
+{  
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))  {  
+        $ipadres=$_SERVER['HTTP_CLIENT_IP'];  
+    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){  
+        $ipadres=$_SERVER['HTTP_X_FORWARDED_FOR'];  
+    } else {  
+        $ipadres=$_SERVER['REMOTE_ADDR'];  
+    }  
+    return $ipadres;  
+}
+
 include '../inc/ayar.php';
 
 $isimsoyisim = $_POST["isim"];
@@ -7,17 +19,23 @@ $email = $_POST["femail"];
 $mesaj = $_POST["mesaj"];
 $alici = "turgay@pyro.com.tr";
 $konu = "İletişim Formu Dolduruldu";
-$ipadres = $_SERVER['REMOTE_ADDR'];
- 
+$ipadres = gercekIpAdres();
+
+$res = array("err"=>0);
+
+
+if (empty($_SESSION['ip'])) {
+  $_SESSION['ip'] = $ipadres;
+
+
 if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
-	echo "Lütfen tüm alanları doldurun";
+	$res["err"]=1;
+	$res["msg"]="Lütfen tüm alanları doldurun";
 	
 	}else{
 
 		@mysql_query("insert into footer_iletisim (isim_soyisim,email,mesaj,ipadres) values ('$isimsoyisim','$email','$mesaj','$ipadres')");
-		echo "Database kaydedildi.";
 		
-
 		require_once '../mail/SetPhpMailer.php'; 
 
 		$mail->FromName = 'pyro - web';
@@ -41,9 +59,17 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 		$backMail->send();
 
 		if(!$mail->send()) {
-		    echo 'Mesaj gonderilemedi';
-		    echo 'Mailer Hatasi: ' . $mail->ErrorInfo;
+			$res["err"]=1;
+			$res["msg"]="Mesaj Gonderilirken hata olustu!";
 		} else {
-		    echo 'Mail gonderilmistir.';
+		    $res["err"]=0;
+			$res["msg"]="Mesajiniz Gonderilmistir.";
 		}
 	}
+} else {
+  if($_SESSION["ip"] == $ipadres){
+  	$res["err"]=1;
+	$res["msg"]="Daha once mesaj gondermistiniz!";
+  }
+}
+echo json_encode($res);
