@@ -8,6 +8,7 @@
     <script  type="text/javascript" src="js/jquery.fancybox.js"></script>
     <script  type="text/javascript" src="js/bootstrap-formhelpers-phone.js"></script>
     <script  type="text/javascript" src="js/jquery.number.min.js"></script>
+   
 </head>
 
 <?php include("inc/sure.php"); ?>
@@ -43,10 +44,15 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-4">
+            <p>
+               
+            </p>
+        </div>
+        <div class="col-sm-8">
 
            <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
+                    <div class="panel panel-success">
                         <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="cursor: pointer;">
                             <h4 class="panel-title">
                                 <a class="accordion-toggle">İletişim Formu</a>
@@ -54,35 +60,37 @@
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse collapse in">
                             <div class="panel-body">
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label><i class="glyphicon glyphicon-user"></i> Ad Soyad</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                            <p class="help-block"></p>
+                <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
+
+        <form role="form" id="contact-form" class="contact-form">
+                    
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="İsim Soyisim">
                         </div>
                     </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label><i class="glyphicon glyphicon-phone"></i> Telefon</label>
-                            <input type="text" class="form-control bfh-phone"  data-format="+90 (ddd) ddd dd dd" name="tel" value="" title="Ulaşabileceğimiz telefon numaranızı yazınız...">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" autocomplete="on" id="email" placeholder="E-mail">
                         </div>
                     </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label><i class="glyphicon glyphicon-envelope"></i> E-posta</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="tel" class="form-control bfh-phone" data-format="+90 (ddd) ddd dd dd"  name="tel" autocomplete="off" id="tel" placeholder="">
                         </div>
                     </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label><i class="glyphicon glyphicon-tint"></i> Mesaj</label>
-                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+
+                        <div class="col-md-12">
+                        <div class="form-group">
+                            <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
                         </div>
                     </div>
-                    <div id="success"></div>
-                    <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-success btn-block">Gönder</button>
+                   
+                    <div class="col-md-12">
+                  <button type="submit" class="btn btn-success btn-block btn-lg">Mesajı İlet</button>
+                  </div>
                 </form>
                             </div>
                         </div>
@@ -203,7 +211,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label>
-                                    <input type="radio" name="donus" value="skype"> Skype <input type="text" name="url" style='display: none;margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Kullanici adi">
+                                    <input type="radio" name="donus" value="skype"> Skype <input type="text" name="skypeName" style='display: none;margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Kullanici adi">
                                 </label>
                             </div>
                             </div>
@@ -238,11 +246,14 @@
     </div><!-- /.modal-dialog -->
   </div>
 <?php require_once("inc/footer.php"); ?>
+
 <script type="text/javascript">
     $("input:radio").change(function() {
     $(".type").hide();
     $(this).next("input").show();
 });
+
+
 </script>
 <script type="text/javascript">
             
@@ -272,6 +283,8 @@
                     $('#the_number').text( val !== '' ? val : '(empty)' );
                 });
             });
+
+
         </script>
 </body>
 </html>

@@ -258,6 +258,8 @@ class Mailchimp {
             error_log($msg);
         }
     }
+
+    
 }
 
 

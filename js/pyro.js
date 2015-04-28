@@ -8,7 +8,7 @@ $(document).ready(function () {
             bilgi();
             
             $.ajax({
-                url: 'forms/hey.php',
+                url: '/forms/hey.php',
                 data: $('#subscribe').serialize(),
                 type: 'POST',
                 dataType: 'json',
@@ -27,7 +27,7 @@ $(document).ready(function () {
                 }
             });
         }
-
+        this.reset();
         return false;
     });
 
@@ -39,7 +39,7 @@ $(document).ready(function () {
             $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulastiliyor...</div>");
             
             $.ajax({
-                url: 'forms/footerIletsimForm.php',
+                url: '/forms/footerIletsimForm.php',
                 data: $('#iletisim').serialize(),
                 type: 'POST',
                 dataType: 'json',
@@ -58,11 +58,95 @@ $(document).ready(function () {
                 }
             });
         }
-
+        this.reset();
         return false;
     });
 
+    $('#bilgi').submit(function (){
 
+        if (!checkEmail($("#eamil").val())) {
+            $(".haber").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Lütfen geçerli bir E-posta adresi giriniz.</div>");
+        }else {
+            $(".haber").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulastiliyor...</div>");
+            
+            $.ajax({
+                url: 'forms/bilgi_form.php',
+                data: $('#bilgi').serialize(),
+                type: 'POST',
+                dataType: 'json',
+            
+                success : function(data){
+                    
+                    if(data.err)
+                        var className = "danger";
+                    else
+                        var className = "success";
+                    $(".haber").html("<div class='alert alert-"+className+"'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span>"+data.msg+"</div>");
+                },
+                error : function(data){
+                    
+                    $(".haber").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Mesajınız gonderilirken bir hata meydana geldi.</div>");
+                }
+            });
+        }
+        this.reset();
+        return false;
+    });
+
+    
+        $('#contact-form').bootstrapValidator({
+//        live: 'disabled',
+        message: 'This value is not valid',
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            Name: {
+                validators: {
+                    notEmpty: {
+                        message: 'İsim Soyisim alanı boş geçilemez.'
+                    },
+                    stringLength: {
+                            min: 10,
+                            max: 80,
+                            message: 'İsim Soyisim alanı, en az 10 en fazla ise 80 karakter içermelidir.'
+                        }
+                }
+            },
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'Email adresi gereklidir.'
+                    },
+                    emailAddress: {
+                        message: 'Lütfen geçerli bir E-posta adresi giriniz.'
+                    }
+                }
+            },
+            Message: {
+                validators: {
+                    notEmpty: {
+                        message: 'Mesaj yazmanız gerekmektedir.'
+                    },
+                    stringLength: {
+                            min: 140,
+                            max: 500,
+                            message: 'Mesaj alanı, en az 140 en fazla ise 500 karakter içerebilir...'
+                        }
+                }
+            },
+            tel: {
+                validators: {
+                    stringLength: {
+                            min: 5,
+                            message: 'Telefon numaranızı yazmalısınız.'
+                        }
+                }
+            }
+        }
+    });
 
 });
 
@@ -75,68 +159,11 @@ function bilgi(msj){
     $(".message").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulastiliyor...</div>");
 }
 
-$(document).ready(function () {
-    $('#iletissim').submit(function () {
-        if (!valid_email_address($("#femail").val())) {
-            $(".mesaj").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Lütfen geçerli bir E-posta adresi giriniz.</div>");
-        }
-        else {
-
-            $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-posta adresiniz ekleniyor...</div>");
-            $.ajax({
-                url: 'forms/footerIletsimForm.php',
-                data: $('#iletisim').serialize(),
-                type: 'POST',
-                success: function (msg) {
-                    if (msg == "success") {
-                        $("#femail").val("");
-                        $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Mesajınız tarafımıza iletilmiştir. Teşekkürler.</span>");
-
-                    }
-                    else {
-                        $(".mesaj").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Mesajınız tarafımıza iletilmiştir. Teşekkürler.</span>");
-                    }
-                }
-            });
-        }
-
-        return false;
-    });
-});
 function valid_email_address(femail) {
     var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
     return pattern.test(femail);
 }
 
-
-$(document).ready(function () {
-    $('#bilgi').submit(function () {
-        if (!valid_email_address($("#eamil").val())) {
-            $(".haber").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Lütfen geçerli bir E-posta adresi giriniz.</div>");
-        }
-        else {
-
-            $(".haber").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>E-posta adresiniz ekleniyor...</div>");
-            $.ajax({
-                url: 'forms/bilgi_form.php',
-                data: $('#bilgi').serialize(),
-                type: 'POST',
-                success: function (msg) {
-                    if (msg == "success") {
-                        $("#eamil").val("");
-                        $(".haber").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Mesajınız tarafımıza iletilmiştir. Teşekkürler.</span>");
-
-                    }
-                    else {
-                        $(".haber").html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Mesajınız tarafımıza iletilmiştir. Teşekkürler.</span>");
-                    }
-                }
-            });
-        }
-
-        return false;
-    });
-});
 function valid_email_address(eamil) {
     var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
     return pattern.test(eamil);

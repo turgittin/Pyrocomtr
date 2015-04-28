@@ -1,3 +1,15 @@
+.contact-form{ margin-top:15px;}
+.contact-form .textarea{ min-height:220px; resize:none;}
+.form-control{ box-shadow:none; border-color:#eee; height:49px;}
+.form-control:focus{ box-shadow:none; border-color:#4CAE6B;}
+.form-control-feedback{ line-height:50px;}
+.main-btn{ background:#4CAE6B; border-color:#4CAE6B; color:#fff;}
+.main-btn:hover{ background:#00a491;color:#fff;}
+.form-control-feedback {
+line-height: 50px;
+top: 0px;
+}
+
 #owl-demo .owl-item > div img {
     display: block;
     width: 100%;
