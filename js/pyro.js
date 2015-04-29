@@ -36,7 +36,7 @@ $(document).ready(function () {
         if (!checkEmail($("#femail").val())) {
             $(".mesaj").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Lütfen geçerli bir E-posta adresi giriniz.</div>");
         }else {
-            $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulastiliyor...</div>");
+            $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulaştırılıyor...</div>");
             
             $.ajax({
                 url: '/forms/footerIletsimForm.php',
@@ -67,7 +67,7 @@ $(document).ready(function () {
         if (!checkEmail($("#eamil").val())) {
             $(".haber").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Lütfen geçerli bir E-posta adresi giriniz.</div>");
         }else {
-            $(".haber").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulastiliyor...</div>");
+            $(".haber").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulaştırılıyor...</div>");
             
             $.ajax({
                 url: 'forms/bilgi_form.php',
@@ -156,7 +156,7 @@ function checkEmail(email) {
 }
 
 function bilgi(msj){
-    $(".message").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulastiliyor...</div>");
+    $(".message").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulaştırılıyor...</div>");
 }
 
 function valid_email_address(femail) {

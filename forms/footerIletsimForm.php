@@ -18,7 +18,7 @@ $isimsoyisim = $_POST["isim"];
 $email = $_POST["femail"];
 $mesaj = $_POST["mesaj"];
 $alici = "turgay@pyro.com.tr";
-$konu = "İletişim Formu Dolduruldu";
+$konu = "WEB Footer İletişim";
 $ipadres = gercekIpAdres();
 
 $res = array("err"=>0);
@@ -30,7 +30,7 @@ if (empty($_SESSION['ip'])) {
 
 if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 	$res["err"]=1;
-	$res["msg"]="Lütfen tüm alanları doldurun";
+	$res["msg"]="Lütfen tüm alanları doldurun.";
 	
 	}else{
 
@@ -38,7 +38,7 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 		
 		require_once '../mail/SetPhpMailer.php'; 
 
-		$mail->FromName = 'pyro - web';
+		$mail->FromName = 'Pyro-WEB';
 		$mail->CharSet = 'UTF-8';
 		$mail->addAddress($alici);
 		$mail->addReplyTo($email);
@@ -47,29 +47,29 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 		$mail->Subject = $konu;
 		$mail->Body    = "<b>".ucwords($isimsoyisim)." ".'isimli kisinin mesaji:</b>'." ".$mesaj."<br>".'<b>Email Adresi:</b>'." ".$email."<br>".'<b>Ip Adresi</b>:'." ".$ipadres;
 		
-		$backMail->FromName = 'pyro digital solution';
+		$backMail->FromName = 'pyro digital solutions';
 		$backMail->CharSet = 'UTF-8';
 		$backMail->addAddress($email);
 		$backMail->addReplyTo($alici);
 
 		$backMail->isHTML(true);
-		$backMail->Subject = 'iletişim';
-		$backMail->Body    = 'Mesajınız tarafımıza ulaşmıştır.<br> En kısa zamanda dönüş yapılacaktır. <br><br><b>pyro ekibi</b>';
-		$backMail->addAttachment('http://pyro.com.tr/yeni/img/pyrologo.png', 'new.jpg');
+		$backMail->Subject = 'İletişim';
+		$backMail->Body    = 'Mesajınız için teşekkürler!<br> Ekibimiz en kısa sürede dönüş yapacaktır.<br><br><b>pyro digital solutions</b>';
+		$backMail->addAttachment('http://www.pyro.com.tr/img/pyrologo.png', 'new.jpg');
 		$backMail->send();
 
 		if(!$mail->send()) {
 			$res["err"]=1;
-			$res["msg"]="Mesaj Gonderilirken hata olustu!";
+			$res["msg"]="Mesaj gönderilirken hata oluştu!";
 		} else {
 		    $res["err"]=0;
-			$res["msg"]="Mesajiniz Gonderilmistir.";
+			$res["msg"]="Mesajınız gönderilmiştir.";
 		}
 	}
 } else {
   if($_SESSION["ip"] == $ipadres){
   	$res["err"]=1;
-	$res["msg"]="Daha once mesaj gondermistiniz!";
+	$res["msg"]="Daha önce mesaj göndermiştiniz!";
   }
 }
 echo json_encode($res);

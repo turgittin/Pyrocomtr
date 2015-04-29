@@ -21,7 +21,7 @@ $res = array("err"=>0);
 
 if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 	$res["err"]=1;
-	$res["msg"]="Lütfen tüm alanları doldurun";
+	$res["msg"]="Lütfen tüm alanları doldurun.";
 	
 	}else{
 
@@ -32,7 +32,7 @@ if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 
 		$mail->From = 'hey@pyro.com.tr';
 		$mail->CharSet = 'UTF-8';
-		$mail->FromName = 'Detaylı Bilgi Formu';
+		$mail->FromName = 'Pyro-WEB';
 		$mail->addAddress($alici);
 		$mail->addReplyTo($email);
 
@@ -47,16 +47,16 @@ if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 						 "<br>".'<b>Tahmini Butceleri:</b>'." ".$butce.
 						 "<br>".'<b>Geri Donus:</b>'." ".$donus." -> ".$skypeName;
 		
-		$backMail->From = 'pyro digital solution';
+		$backMail->From = 'pyro digital solutions';
 		$backMail->CharSet = 'UTF-8';
-		$backMail->FromName = 'pyro digital solution';
+		$backMail->FromName = 'pyro digital solutions';
 		$backMail->addAddress($email);
 		$backMail->addReplyTo($alici);
 
 		$backMail->isHTML(true);
-		$backMail->Subject = 'pyro - İletişim';
-		$backMail->Body    =  'Mesajınız tarafımıza ulaşmıştır.<br> En kısa zamanda dönüş yapılacaktır. <br><br><b>pyro ekibi</b>';
-		$backMail->addAttachment('http://pyro.com.tr/yeni/img/pyrologo.png', 'new.jpg');
+		$backMail->Subject = 'İletişim';
+		$backMail->Body    =  'Mesajınız için teşekkürler!<br> Ekibimiz en kısa sürede dönüş yapacaktır.<br><br><b>pyro digital solutions</b>';
+		$backMail->addAttachment('http://pyro.com.tr/img/pyrologo.png', 'new.jpg');
 		$backMail->send();
 
 		if(!$mail->send()) {
@@ -64,7 +64,7 @@ if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 			$res["msg"]='Mailer Error: ' . $mail->ErrorInfo;;
 		} else {
 		    $res["err"]=0;
-			$res["msg"]="Mesajiniz Gonderilmistir.";
+			$res["msg"]="Mesajınız gönderilmiştir.";
 		}
 	}
 echo json_encode($res);
