@@ -42,12 +42,6 @@
     <div class="row" style="margin-top:20px;">
             <div class="col-md-4">
                 <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/arayuztasarim.png"></div>
                     <div class="media-body pl">
 
@@ -56,12 +50,6 @@
                     </div>
                 </div>
                 <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/arayuzgelistirme.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">ARAYÜZ GELİŞTİRME</h4>
@@ -69,13 +57,6 @@
                     </div>
                 </div>
                 <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/lp.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">LANDING PAGE</h4>
@@ -85,12 +66,6 @@
             </div>
             <div class="col-md-4">
                 <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/kullanicideneyimi.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">KULLANICI DENEYİMİ (UX)</h4>
@@ -98,12 +73,6 @@
                     </div>
                 </div>
                 <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/uygulamagelistirme.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">UYGULAMA GELİŞTİRME</h4>
@@ -112,12 +81,6 @@
                 </div>
                 
                 <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/e-posta.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">E-BÜLTEN TASARIMI</h4>
@@ -128,12 +91,6 @@
             </div>
             <div class="col-md-4">
                 <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/mobiltasarim.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">MOBİL TASARIM</h4>
@@ -141,12 +98,6 @@
                     </div>
                 </div>
                 <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/tasarimdanismanligi.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">TASARIM DANIŞMANLIĞI</h4>
@@ -155,12 +106,6 @@
                 </div>
                 
                     <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
                     <div style="width: 60px;height: 50px;float: left;"><img src="./img/icons/hbanner.png"></div>
                     <div class="media-body pl">
                         <h4 class="media-heading">HAREKETLİ BANNER</h4>
