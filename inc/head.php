@@ -11,6 +11,8 @@
 <link href="css/business-frontpage.css" rel="stylesheet">
 <link href="css/sweet-alert.css" rel="stylesheet">
 <link href="css/hover.css" rel="stylesheet" media="all">
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- /css stylesheets -->
 
 <!-- js  files -->

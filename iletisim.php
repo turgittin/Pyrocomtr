@@ -126,10 +126,13 @@
                     <div class="form-group col-sm-12 mbn">
                         <label for="tel" class="control-label"><i class="glyphicon glyphicon-list-alt"></i> Hizmet Başlıkları</label>
                         <div class="checkbox">
+
                             <div class="col-md-3">
-                                <label>
-                                    <input type="checkbox" name="hizmetler" value="Arayüz Tasarımı"> Arayüz Tasarımı
-                                </label>
+                            <label>
+                                <input type="checkbox" value="">
+                                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                Arayüz Tasarımı
+                            </label>
                             </div>
                             <div class="col-md-3">
                                 <label>
