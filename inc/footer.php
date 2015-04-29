@@ -9,7 +9,7 @@
             <div class="col-sm-4">
                 <form role="form" method="post" id="subscribe">
                     <div class="input-group">
-                        <input type="text" class="form-control" id="email" name="email" placeholder="lorem@gmail.com">
+                        <input type="text" class="form-controlred form-control" id="email" name="email" placeholder="lorem@gmail.com" style="height:34px">
                         <div class="input-group-btn">
                             <button class="btn btn-default"><i class="glyphicon glyphicon-send"></i></button>
                         </div>
@@ -79,13 +79,13 @@
                     <div class="mesaj"></div>
                     <form role="form" method="post" id="iletisim" >
                         <div class="form-group" style="margin-bottom:5px;">
-                            <input type="text" id="isim" name="isim" class="form-control" placeholder="İsim Soyisim">
+                            <input type="text" id="isim" name="isim" class="form-control form-controlred" style="height:34px" placeholder="İsim Soyisim">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="femail" name="femail" placeholder="E-posta">
+                            <input type="text" class="form-control form-controlred" id="femail" style="height:34px" name="femail" placeholder="E-posta">
                         </div>
                         <div class="form-group">
-                            <textarea name="mesaj" id="mesaj" class="form-control" rows="3" required="" placeholder="Lütfen bize iletmek istediğiniz mesajınızı yazın."></textarea>
+                            <textarea name="mesaj" id="mesaj" class="form-control form-controlred" rows="3" required="" placeholder="Lütfen bize iletmek istediğiniz mesajınızı yazın."></textarea>
                         </div>
                         <button type="submit" class="btn btn-default btn-block">Mesajı İlet</button>
                     </form>
