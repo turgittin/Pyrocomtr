@@ -9,7 +9,7 @@
             <div class="col-sm-4">
                 <form role="form" method="post" id="subscribe">
                     <div class="input-group">
-                        <input type="text" class="form-controlred form-control" id="email" name="email" placeholder="lorem@gmail.com" style="height:34px">
+                        <input type="text" class="form-controlwhite form-control" id="email" name="email" placeholder="lorem@gmail.com" style="height:34px">
                         <div class="input-group-btn">
                             <button class="btn btn-default"><i class="glyphicon glyphicon-send"></i></button>
                         </div>
