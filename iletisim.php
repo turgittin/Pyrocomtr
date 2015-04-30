@@ -207,21 +207,21 @@
                         <div class="form-group col-sm-12 mbn">
                         <label for="tel" class="control-label"><i class="glyphicon glyphicon-align-justify"></i> Pyro'yu Nereden Duydunuz?</label>
                         <div class="radio">
-                            <div class="col-md-5">
+                            <div class="col-md-4">
                                 <label>
                                     <input type="radio" name="nereden" value="Sosyal Medya"> 
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     Sosyal Medya
                                 </label>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-4">
                                 <label>
                                     <input type="radio" name="nereden" value="Arkadaş"> 
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     Arkadaş
                                 </label>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-4">
                                 <label>
                                     <input type="radio" name="nereden" value="Diğer"> 
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
