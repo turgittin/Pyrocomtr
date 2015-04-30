@@ -129,37 +129,75 @@
                         <label for="tel" class="control-label"><i class="glyphicon glyphicon-list-alt"></i> Hizmet Başlıkları</label>
                         <div class="checkbox">
 
-                            <div class="col-md-3">
-                            <label>
-                                <input type="checkbox" value="">
-                                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                Arayüz Tasarımı
-                            </label>
-                            </div>
-                            <div class="col-md-3">
+                            <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Kullanıcı Tasarımı (UX)">Kullanıcı Tasarımı (UX)
+                                    <input type="checkbox" name="hizmetler" value="Arayüz Tasarımı">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Arayüz Tasarımı
                                 </label>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Mobil Tasarımı">Mobil Tasarımı
+                                    <input type="checkbox" name="hizmetler" value="Kullanıcı Tasarımı (UX)">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Kullanıcı Tasarımı (UX)
+                                </label>
+                            </div>
+                            <div class="col-md-5">
+                                <label>
+                                    <input type="checkbox" name="hizmetler" value="Mobil Tasarımı">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Mobil Tasarımı
                                 </label>
                             </div>
                                 
-                            <div class="col-md-3">
+                            <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Arayüz Geliştirme" >Arayüz Geliştirme
+                                    <input type="checkbox" name="hizmetler" value="Arayüz Geliştirme" >
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Arayüz Geliştirme
                                 </label>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">Uygulama Geliştirme
+                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Uygulama Geliştirme
                                 </label>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Diger">Diğer
+                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Tasarım Danışmanlığı
+                                </label>
+                            </div>
+                            <div class="col-md-5">
+                                <label>
+                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Landing Page
+                                </label>
+                            </div>
+                            <div class="col-md-5">
+                                <label>
+                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    E-Bülten Tasarımı
+                                </label>
+                            </div>
+                            <div class="col-md-5">
+                                <label>
+                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Hareketli Banner
+                                </label>
+                            </div>
+                            <div class="col-md-5">
+                                <label>
+                                    <input type="checkbox" name="hizmetler" value="Diger">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Diğer
                                 </label>
                             </div>
                                 
@@ -168,20 +206,26 @@
 
                         <div class="form-group col-sm-12 mbn">
                         <label for="tel" class="control-label"><i class="glyphicon glyphicon-align-justify"></i> Pyro'yu Nereden Duydunuz?</label>
-                        <div class="checkbox">
-                            <div class="col-md-3">
+                        <div class="radio">
+                            <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="nereden" value="Sosyal Medya"> Sosyal Medya
+                                    <input type="radio" name="nereden" value="Sosyal Medya"> 
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Sosyal Medya
                                 </label>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="nereden" value="Arkadaş"> Arkadaş
+                                    <input type="radio" name="nereden" value="Arkadaş"> 
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Arkadaş
                                 </label>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="nereden" value="Diğer"> Diğer
+                                    <input type="radio" name="nereden" value="Diğer"> 
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Diğer
                                 </label>
                             </div>
                                 
@@ -193,30 +237,35 @@
                             <label for="tel" class="control-label"><i class="glyphicon glyphicon-tint"></i> Ek Bilgi (referans linkler, başlangıç-bitiş tarigleri, vb detaylı bilgileri yazabilirsiniz.)</label>
                             <textarea type="textarea" class="form-control" name="mesaj" rows="8" title="Bize iletmek istediginiz mesajiniz" placeholder="Bize iletmek istediginiz mesajiniz"> </textarea>
                         </div>
-                        <div class="form-group col-sm-5 mbn">
+                        <div class="form-group col-sm-12 mbn">
                           <label for="tel" class="control-label"><i class="fa fa-bank"></i> Tahmini Bütçe (*ayrılması planlanan tahmini bütçe)</label>
                           <div class="input-group">
                            <span class="input-group-addon"><span>&#8378;</span></span><input type="text" class="form-control" id="price" name="butce" value="" title="Bize iletmek istediginiz tahmini butceniz" >
                           </div>
                         </div>
 
-                        <div class="form-group col-sm-7 mbn">
+                        <div class="form-group col-sm-12 mbn">
                         <label for="tel" class="control-label"><i class="glyphicon glyphicon-align-justify"></i> Geri Dönüş Tercihiniz? (Size ne şekilde geri dönelim?)</label>
                         <div class="radio">
                             <div class="col-md-3">
                                 <label>
-                                    <input type="radio" name="donus" value="eposta"> E-posta <input type="hidden" class='type'>
+                                    <input type="radio" name="donus" value="eposta">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                     E-posta <input type="hidden" class='type'>
                                 </label>
                             </div>
                             <div class="col-md-3">
                                 <label>
-                                    <input type="radio" name="donus" value="tel"> Telefon <input type="hidden" class='type'>
-
+                                    <input type="radio" name="donus" value="tel">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                     Telefon <input type="hidden" class='type'>
                                 </label>
                             </div>
                             <div class="col-md-6">
                                 <label>
-                                    <input type="radio" name="donus" value="skype"> Skype <input type="text" name="skypeName" style='display: none;margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Kullanici adi">
+                                    <input type="radio" name="donus" value="skype">Skype <input type="text" name="skypeName" style='display: none;margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Kullanici adi">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                     
                                 </label>
                             </div>
                             </div>
