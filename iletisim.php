@@ -65,29 +65,29 @@
 
         
                     <form role="form" method="post" class="contact-form" id="contact-form">
-                    <div class="col-md-12">
-                        <div class="form-group">
+                    <div class="col-md-12" style="padding-top: 5px;padding-bottom: 5px;">
+                        <div class="form-group" style="margin-bottom:0px;margin-top:0px;">
                             <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="İsim Soyisim">
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <div class="form-group">
+                    <div class="col-md-12" style="padding-top: 5px;padding-bottom: 5px;">
+                        <div class="form-group" style="margin-bottom:0px;margin-top:0px;">
                             <input type="email" class="form-control" name="mail" autocomplete="off" id="mailcik" placeholder="E-mail">
                         </div>
                     </div>
 
-                    <div class="col-md-12">
-                        <div class="form-group">
+                    <div class="col-md-12" style="padding-top: 5px;padding-bottom: 5px;">
+                        <div class="form-group" style="margin-bottom:0px;margin-top:0px;">
                             <input type="tel" class="form-control bfh-phone" data-format="+90 (ddd) ddd dd dd"  name="tel" autocomplete="off" id="tel" placeholder="">
                         </div>
                     </div>
 
-                        <div class="col-md-12">
-                        <div class="form-group">
+                        <div class="col-md-12" style="padding-top: 5px;padding-bottom: 5px;">
+                        <div class="form-group" style="margin-bottom:0px;margin-top:0px;">
                             <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
                         </div>
                     </div>
-                   <div class="col-sm-12">
+                   <div class="col-sm-12" style="padding-top: 0px;padding-bottom: 0px;">
                         <div class="armut"></div>
                     </div>
                     <div class="col-md-12">
