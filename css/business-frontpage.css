@@ -375,9 +375,11 @@ img.social-medya {
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
   opacity: 0.8;
+
 }
 
 img.social-medya:hover {
+
   -webkit-filter: grayscale(10%); 
   filter: grayscale(10%);
   filter: gray;
