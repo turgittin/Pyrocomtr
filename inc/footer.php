@@ -31,7 +31,7 @@
                 <p>
                 pyro digital solution adını, "ateşteki alevlenme"den alır. <p>Bu anlamdan yola çıkan pyro, hizmet vereceği markaların ateşini özgün bakış açısıyla yükseltmek için 2014 yılında kuruldu.</p>
                 </p>
-                <img src="./img/pyrologo.png">
+                <img src="./img/pyrologo-footer.png">
               </div>
               <div class="col-md-3">
               <h3>Blogdan Haberler</h3>
