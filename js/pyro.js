@@ -31,7 +31,7 @@ $(document).ready(function () {
         return false;
     });
 
-    $('#iletisim').submit(function (){
+    $('#footer').submit(function (){
 
         if (!checkEmail($("#femail").val())) {
             $(".mesaj").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Lütfen geçerli bir E-posta adresi giriniz.</div>");
@@ -39,8 +39,8 @@ $(document).ready(function () {
             $(".mesaj").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulaştırılıyor...</div>");
             
             $.ajax({
-                url: '/forms/footerIletsimForm.php',
-                data: $('#iletisim').serialize(),
+                url: '/forms/footer.php',
+                data: $('#footer').serialize(),
                 type: 'POST',
                 dataType: 'json',
             
@@ -62,7 +62,7 @@ $(document).ready(function () {
         return false;
     });
 
-    $('#bilgi').submit(function (){
+    $('#detay').submit(function (){
 
         if (!checkEmail($("#eamil").val())) {
             $(".haber").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Lütfen geçerli bir E-posta adresi giriniz.</div>");
@@ -70,8 +70,8 @@ $(document).ready(function () {
             $(".haber").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulaştırılıyor...</div>");
             
             $.ajax({
-                url: 'forms/bilgi_form.php',
-                data: $('#bilgi').serialize(),
+                url: 'forms/detay.php',
+                data: $('#detay').serialize(),
                 type: 'POST',
                 dataType: 'json',
             
@@ -93,10 +93,38 @@ $(document).ready(function () {
         return false;
     });
 
-    
-        $('#contact-form').bootstrapValidator({
-//        live: 'disabled',
-        message: 'This value is not valid',
+    $('#contact-form').submit(function (){
+
+        
+            $(".armut").html("<div class='alert alert-warning'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span> Mesajınız ulaştırılıyor...</div>");
+            
+            $.ajax({
+                url: 'forms/contact.php',
+                data: $('#contact-form').serialize(),
+                type: 'POST',
+                dataType: 'json',
+            
+                success : function(data){
+                    
+                    if(data.err)
+                        var className = "danger";
+                    else
+                        var className = "success";
+                    $(".armut").html("<div class='alert alert-"+className+"'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><span class='glyphicon glyphicon-info-sign'></span>"+data.msg+"</div>");
+                },
+                error : function(data){
+                    
+                    $(".armut").html("<div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button> <span class='glyphicon glyphicon-exclamation-sign'></span> Mesajınız gonderilirken bir hata meydana geldi.</div>");
+                }
+            });
+        
+        this.reset();
+        return false;
+    });
+
+    $('#contact-form').bootstrapValidator({
+
+        Message: 'This value is not valid',
         feedbackIcons: {
             valid: 'glyphicon glyphicon-ok',
             invalid: 'glyphicon glyphicon-remove',
@@ -115,7 +143,7 @@ $(document).ready(function () {
                         }
                 }
             },
-            email: {
+            mailcik: {
                 validators: {
                     notEmpty: {
                         message: 'Email adresi gereklidir.'

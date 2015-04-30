@@ -77,7 +77,7 @@
                 <div class="contact-form">
                     <h3>Bize Ateşle Gelsin!</h3>
                     <div class="mesaj"></div>
-                    <form role="form" method="post" id="iletisim" >
+                    <form role="form" method="post" id="footer" >
                         <div class="form-group" style="margin-bottom:5px;">
                             <input type="text" id="isim" name="isim" class="form-control form-controlred" style="height:34px" placeholder="İsim Soyisim">
                         </div>

@@ -13,19 +13,9 @@ RewriteRule projeler				projeler.php
 RewriteRule neler-yapiyoruz			neler-yapiyoruz.php
 RewriteRule iletisim				iletisim.php
 RewriteRule referanslar				referanslar.php
-RewriteRule form				/form/index.php
+
 
 errorDocument 400	/404.php
 errorDocument 401	/404.php
 errorDocument 404	/404.php
 errorDocument 500	/404.php
-
-
-
-
-RewriteCond %{HTTP_HOST} ^http://pyro.com.tr/form/.index.php$ 
-RewriteRule ^(.*)$ http://subdomain.newdomain.com/$1 [R=301,L] 
-
-
-RewriteCond %{HTTP_HOST} ^www.subdomain.olddomain.com$ 
-RewriteRule ^(.*)$ http://subdomain.newdomain.com/$1 [R=301,L]

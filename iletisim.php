@@ -63,8 +63,8 @@
                 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
 
-        <form role="form" id="contact-form" class="contact-form">
-                    
+        
+                    <form role="form" method="post" class="contact-form" id="contact-form">
                     <div class="col-md-12">
                         <div class="form-group">
                             <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="İsim Soyisim">
@@ -72,7 +72,7 @@
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
-                            <input type="email" class="form-control" name="email" autocomplete="on" id="email" placeholder="E-mail">
+                            <input type="email" class="form-control" name="mail" autocomplete="off" id="mailcik" placeholder="E-mail">
                         </div>
                     </div>
 
@@ -87,7 +87,9 @@
                             <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
                         </div>
                     </div>
-                   
+                   <div class="col-sm-12">
+                        <div class="armut"></div>
+                    </div>
                     <div class="col-md-12">
                   <button type="submit" class="btn btn-success btn-block btn-lg">Mesajı İlet</button>
                   </div>
@@ -104,7 +106,7 @@
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
-            <form role="form" method="post" id="bilgi">
+            <form role="form" method="post" id="detay">
                 <fieldset>
                     <div class="form-group col-sm-6 mbn">
                       <label for="username" class="control-label"><i class="glyphicon glyphicon-user"></i> Ad Soyad</label>
@@ -258,36 +260,33 @@
 
 
 </script>
-<script type="text/javascript">
-            
-            $(function(){
-                // Set up the number formatting.
-                
-                $('#number_container').slideDown('fast');
-                
-                $('#price').on('change',function(){
-                    console.log('Change event.');
-                    var val = $('#price').val();
-                    $('#the_number').text( val !== '' ? val : '(empty)' );
-                });
-                
-                $('#price').change(function(){
-                    console.log('Second change event...');
-                });
-                
-                $('#price').number( true, 2 );
-                
-                
-                // Get the value of the number for the demo.
-                $('#get_number').on('click',function(){
-                    
-                    var val = $('#price').val();
-                    
-                    $('#the_number').text( val !== '' ? val : '(empty)' );
-                });
-            });
-
-
-        </script>
+<script type="text/javascript">            
+$(function(){
+    // Set up the number formatting.
+    
+    $('#number_container').slideDown('fast');
+    
+    $('#price').on('change',function(){
+        console.log('Change event.');
+        var val = $('#price').val();
+        $('#the_number').text( val !== '' ? val : '(empty)' );
+    });
+    
+    $('#price').change(function(){
+        console.log('Second change event...');
+    });
+    
+    $('#price').number( true, 2 );
+    
+    
+    // Get the value of the number for the demo.
+    $('#get_number').on('click',function(){
+        
+        var val = $('#price').val();
+        
+        $('#the_number').text( val !== '' ? val : '(empty)' );
+    });
+});
+</script>
 </body>
 </html>
