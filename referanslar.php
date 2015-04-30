@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php require_once("inc/head.php"); ?>
-    <title>pyro - referanslar</title>
+    <title>referanslar | pyro digital solutions</title>
     <link href="css/jquery.fancybox.css" rel="stylesheet">
     <script  type="text/javascript" src="js/jquery.fancybox.js"></script>
 </head>

@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once("inc/head.php"); ?>
-    <title>pyro - projeler</title>
+    <title>projeler | pyro digital solutions</title>
 
 </head>
 

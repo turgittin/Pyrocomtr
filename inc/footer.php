@@ -65,7 +65,7 @@
                 <h3>Sosyal Medya</h3>
                 <p>
                     <span>pyro, bir kaç sosyal medya hesabı kullanıyor. Bizden haberleri takip etmek için bizi sosyal medyada ateşlemeyi unutma :)</span><br>
-                    <p><a href="http://www.facebook.com/pyrocomtr" target="_blank"><img src="./img/icons/ico_facebook-ft.png"></a>&nbsp;&nbsp;<a href="http://www.twitter.com/pyrocomtr" target="_blank"><img src="./img/icons/ico_twitter-ft.png"></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/company/2631507?trk=tyah&trkInfo=clickedVertical%3Acompany%2Cidx%3A2-1-2%2CtarId%3A1429987243515%2Ctas%3Apyro%20di" target="_blank"><img src="./img/icons/ico_linkedin-ft.png"></a></p>
+                    <p><a href="http://www.facebook.com/pyrocomtr" target="_blank"><img src="./img/icons/ico_fb.png"></a>&nbsp;&nbsp;<a href="http://www.twitter.com/pyrocomtr" target="_blank"><img src="./img/icons/ico_tw.png"></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/company/2631507?trk=tyah&trkInfo=clickedVertical%3Acompany%2Cidx%3A2-1-2%2CtarId%3A1429987243515%2Ctas%3Apyro%20di" target="_blank"><img src="./img/icons/ic_lnk.png"></a>&nbsp;&nbsp;<a href="#" target="_blank"><img src="./img/icons/ico_you.png"></a>&nbsp;&nbsp;<a href="http://www.instagram.com/pyrocomtr" target="_blank"><img src="./img/icons/ico_ins.png"></a></p>
 
                     <a href="http://www.pyro.com.tr/blog" target="_blank">Blog</a><br>
                     <a href="#">İş Fırsatları</a><br>
@@ -96,7 +96,7 @@
     </div>
     <div class="footerBottomSection">
         <div class="container">
-            <p>&copy; 2015 pyro | digital solutions tüm hakları saklıdır.</p>
+            <p>&copy; 2015 pyro digital solutions - tüm hakları saklıdır.</p>
             </div>
         </div>
     </div>

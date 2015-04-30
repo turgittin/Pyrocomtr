@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once("inc/head.php"); ?>
-    <title>pyro - sosyal duyarlılık</title>
+    <title>sosyal duyarlılık | pyro digital solutions</title>
     <link href="css/jquery.fancybox.css" rel="stylesheet">
 </head>
 
