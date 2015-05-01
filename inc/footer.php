@@ -84,7 +84,6 @@
                     </p>
 
                     <a href="http://www.pyro.com.tr/blog" target="_blank">Blog</a><br>
-                    <a href="#">İş Fırsatları</a><br>
                     <a href="iletisim">İletişim</a><br>
                 </p>
                
