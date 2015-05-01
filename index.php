@@ -32,7 +32,7 @@
                         <p id="navy" style="max-width: 590px;font-size: 25px;font-weight: 600;color: #343434;font-family: 'Montserrat', sans-serif;">Mutlu müşteriler için, tüm dijital platformlarda kullanılabilir uygulamalar<br> ve web siteleri üretiyoruz.</p>
                         <p style="max-width: 565px;">Kullanıcılarınız sitenizde uzun ve keyifli vakit geçirsin, aradıklarını kolayca bulabilsin, sitenize bakarken içi açılsın, evde, mobilde kısaca her yerde sizinle olmak istesin diye tasarımı ve teknolojiyi mutluluk için ateşleriz!</p>
                         <p style="margin-top:20px;"></p>
-                        <button class="btn btn-danger">TANITIM VİDEOSUNU İZLEYİN&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target=".intro">TANITIM VİDEOSUNU İZLEYİN&nbsp;&nbsp;<i class="glyphicon glyphicon-play-circle"></i> </button>
                         <p style="margin-top:10px;"></p>
                         <p>Daha fazla bilgi için;</p>
                         <a href="/iletisim"><button class="btn btn-outline">İLETİŞİM</i></button></a>
@@ -196,21 +196,20 @@
 
 </div>
 
-<?php require_once("inc/footer.php"); ?>
-
-<div class="modal fade projeler" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="false">
+<div class="modal fade intro" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="false">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
 
         <div class="modal-body">
             <div class="embed-responsive embed-responsive-16by9">
-              <img src="./img/proje/aloriagarden.jpg" alt="Image">
+              <iframe width="870" height="490" src="https://www.youtube.com/embed/uLGfSq7lVjg" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div>
 
+<?php require_once("inc/footer.php"); ?>
 
 
 </body>
