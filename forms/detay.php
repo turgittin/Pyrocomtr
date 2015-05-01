@@ -1,5 +1,17 @@
-
+<?php session_start();?>
 <?php
+function gercekIpAdres()  
+{  
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))  {  
+        $ipadres=$_SERVER['HTTP_CLIENT_IP'];  
+    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){  
+        $ipadres=$_SERVER['HTTP_X_FORWARDED_FOR'];  
+    } else {  
+        $ipadres=$_SERVER['REMOTE_ADDR'];  
+    }  
+    return $ipadres;  
+}
+
 include './inc/ayar.php';
 
 $adsoyad = $_POST["adsoyad"];
@@ -15,9 +27,12 @@ $skypeName = $_POST["skypeName"];
 
 $alici = "turgay@pyro.com.tr";
 $konu = "WEB Detaylı Bilgi Formu";
-$ipadres = $_SERVER['REMOTE_ADDR'];
+$ipadres = gercekIpAdres();
 
 $res = array("err"=>0);
+
+if (empty($_SESSION['detay_ip'])) {
+  $_SESSION['detay_ip'] = $ipadres;
 
 if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 	$res["err"]=1;
@@ -38,7 +53,7 @@ if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 
 		$mail->isHTML(true); 
 		$mail->Subject = $konu;
-		$mail->Body    = "<b>".ucwords($adsoyad)." ".'isimli kisinin mesaji:</b>'." ".$mesaj.
+		$mail->Body    = "<b>".ucwords($adsoyad)." ".':</b>'." ".$mesaj.
 						 "<br>".'<b>Email Adresi:</b>'." ".$email.
 						 "<br>".'<b>Firma Adi:</b>'." ".$firma.
 						 "<br>".'<b>Telefon Numarasi:</b>'." ".$tel.
@@ -67,4 +82,10 @@ if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 			$res["msg"]="Mesajınız gönderilmiştir.";
 		}
 	}
+} else {
+  if($_SESSION["detay_ip"] == $ipadres){
+  	$res["err"]=1;
+	$res["msg"]="Daha önce mesaj göndermiştiniz!";
+  }
+}
 echo json_encode($res);

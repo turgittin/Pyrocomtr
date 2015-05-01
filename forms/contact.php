@@ -1,5 +1,17 @@
-
+<?php session_start();?>
 <?php
+function gercekIpAdres()  
+{  
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))  {  
+        $ipadres=$_SERVER['HTTP_CLIENT_IP'];  
+    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){  
+        $ipadres=$_SERVER['HTTP_X_FORWARDED_FOR'];  
+    } else {  
+        $ipadres=$_SERVER['REMOTE_ADDR'];  
+    }  
+    return $ipadres;  
+}
+
 include './inc/ayar.php';
 
 $adsoyad = $_POST["Name"];
@@ -9,11 +21,18 @@ $tel = $_POST["tel"];
 
 $alici = "turgay@pyro.com.tr";
 $konu = "WEB İletişim";
-$ipadres = $_SERVER['REMOTE_ADDR'];
+$ipadres = gercekIpAdres();
 
 $res = array("err"=>0);
 
+if (empty($_SESSION['contact_ip'])) {
+  $_SESSION['contact_ip'] = $ipadres;
 
+if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
+	$res["err"]=1;
+	$res["msg"]="Lütfen tüm alanları doldurun.";
+	
+	}else{
 		require '../mail/SetPhpMailer.php';
 
 		$mail->From = 'hey@pyro.com.tr';
@@ -24,10 +43,9 @@ $res = array("err"=>0);
 
 		$mail->isHTML(true); 
 		$mail->Subject = $konu;
-		$mail->Body    = "<b>".ucwords($adsoyad)." ".'isimli kisinin mesaji:</b>'." ".$mesaj.
+		$mail->Body    = "<b>".ucwords($adsoyad)." ".':</b>'." ".$mesaj.
 						 "<br>".'<b>Email Adresi:</b>'." ".$email.
-						 "<br>".'<b>Telefon Numarasi:</b>'." ".$tel.
-						 "<br>".'<b>Tahmini Butceleri:</b>'." ".$butce;
+						 "<br>".'<b>Telefon Numarasi:</b>'." ".$tel;
 		
 		$backMail->From = 'pyro digital solutions';
 		$backMail->CharSet = 'UTF-8';
@@ -48,5 +66,11 @@ $res = array("err"=>0);
 		    $res["err"]=0;
 			$res["msg"]="Mesajınız gönderilmiştir.";
 		}
-
+	}
+} else {
+  if($_SESSION["contact_ip"] == $ipadres){
+  	$res["err"]=1;
+	$res["msg"]="Daha önce mesaj göndermiştiniz!";
+  }
+}
 echo json_encode($res);

@@ -45,7 +45,7 @@ if (($isimsoyisim=="") or ($email=="") or ($mesaj=="")) {
 
 		$mail->isHTML(true);   
 		$mail->Subject = $konu;
-		$mail->Body    = "<b>".ucwords($isimsoyisim)." ".'isimli kisinin mesaji:</b>'." ".$mesaj."<br>".'<b>Email Adresi:</b>'." ".$email."<br>".'<b>Ip Adresi</b>:'." ".$ipadres;
+		$mail->Body    = "<b>".ucwords($isimsoyisim)." ".':</b>'." ".$mesaj."<br>".'<b>Email Adresi:</b>'." ".$email."<br>".'<b>Ip Adresi</b>:'." ".$ipadres;
 		
 		$backMail->FromName = 'pyro digital solutions';
 		$backMail->CharSet = 'UTF-8';

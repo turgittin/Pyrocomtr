@@ -120,61 +120,10 @@ $(document).ready(function () {
         
         this.reset();
         return false;
-    });
+    
 
-    $('#contact-form').bootstrapValidator({
 
-        Message: 'This value is not valid',
-        feedbackIcons: {
-            valid: 'glyphicon glyphicon-ok',
-            invalid: 'glyphicon glyphicon-remove',
-            validating: 'glyphicon glyphicon-refresh'
-        },
-        fields: {
-            Name: {
-                validators: {
-                    notEmpty: {
-                        message: 'İsim Soyisim alanı boş geçilemez.'
-                    },
-                    stringLength: {
-                            min: 10,
-                            max: 80,
-                            message: 'İsim Soyisim alanı, en az 10 en fazla ise 80 karakter içermelidir.'
-                        }
-                }
-            },
-            mailcik: {
-                validators: {
-                    notEmpty: {
-                        message: 'Email adresi gereklidir.'
-                    },
-                    emailAddress: {
-                        message: 'Lütfen geçerli bir E-posta adresi giriniz.'
-                    }
-                }
-            },
-            Message: {
-                validators: {
-                    notEmpty: {
-                        message: 'Mesaj yazmanız gerekmektedir.'
-                    },
-                    stringLength: {
-                            min: 140,
-                            max: 500,
-                            message: 'Mesaj alanı, en az 140 en fazla ise 500 karakter içerebilir...'
-                        }
-                }
-            },
-            tel: {
-                validators: {
-                    stringLength: {
-                            min: 5,
-                            message: 'Telefon numaranızı yazmalısınız.'
-                        }
-                }
-            }
-        }
-    });
+});
 
 });
 
