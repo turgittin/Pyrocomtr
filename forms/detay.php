@@ -27,19 +27,8 @@ $donus = $_POST["donus"];
 $butce = $_POST["butce"];
 $skypeName = $_POST["skypeName"];
 
-function hizmet()
-{
-	$hizmetler = $_POST["hizmetler"];
 
-	if(isset($hizmetler)) {
-		
-
-	}
-	
-}
-
-
-$alici = "erdi@pyro.com.tr";
+$alici = "turgay@pyro.com.tr";
 $konu = "WEB Detaylı Bilgi Formu";
 $ipadres = gercekIpAdres();
 
