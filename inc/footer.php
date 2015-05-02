@@ -75,7 +75,7 @@
                         <a href="https://www.linkedin.com/company/2631507?trk=tyah&trkInfo=clickedVertical%3Acompany%2Cidx%3A2-1-2%2CtarId%3A1429987243515%2Ctas%3Apyro%20di" target="_blank" style="text-decoration:none">
                             <img src="./img/icons/ic_lnk.png" class="social-medya">
                         </a>&nbsp;
-                        <a href="#" target="_blank" style="text-decoration:none">
+                        <a href="https://www.youtube.com/channel/UC6j8OjPU_X1QAm-Y86az8tQ" target="_blank" style="text-decoration:none">
                             <img src="./img/icons/ico_you.png" class="social-medya">
                         </a>&nbsp;
                         <a href="http://www.instagram.com/pyrocomtr" target="_blank" style="text-decoration:none">
