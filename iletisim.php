@@ -223,9 +223,9 @@
                             </div>
                             <div class="col-md-4">
                                 <label>
-                                    <input type="radio" name="nereden" value="Diğer"> 
+                                    <input type="radio" name="nereden" value="Google"> 
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                    Diğer
+                                    Google
                                 </label>
                             </div>
                                 
@@ -265,7 +265,7 @@
                                 <label>
                                     <input type="radio" name="donus" value="skype" class="skype">
                 <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                    <input type="text" name="skypeName" style='margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Skype">
+                                    <input type="text" name="skypeName" style=' margin-left: 30px;width: 170px;opacity: 1;' class='form-control type' placeholder="Skype kullanıcı adınız">
                                     
 
                                 </label>
