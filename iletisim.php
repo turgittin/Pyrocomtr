@@ -264,9 +264,10 @@
                             <div class="col-md-6">
                                 <label>
                                     <input type="radio" name="donus" value="skype" class="skype">
+                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    <input type="text" name="skypeName" style='margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Skype">
+                                    
 
-                                    Skype <input type="text" name="skypeName" style='display: none;margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Kullanici adi">
-                                    <span class="cr"></span>
                                 </label>
                             </div>
                             </div>
@@ -302,13 +303,7 @@
   </div>
 <?php require_once("inc/footer.php"); ?>
 
-<script type="text/javascript">
-    $("input:radio").change(function() {
-    $(".type").hide();
-    $("#icon").show();
-    $(this).next("input").fadeIn();
 
-});
 
 
 </script>
