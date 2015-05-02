@@ -70,7 +70,7 @@ if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 } else {
   if($_SESSION["contact_ip"] == $ipadres){
   	$res["err"]=1;
-	$res["msg"]="Daha önce mesaj göndermiştiniz!";
+	$res["msg"]="Az önce mesajınız bize ulaştı! :)";
   }
 }
 echo json_encode($res);
