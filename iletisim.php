@@ -84,7 +84,7 @@
 
                         <div class="col-md-12" style="padding-top: 5px;padding-bottom: 5px;">
                         <div class="form-group" style="margin-bottom:0px;margin-top:0px;">
-                            <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
+                            <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Mesaj"></textarea>
                         </div>
                     </div>
                    <div class="col-sm-12" style="padding-top: 0px;padding-bottom: 0px;">
