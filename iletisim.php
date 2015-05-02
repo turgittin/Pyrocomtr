@@ -131,21 +131,21 @@
 
                             <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Arayüz Tasarımı">
+                                    <input type="checkbox" name="hizmetler[]" value="Arayüz Tasarımı">
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     Arayüz Tasarımı
                                 </label>
                             </div>
                             <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Kullanıcı Tasarımı (UX)">
+                                    <input type="checkbox" name="hizmetler[]" value="Kullanıcı Deneyimi (UX)">
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                    Kullanıcı Tasarımı (UX)
+                                    Kullanıcı Deneyimi (UX)
                                 </label>
                             </div>
                             <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Mobil Tasarımı">
+                                    <input type="checkbox" name="hizmetler[]" value="Mobil Tasarımı">
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     Mobil Tasarımı
                                 </label>
@@ -153,49 +153,49 @@
                                 
                             <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Arayüz Geliştirme" >
+                                    <input type="checkbox" name="hizmetler[]" value="Arayüz Geliştirme" >
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     Arayüz Geliştirme
                                 </label>
                             </div>
                             <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">
+                                    <input type="checkbox" name="hizmetler[]" value="Uygulama Geliştirme">
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     Uygulama Geliştirme
                                 </label>
                             </div>
                             <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">
+                                    <input type="checkbox" name="hizmetler[]" value="Tasarım Danışmanlığı">
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     Tasarım Danışmanlığı
                                 </label>
                             </div>
                             <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">
+                                    <input type="checkbox" name="hizmetler[]" value="Landing Page">
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     Landing Page
                                 </label>
                             </div>
                             <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">
+                                    <input type="checkbox" name="hizmetler[]" value="E-Bülten Tasarımı">
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     E-Bülten Tasarımı
                                 </label>
                             </div>
                             <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Uygulama Geliştirme">
+                                    <input type="checkbox" name="hizmetler[]" value="Hareketli Banner">
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     Hareketli Banner
                                 </label>
                             </div>
                             <div class="col-md-5">
                                 <label>
-                                    <input type="checkbox" name="hizmetler" value="Diger">
+                                    <input type="checkbox" name="hizmetler[]" value="Diger">
                                     <span class="cr"><i class="cr-icon fa fa-check"></i></span>
                                     Diğer
                                 </label>
@@ -263,9 +263,10 @@
                             </div>
                             <div class="col-md-6">
                                 <label>
-                                    <input type="radio" name="donus" value="skype">Skype <input type="text" name="skypeName" style='display: none;margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Kullanici adi">
-                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                                     
+                                    <input type="radio" name="donus" value="skype" class="skype">
+
+                                    Skype <input type="text" name="skypeName" style='display: none;margin-top:-25px;margin-left:50px;width:200px; opacity: 1;' class='form-control type' placeholder="Kullanici adi">
+                                    <span class="cr"></span>
                                 </label>
                             </div>
                             </div>
@@ -304,7 +305,9 @@
 <script type="text/javascript">
     $("input:radio").change(function() {
     $(".type").hide();
-    $(this).next("input").show();
+    $("#icon").show();
+    $(this).next("input").fadeIn();
+
 });
 
 

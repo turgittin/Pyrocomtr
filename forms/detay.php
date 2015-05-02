@@ -12,6 +12,8 @@ function gercekIpAdres()
     return $ipadres;  
 }
 
+
+
 include './inc/ayar.php';
 
 $adsoyad = $_POST["adsoyad"];
@@ -25,14 +27,26 @@ $donus = $_POST["donus"];
 $butce = $_POST["butce"];
 $skypeName = $_POST["skypeName"];
 
-$alici = "turgay@pyro.com.tr";
+function hizmet()
+{
+	$hizmetler = $_POST["hizmetler"];
+
+	if(isset($hizmetler)) {
+		
+
+	}
+	
+}
+
+
+$alici = "erdi@pyro.com.tr";
 $konu = "WEB Detaylı Bilgi Formu";
 $ipadres = gercekIpAdres();
 
 $res = array("err"=>0);
 
-if (empty($_SESSION['detay_ip'])) {
-  $_SESSION['detay_ip'] = $ipadres;
+if (empty($_SESSION['contact_ip'])) {
+  $_SESSION['contact_ip'] = $ipadres;
 
 if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 	$res["err"]=1;
@@ -57,11 +71,16 @@ if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 						 "<br>".'<b>Email Adresi:</b>'." ".$email.
 						 "<br>".'<b>Firma Adi:</b>'." ".$firma.
 						 "<br>".'<b>Telefon Numarasi:</b>'." ".$tel.
-						 "<br>".'<b>Istenilen Hizmetler:</b>'." ".$hizmetler.
 						 "<br>".'<b>Pyroyu Nereden Duydunuz:</b>'." ".$nereden.
 						 "<br>".'<b>Tahmini Butceleri:</b>'." ".$butce.
-						 "<br>".'<b>Geri Donus:</b>'." ".$donus." -> ".$skypeName;
+						 "<br>".'<b>Geri Donus:</b>'." ".$donus." -> ".$skypeName.
+						 "<br>".'<b>Istenilen Hizmetler:</b>';
+
+		foreach ($hizmetler as $hizmet) {
+			$mail->Body .= $hizmet.', ';
+        }
 		
+	
 		$backMail->From = 'pyro digital solutions';
 		$backMail->CharSet = 'UTF-8';
 		$backMail->FromName = 'pyro digital solutions';
@@ -83,7 +102,7 @@ if (($adsoyad=="") or ($email=="") or ($mesaj=="")) {
 		}
 	}
 } else {
-  if($_SESSION["detay_ip"] == $ipadres){
+  if($_SESSION["contact_ip"] == $ipadres){
   	$res["err"]=1;
 	$res["msg"]="Daha önce mesaj göndermiştiniz!";
   }
