@@ -123,7 +123,7 @@
                     </div>
                     <div class="form-group col-sm-6 mbn">
                       <label for="tel" class="control-label"><i class="glyphicon glyphicon-phone"></i> Telefon</label>
-                      <input type="text" class="form-control bfh-phone"  data-format="+90 (ddd) ddd dd dd" name="tel" value="" title="Ulaşabileceğimiz telefon numaranızı yazınız...">
+                      <input type="tel" class="form-control bfh-phone" data-format="+90 (ddd) ddd dd dd" name="tel" autocomplete="off" id="tel" placeholder="">
                     </div>
                     <div class="form-group col-sm-12 mbn">
                         <label for="tel" class="control-label"><i class="glyphicon glyphicon-list-alt"></i> Hizmet Başlıkları</label>
