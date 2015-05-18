@@ -38,7 +38,7 @@ body a {color: #ed4e4e;text-decoration: none;}
     padding: 15px 11px !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 961px) {
     body .navbar-nav {
         float: none !important;
         background-color: rgba(255, 255, 255, 1);

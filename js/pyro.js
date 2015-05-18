@@ -153,11 +153,8 @@ $(document).ready(function () {
         closeEffect: "elastic"
     });
 
-    $('.navbar-toggle').click(function(){
 
 
-        $('#bs-example-navbar-collapse-1').slideToggle(600);
-    })
 
 });
 
