@@ -1,7 +1,8 @@
 <?php
 $resimler = array(
-    "./img/hero-img-1.jpg",
-	"./img/hero-img-6.jpg");
+    "./img/hero-img-home-1.jpg",
+	"./img/hero-img-home-2.jpg",
+	"./img/hero-img-home-3.jpg");
 
 $sosyallar = array(
 	"./img/hero-img-4.jpg"
