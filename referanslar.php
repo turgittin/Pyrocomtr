@@ -41,66 +41,66 @@
     
         <div class="row">
             <div class="col-sm-12">
-                <div class="col-sm-12 col-xs-12">
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                <div class="col-sm-12 col-xs-12 col-md-12">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/iskelehouse.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/fodofood.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/aloriagarden.png" class="kucuk-logolar">
                     </div>
                 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/gulsahekerel.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/sinemasal.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/osmanli.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/artideneyim.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/asterion.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/iskeleboutique.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/mywayafrica.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/oas.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/temco.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/lunaroom.png" class="kucuk-logolar">
                     </div>
 
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/istanbulnakliyat.png" class="kucuk-logolar">
                     </div>
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/emingursoy.png" class="kucuk-logolar">
                     </div>
-                    <div class="col-sm-2 col-xs-6 arka-taraf">
+                    <div class="col-sm-2 col-xs-6 col-md-4 arka-taraf">
                         <img src="./img/ref/bigtiful.png" class="kucuk-logolar">
                     </div>
                 </div>

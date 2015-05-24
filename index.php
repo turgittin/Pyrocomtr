@@ -4,6 +4,10 @@
 <head>
     <?php require_once("inc/head.php"); ?>
     <title>pyro digital solutions | markanızı alevlendirir!</title>
+
+
+        
+        <link rel="stylesheet" type="text/css" href="css/set1.css" />
 </head>
 
 <?php include("inc/sure.php"); ?>
@@ -119,8 +123,28 @@
                         
                     <div class="item active">
                         <div class="row">
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" class="main-logolar"></a><h5>SineMASAL</h5></div>
-                          <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/artideneyim.jpg" alt="Image" class="main-logolar"></a><h5>Artıdeneyim</h5></div>
+                        <div class="grid">
+                            <figure class="effect-milo">
+                                <img src="./img/proje/sinemasalorg.jpg" alt="img04" class="main-logolar"/>
+                                <figcaption>
+                                    <figcaption>
+                                        <h2>Sine <span>masal</span></h2>
+                                        <p>pyro için sosyal duyarlılık, Hayatın çok önemli bir parçasıdır.</p>
+                                    </figcaption>       
+                                    
+                                </figcaption>           
+                            </figure>
+                            <figure class="effect-milo">
+                                <img src="./img/proje/artideneyim.jpg" alt="img04" class="main-logolar"/>
+                                <figcaption>
+                                    <figcaption>
+                                        <h2>Faithful <span>Milo</span></h2>
+                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                                    </figcaption>       
+                                    
+                                </figcaption>           
+                            </figure>
+                        </div>
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/fodofoodcom.jpg" alt="Image" class="main-logolar"></a><h5>Fodofood</h5></div>
                           <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/lunaroom.jpg" alt="Image" class="main-logolar"></a><h5>Lunaroom</h5></div>
                           <div class="col-md-4 "><a href="#" class="thumbnail"><img src="./img/proje/iskelehouse.jpg" alt="Image" class="main-logolar"></a><h5>Iskele House</h5></div>
