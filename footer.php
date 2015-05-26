@@ -33,34 +33,7 @@
                 </p>
                 <img src="./img/pyrologo-footer.png">
               </div>
-              <div class="col-md-3">
-              <h3>Blogdan Haberler</h3>
-           <?php
-            function DevamEt ($string, $len, $kelime = 0){
-                $bitis = "";
-                if (strlen($string) > $len) $bitis = "...";
-                    $string = substr($string, 0, $len);
-                        if ($kelime) $string = substr($string,0,strtpos($string," ")+1);
-                return $string.$bitis;
-            }
-
-            $url = 'http://www.pyro.com.tr/blog/api/api.php';
-            $content = file_get_contents($url);
-            $json = json_decode($content, true);
-
-            $sayac = "1";
-            $limit = "3";
-            foreach($json['posts'] as $item) {
-                if ($sayac <= $limit){ 
-                ?>
-                
-                
-                <p>
-                    <strong><a href="<?php echo $item['guid'];?>" target="_blank" style="color:#343434;"><?php echo $item['post_title'];?></a></strong><br>
-                    <?php echo DevamEt($item['post_content'],80);?>
-                </p>
-                <?php }$sayac++;}?>
-              </div>
+              <?php include_once('blog.php'); ?>
               <div class="col-md-3">
                 <h3>Sosyal Medya</h3>
                 <p>

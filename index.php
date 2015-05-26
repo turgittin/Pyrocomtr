@@ -4,8 +4,6 @@
 <head>
     <?php require_once("inc/head.php"); ?>
     <title>pyro digital solutions | markanızı alevlendirir!</title>
-    
-    <link rel="stylesheet" type="text/css" href="css/set2.css" />
 </head>
 
 <?php include("inc/sure.php"); ?>
@@ -121,22 +119,6 @@
                         
                     <div class="item active">
                         <div class="row">
-                        <div class="grid">
-                            <figure class="effect-jazz">
-                                <img src="/img/proje/sinemasalorg.jpg" alt="img11"/>
-                                <figcaption>
-                                    <p style="font-size:24px;">SINE<b>MASAL</b> </p>
-                                    
-                                </figcaption>           
-                            </figure>
-                            <figure class="effect-jazz">
-                                <img src="./img/proje/artideneyim.jpg" alt="img03"/>
-                                <figcaption>
-                                    <p style="font-size:24px;">ARTI<b>DENEYIM</b> </p>
-                                </figcaption>           
-                            </figure>
-                        </div>
-
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/sinemasalorg.jpg" alt="Image" class="main-logolar"></a><h5>SineMASAL</h5></div>
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/artideneyim.jpg" alt="Image" class="main-logolar"></a><h5>Artıdeneyim</h5></div>
                           <div class="col-md-4 pbn"><a href="#" class="thumbnail"><img src="./img/proje/fodofoodcom.jpg" alt="Image" class="main-logolar"></a><h5>Fodofood</h5></div>

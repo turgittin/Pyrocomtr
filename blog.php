@@ -1,5 +1,5 @@
 ﻿<?php
-	@mysql_connect("pyro.com.tr","api_user","15241524") or die("Database ile baglanti kurulamadi.");
+	@mysql_connect("localhost","api_user","15241524") or die("Database ile baglanti kurulamadi.");
 	@mysql_select_db("pyro_blog") or die("Database baglantisi kurulurken sorun olustu.");
 	mysql_query("set character set utf8");
 
@@ -24,6 +24,8 @@
 			$response[$i]['image']= $row['guid'];	
 			
 		}
+
+		
 	}
 ?>
 
