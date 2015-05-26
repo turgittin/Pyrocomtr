@@ -14,7 +14,7 @@ while($row=mysql_fetch_array($result)) {
 
 	if ($post_parent == 0 && $post_type == 'post' && $post_status == 'publish'){
 		extract($row);
-$response[$i]['guid']  = $row['guid']; 
+		$response[$i]['guid']  = $row['guid']; 
 		$response[$i]['post_title']= $row['post_title'];
 		$response[$i]['post_name']= $row['post_name'];
 		$response[$i]['post_content']= $row['post_content'];
