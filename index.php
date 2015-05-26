@@ -122,17 +122,17 @@
                     <div class="item active">
                         <div class="row">
                         <div class="grid">
-                            <figure class="effect-duke">
+                            <figure class="effect-jazz">
                                 <img src="/img/proje/sinemasalorg.jpg" alt="img11"/>
                                 <figcaption>
-                                    <p style="font-size:18px;right:0px;">SINE<b>MASAL</b> </p>
+                                    <p style="font-size:24px;">SINE<b>MASAL</b> </p>
                                     
                                 </figcaption>           
                             </figure>
-                            <figure class="effect-duke">
+                            <figure class="effect-jazz">
                                 <img src="./img/proje/artideneyim.jpg" alt="img03"/>
                                 <figcaption>
-                                    <p style="font-size:18px;right:0px;">ARTI<b>DENEYIM</b> </p>
+                                    <p style="font-size:24px;">ARTI<b>DENEYIM</b> </p>
                                 </figcaption>           
                             </figure>
                         </div>
